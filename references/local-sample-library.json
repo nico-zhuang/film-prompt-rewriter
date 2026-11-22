@@ -47,8 +47,8 @@
         "performance": "缓慢向镜头反方向转头，眼神忧郁落寞",
         "continuity": "单一连续推进；前景水草/金鱼持续漂过，水光持续变化"
       },
-      "representative_still": "assets/segment_stills/100个AI电影感提示词（1）情绪运镜__02.jpg",
-      "hover_gif": "assets/segment_gifs/100个AI电影感提示词（1）情绪运镜__02.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "notes": "区段01为开场/视觉引子，未识别出可靠正文；区段02文字稳定，候选帧0011–0014相互印证。",
       "source_time": {
@@ -57,7 +57,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_01_04.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "id": "01-emotion-flower-orbit",
@@ -77,8 +79,8 @@
         "performance": "双臂轻轻展开，保持梦境般开放姿态",
         "continuity": "单一环绕镜头；人物居中稳定，背景光线和花瓣运动连续"
       },
-      "representative_still": "assets/segment_stills/100个AI电影感提示词（1）情绪运镜__03.jpg",
-      "hover_gif": "assets/segment_gifs/100个AI电影感提示词（1）情绪运镜__03.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "medium",
       "notes": "区段03–04实际是同一花海提示词的延续；原始自动边界22.9s落在同一文字/画面段内，已合并至约14–24s。OCR对“跑坐”“花瓣”“摆动”有误识别，按画面和多帧上下文校正；‘跑坐’原词无法确认，原文保留为[待确认]；normalized_prompt采用‘坐在’仅作为低风险语义归一化，后续应回看原视频确认。",
       "source_time": {
@@ -87,7 +89,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_01_04.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "id": "01-emotion-bus-handheld",
@@ -107,8 +111,8 @@
         "performance": "闭眼听音乐，安静保持状态",
         "continuity": "车窗街景持续掠过；车厢灯光与手持晃动保持连续"
       },
-      "representative_still": "assets/segment_stills/100个AI电影感提示词（1）情绪运镜__04.jpg",
-      "hover_gif": "assets/segment_gifs/100个AI电影感提示词（1）情绪运镜__04.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "notes": "区段24–28为转场/无可靠正文；区段29开始出现公交车正文，已将正文起点回溯为约28s。",
       "source_time": {
@@ -117,7 +121,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_01_04.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "id": "02-dolly-zoom-pool",
@@ -137,8 +143,8 @@
         "performance": "女孩持续吹泡泡糖，保持中央站立",
         "continuity": "图1到图2的首尾帧变化；人物大小保持不变，背景透视逐渐压缩"
       },
-      "representative_still": "assets/segment_stills/100个AI电影感提示词（2）首尾帧风格运镜__02.jpg",
-      "hover_gif": "assets/segment_gifs/100个AI电影感提示词（2）首尾帧风格运镜__02.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "notes": "区段01为开场/标题与示意，不是提示词正文。",
       "source_time": {
@@ -147,7 +153,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_01_04.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "id": "02-whip-pan-theater",
@@ -167,8 +175,8 @@
         "performance": "芭蕾舞者剪影起舞；女生冷静演奏钢琴",
         "continuity": "首尾帧/图1图2转场；同一剧院空间关系必须保持"
       },
-      "representative_still": "assets/segment_stills/100个AI电影感提示词（2）首尾帧风格运镜__04.jpg",
-      "hover_gif": "assets/segment_gifs/100个AI电影感提示词（2）首尾帧风格运镜__04.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "notes": "自动边界17.6–23.9基本准确；区段03为短暂转场/图像过渡，不单独计为提示词。",
       "source_time": {
@@ -177,7 +185,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_01_04.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "id": "02-crane-pullback-cliff",
@@ -197,8 +207,8 @@
         "performance": "独自站立，保持克制状态",
         "continuity": "图1近景到图2远景；人物位置、悬崖与海岸空间连续"
       },
-      "representative_still": "assets/segment_stills/100个AI电影感提示词（2）首尾帧风格运镜__05.jpg",
-      "hover_gif": "assets/segment_gifs/100个AI电影感提示词（2）首尾帧风格运镜__05.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "notes": "区段24–30延续whip-pan/转场尾部，区段30左右才出现升降拉远完整文字。",
       "source_time": {
@@ -207,7 +217,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_01_04.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "id": "03-wide-shot",
@@ -227,8 +239,8 @@
         "performance": "人物作为尺度参照，动作不明确",
         "continuity": "景别教学连续展示；不是一个完整叙事镜头"
       },
-      "representative_still": "assets/segment_stills/100个AI电影感提示词（3）景别万能公式__wide.jpg",
-      "hover_gif": "assets/segment_gifs/100个AI电影感提示词（3）景别万能公式__wide.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "notes": "视频3不是单一提示词长卡，而是连续景别教学；自动48.77秒整段边界需要拆成至少4个景别条目。",
       "source_time": {
@@ -237,7 +249,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_01_04.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "id": "03-wide-shot-relation",
@@ -257,8 +271,8 @@
         "performance": "全身动作可见，细微表演不突出",
         "continuity": "从大远景向人物更近一层的景别教学"
       },
-      "representative_still": "assets/segment_stills/100个AI电影感提示词（3）景别万能公式__far.jpg",
-      "hover_gif": "assets/segment_gifs/100个AI电影感提示词（3）景别万能公式__far.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "notes": "时间为近似复核区间；需在最终HTML中从视频实际画面重新截取对应远景静帧。",
       "source_time": {
@@ -267,7 +281,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_01_04.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "id": "03-medium-shot",
@@ -287,8 +303,8 @@
         "performance": "表情清晰，肢体动作可读",
         "continuity": "从远景继续推进到中景"
       },
-      "representative_still": "assets/segment_stills/100个AI电影感提示词（3）景别万能公式__medium.jpg",
-      "hover_gif": "assets/segment_gifs/100个AI电影感提示词（3）景别万能公式__medium.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "medium",
       "notes": "OCR中的‘桑焦背景’无法确认，保留为[待确认]；需要从原始画面补截中景静帧。",
       "source_time": {
@@ -297,7 +313,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_01_04.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "id": "03-face-closeup",
@@ -317,8 +335,8 @@
         "performance": "眼神细节与微表情变化",
         "continuity": "由中景继续推进至面部特写"
       },
-      "representative_still": "assets/segment_stills/100个AI电影感提示词（3）景别万能公式__face_closeup.jpg",
-      "hover_gif": "assets/segment_gifs/100个AI电影感提示词（3）景别万能公式__face_closeup.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "notes": "OCR在0037–0038帧稳定；实际时间区间为近似值。",
       "source_time": {
@@ -327,7 +345,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_01_04.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "id": "03-extreme-closeup",
@@ -347,8 +367,8 @@
         "performance": "微表情和呼吸细节",
         "continuity": "面部特写继续推进到极近特写"
       },
-      "representative_still": "assets/segment_stills/100个AI电影感提示词（3）景别万能公式__extreme_closeup.jpg",
-      "hover_gif": "assets/segment_gifs/100个AI电影感提示词（3）景别万能公式__extreme_closeup.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "notes": "区段48–48.77为结尾/品牌或过渡，不计入提示词正文。",
       "source_time": {
@@ -357,7 +377,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_01_04.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "朱红雪院｜中式古典室内",
@@ -375,8 +397,8 @@
         "performance": "无人物；纱帘轻动",
         "continuity": "保持门框、红梅影子、冷暖内外关系"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(10)中式美学色卡__01.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(10)中式美学色卡__01.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(10)中式美学色卡.mp4",
       "id": "100组AI电影感提示词(10)中式美学色卡__09__朱红雪院_中式古典室内",
@@ -386,7 +408,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "朱砂宫墙雪景",
@@ -404,8 +428,8 @@
         "performance": "人物保持孤独步行",
         "continuity": "保持红墙透视、雪地留白、红衣点缀与红梅枝条"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(10)中式美学色卡__02.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(10)中式美学色卡__02.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(10)中式美学色卡.mp4",
       "id": "100组AI电影感提示词(10)中式美学色卡__10__朱砂宫墙雪景",
@@ -415,7 +439,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "江南秋桥",
@@ -433,8 +459,8 @@
         "performance": "船缓慢驶过",
         "continuity": "保持桥洞中央、前景散景和夕阳方向"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(10)中式美学色卡__03.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(10)中式美学色卡__03.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(10)中式美学色卡.mp4",
       "id": "100组AI电影感提示词(10)中式美学色卡__11__江南秋桥",
@@ -444,7 +470,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "沙丘骆驼队",
@@ -462,8 +490,8 @@
         "performance": "旅队稳定前行",
         "continuity": "保持人物骆驼极小、山脉层次与大面积天空"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(10)中式美学色卡__04.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(10)中式美学色卡__04.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "medium",
       "source_video": "100组AI电影感提示词(10)中式美学色卡.mp4",
       "id": "100组AI电影感提示词(10)中式美学色卡__12__沙丘骆驼队",
@@ -473,7 +501,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "盛夏荷塘仰拍",
@@ -491,8 +521,8 @@
         "performance": "无人物；植物自然摆动",
         "continuity": "保持叶脉纹理、前景遮挡、逆光方向"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(10)中式美学色卡__05.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(10)中式美学色卡__05.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(10)中式美学色卡.mp4",
       "id": "100组AI电影感提示词(10)中式美学色卡__13__盛夏荷塘仰拍",
@@ -502,7 +532,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "古典东方人物｜清冷薄纱",
@@ -520,8 +552,8 @@
         "performance": "克制回望",
         "continuity": "保持薄纱遮挡比例、雪粒和冷暖明暗关系"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(10)中式美学色卡__06.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(10)中式美学色卡__06.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(10)中式美学色卡.mp4",
       "id": "100组AI电影感提示词(10)中式美学色卡__14__古典东方人物_清冷薄纱",
@@ -531,7 +563,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "中式山水｜孤舟红灯",
@@ -549,8 +583,8 @@
         "performance": "渔人保持站立，船轻微漂移",
         "continuity": "保持红灯及倒影为唯一焦点、极简留白与小尺度主体"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(10)中式美学色卡__07.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(10)中式美学色卡__07.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(10)中式美学色卡.mp4",
       "id": "100组AI电影感提示词(10)中式美学色卡__15__中式山水_孤舟红灯",
@@ -560,7 +594,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "冬夜宫城｜群青与暗绛红",
@@ -578,8 +614,8 @@
         "performance": "人物小尺度独行，留下细长阴影",
         "continuity": "保持屋脊层叠、中央雪路、蓝主红辅的色彩关系"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(10)中式美学色卡__08.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(10)中式美学色卡__08.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(10)中式美学色卡.mp4",
       "id": "100组AI电影感提示词(10)中式美学色卡__16__冬夜宫城_群青与暗绛红",
@@ -589,7 +625,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "框中框｜Frame within a Frame",
@@ -607,8 +645,8 @@
         "performance": "女子背对镜头、动作克制",
         "continuity": "保持幕布自然垂落、人物小比例、舞台内外明暗层次"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(11)构图技巧__01.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(11)构图技巧__01.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(11)构图技巧.mp4",
       "id": "100组AI电影感提示词(11)构图技巧__17__框中框_Frame_within_a_Frame",
@@ -618,7 +656,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "前景遮挡｜Foreground Obstruction",
@@ -636,8 +676,8 @@
         "performance": "女子侧身坐姿，面部保持焦点",
         "continuity": "遮挡只覆盖局部脸和身体；保持面部清晰、前中后景层次"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(11)构图技巧__02.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(11)构图技巧__02.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(11)构图技巧.mp4",
       "id": "100组AI电影感提示词(11)构图技巧__18__前景遮挡_Foreground_Obstruction",
@@ -647,7 +687,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "引导线｜Leading Line",
@@ -665,8 +707,8 @@
         "performance": "两人并行缓慢行走",
         "continuity": "保持消失点、桥塔、引导线和人物前进方向"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(11)构图技巧__03.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(11)构图技巧__03.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(11)构图技巧.mp4",
       "id": "100组AI电影感提示词(11)构图技巧__19__引导线_Leading_Line",
@@ -676,7 +718,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "负空间｜Negative Space",
@@ -694,8 +738,8 @@
         "performance": "行人缓慢独行",
         "continuity": "保持主体底部小比例、建筑巨大、雾中右侧消失"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(11)构图技巧__04.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(11)构图技巧__04.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(11)构图技巧.mp4",
       "id": "100组AI电影感提示词(11)构图技巧__20__负空间_Negative_Space",
@@ -705,7 +749,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "螺旋构图｜Spiral Composition",
@@ -723,8 +769,8 @@
         "performance": "无人物表演",
         "continuity": "保持旋转方向、中央挑空、栏杆连续和红色比例克制"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(11)构图技巧__05.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(11)构图技巧__05.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(11)构图技巧.mp4",
       "id": "100组AI电影感提示词(11)构图技巧__21__螺旋构图_Spiral_Composition",
@@ -734,7 +780,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "三分构图｜Rule of Thirds",
@@ -752,8 +800,8 @@
         "performance": "男孩独自缓慢划船",
         "continuity": "保持三分交点、无多余主体、船行方向和留白"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(11)构图技巧__06.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(11)构图技巧__06.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(11)构图技巧.mp4",
       "id": "100组AI电影感提示词(11)构图技巧__22__三分构图_Rule_of_Thirds",
@@ -763,7 +811,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "侧逆光轮廓",
@@ -781,8 +831,8 @@
         "performance": "人物动作未明确，保留原动作",
         "continuity": "只增加光线与空气质感，不改变原构图和主体"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(12)视觉氛围元素__01.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(12)视觉氛围元素__01.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "medium",
       "source_video": "100组AI电影感提示词(12)视觉氛围元素.mp4",
       "id": "100组AI电影感提示词(12)视觉氛围元素__23__侧逆光轮廓",
@@ -792,7 +842,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "傍晚建筑几何光影",
@@ -810,8 +862,8 @@
         "performance": "人物部分处于阴影",
         "continuity": "保持墙面材质、投影边缘和原构图"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(12)视觉氛围元素__02.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(12)视觉氛围元素__02.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(12)视觉氛围元素.mp4",
       "id": "100组AI电影感提示词(12)视觉氛围元素__24__傍晚建筑几何光影",
@@ -821,7 +873,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "阴冷清晨浓雾",
@@ -839,8 +893,8 @@
         "performance": "人物未明确，保持原主体动作",
         "continuity": "保持近景清晰、中远景雾化、灯光倒影"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(12)视觉氛围元素__03.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(12)视觉氛围元素__03.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(12)视觉氛围元素.mp4",
       "id": "100组AI电影感提示词(12)视觉氛围元素__25__阴冷清晨浓雾",
@@ -850,7 +904,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "傍晚横风",
@@ -868,8 +924,8 @@
         "performance": "人物保持原姿态，衣物和发丝响应风",
         "continuity": "所有可动元素统一左向右风向；不改变背景形态"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(12)视觉氛围元素__04.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(12)视觉氛围元素__04.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(12)视觉氛围元素.mp4",
       "id": "100组AI电影感提示词(12)视觉氛围元素__26__傍晚横风",
@@ -879,7 +935,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "阴雨玻璃与城市暖光",
@@ -897,8 +955,8 @@
         "performance": "人物面部隔玻璃轻微柔化",
         "continuity": "保持玻璃在前、人物在后、冷暖对比和水痕运动"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(12)视觉氛围元素__05.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(12)视觉氛围元素__05.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(12)视觉氛围元素.mp4",
       "id": "100组AI电影感提示词(12)视觉氛围元素__27__阴雨玻璃与城市暖光",
@@ -908,7 +966,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "Cavern Light",
@@ -926,8 +986,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(13)废土科幻美学__02.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(13)废土科幻美学__02.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(13)废土科幻美学.mp4",
       "id": "100组AI电影感提示词(13)废土科幻美学__01__Cavern_Light",
@@ -937,7 +997,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "The Desert Portal",
@@ -955,8 +1017,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(13)废土科幻美学__03.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(13)废土科幻美学__03.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(13)废土科幻美学.mp4",
       "id": "100组AI电影感提示词(13)废土科幻美学__02__The_Desert_Portal",
@@ -966,7 +1028,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "Traveler in the Dust",
@@ -984,8 +1048,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(13)废土科幻美学__04.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(13)废土科幻美学__04.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(13)废土科幻美学.mp4",
       "id": "100组AI电影感提示词(13)废土科幻美学__03__Traveler_in_the_Dust",
@@ -995,7 +1059,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "Beneath the Megastructure",
@@ -1013,8 +1079,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(13)废土科幻美学__05.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(13)废土科幻美学__05.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(13)废土科幻美学.mp4",
       "id": "100组AI电影感提示词(13)废土科幻美学__04__Beneath_the_Megastructure",
@@ -1024,7 +1090,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "Eyes of the Desert",
@@ -1042,8 +1110,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(13)废土科幻美学__06.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(13)废土科幻美学__06.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(13)废土科幻美学.mp4",
       "id": "100组AI电影感提示词(13)废土科幻美学__05__Eyes_of_the_Desert",
@@ -1053,7 +1121,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "殿中对峙",
@@ -1071,8 +1141,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(14)武侠美学__01.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(14)武侠美学__01.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(14)武侠美学.mp4",
       "id": "100组AI电影感提示词(14)武侠美学__06__殿中对峙",
@@ -1082,7 +1152,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "隐世瀑布",
@@ -1100,8 +1172,8 @@
         "performance": "人物静立，动作极少",
         "continuity": "保持人物站位、瀑布流向、水雾和冷调光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(14)武侠美学__02.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(14)武侠美学__02.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "medium",
       "source_video": "100组AI电影感提示词(14)武侠美学.mp4",
       "id": "100组AI电影感提示词(14)武侠美学__07__隐世瀑布",
@@ -1111,7 +1183,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "雪原独行",
@@ -1129,8 +1203,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(14)武侠美学__03.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(14)武侠美学__03.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(14)武侠美学.mp4",
       "id": "100组AI电影感提示词(14)武侠美学__08__雪原独行",
@@ -1140,7 +1214,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "竹海轻功",
@@ -1158,8 +1234,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(14)武侠美学__04.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(14)武侠美学__04.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(14)武侠美学.mp4",
       "id": "100组AI电影感提示词(14)武侠美学__09__竹海轻功",
@@ -1169,7 +1245,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "花海传人",
@@ -1187,8 +1265,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(14)武侠美学__05.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(14)武侠美学__05.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "medium",
       "source_video": "100组AI电影感提示词(14)武侠美学.mp4",
       "id": "100组AI电影感提示词(14)武侠美学__10__花海传人",
@@ -1198,7 +1276,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "雪中三女侠",
@@ -1216,8 +1296,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(14)武侠美学__06.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(14)武侠美学__06.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(14)武侠美学.mp4",
       "id": "100组AI电影感提示词(14)武侠美学__11__雪中三女侠",
@@ -1227,7 +1307,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "雨巷红伞",
@@ -1245,8 +1327,8 @@
         "performance": "人物信息不足，保留[待确认]",
         "continuity": "保持雨后湿润地面与红伞位置"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(14)武侠美学__07.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(14)武侠美学__07.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "low",
       "source_video": "100组AI电影感提示词(14)武侠美学.mp4",
       "id": "100组AI电影感提示词(14)武侠美学__12__雨巷红伞",
@@ -1256,7 +1338,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "庭院听风",
@@ -1274,8 +1358,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(14)武侠美学__08.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(14)武侠美学__08.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(14)武侠美学.mp4",
       "id": "100组AI电影感提示词(14)武侠美学__13__庭院听风",
@@ -1285,7 +1369,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "落日对决",
@@ -1303,8 +1389,8 @@
         "performance": "人物动作细节[待确认]",
         "continuity": "保持人物相对位置与夕阳方向"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(14)武侠美学__10.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(14)武侠美学__10.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "low",
       "source_video": "100组AI电影感提示词(14)武侠美学.mp4",
       "id": "100组AI电影感提示词(14)武侠美学__14__落日对决",
@@ -1314,7 +1400,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "[待确认]哥特拱门晨雾",
@@ -1332,8 +1420,8 @@
         "performance": "无明确人物表演",
         "continuity": "保持雾层和前景枝叶位置"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(15)暗黑哥特美学__02.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(15)暗黑哥特美学__02.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "low",
       "source_video": "100组AI电影感提示词(15)暗黑哥特美学.mp4",
       "id": "100组AI电影感提示词(15)暗黑哥特美学__15___待确认_哥特拱门晨雾",
@@ -1343,7 +1431,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "月光独奏",
@@ -1361,8 +1451,8 @@
         "performance": "侧身低头；面部遮蔽",
         "continuity": "保持白纱遮面与钢琴位置"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(15)暗黑哥特美学__03.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(15)暗黑哥特美学__03.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(15)暗黑哥特美学.mp4",
       "id": "100组AI电影感提示词(15)暗黑哥特美学__16__月光独奏",
@@ -1372,7 +1462,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "楼梯下的猩红",
@@ -1390,8 +1482,8 @@
         "performance": "侧身仰望；双手扶栏杆",
         "continuity": "保持对称轴、楼梯与红色光源"
       },
-      "representative_still": "assets/segment_stills/15_03_stair.jpg",
-      "hover_gif": "assets/segment_gifs/15_03_stair.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(15)暗黑哥特美学.mp4",
       "id": "100组AI电影感提示词(15)暗黑哥特美学__17__楼梯下的猩红",
@@ -1401,7 +1493,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "烛火未眠",
@@ -1419,8 +1513,8 @@
         "performance": "低头专注，双手靠近信件",
         "continuity": "保持蜡烛为唯一光源"
       },
-      "representative_still": "assets/segment_stills/15_04_candle.jpg",
-      "hover_gif": "assets/segment_gifs/15_04_candle.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(15)暗黑哥特美学.mp4",
       "id": "100组AI电影感提示词(15)暗黑哥特美学__18__烛火未眠",
@@ -1430,7 +1524,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "浪漫古典哥特花园",
@@ -1448,8 +1544,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(15)暗黑哥特美学__05.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(15)暗黑哥特美学__05.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(15)暗黑哥特美学.mp4",
       "id": "100组AI电影感提示词(15)暗黑哥特美学__19__浪漫古典哥特花园",
@@ -1459,7 +1555,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "弦上浮生",
@@ -1477,8 +1575,8 @@
         "performance": "低头拨弦",
         "continuity": "保持竖琴与人物近乎剪影"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(15)暗黑哥特美学__06.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(15)暗黑哥特美学__06.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(15)暗黑哥特美学.mp4",
       "id": "100组AI电影感提示词(15)暗黑哥特美学__20__弦上浮生",
@@ -1488,7 +1586,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "迷宫奔跑",
@@ -1506,8 +1606,8 @@
         "performance": "背对镜头奔跑；裙摆扬起",
         "continuity": "保持人物背影、通道方向和对称天使"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(15)暗黑哥特美学__07.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(15)暗黑哥特美学__07.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(15)暗黑哥特美学.mp4",
       "id": "100组AI电影感提示词(15)暗黑哥特美学__21__迷宫奔跑",
@@ -1517,7 +1617,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "废弃教堂黑猫",
@@ -1535,8 +1637,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(15)暗黑哥特美学__08.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(15)暗黑哥特美学__08.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(15)暗黑哥特美学.mp4",
       "id": "100组AI电影感提示词(15)暗黑哥特美学__22__废弃教堂黑猫",
@@ -1546,7 +1648,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "维多利亚哥特",
@@ -1564,8 +1668,8 @@
         "performance": "忧郁凝视",
         "continuity": "保持面纱、双眼与烛台位置"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(15)暗黑哥特美学__09.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(15)暗黑哥特美学__09.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(15)暗黑哥特美学.mp4",
       "id": "100组AI电影感提示词(15)暗黑哥特美学__23__维多利亚哥特",
@@ -1575,7 +1679,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "镜中人影",
@@ -1593,8 +1699,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(15)暗黑哥特美学__10.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(15)暗黑哥特美学__10.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(15)暗黑哥特美学.mp4",
       "id": "100组AI电影感提示词(15)暗黑哥特美学__24__镜中人影",
@@ -1604,7 +1710,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "红毯对峙",
@@ -1622,8 +1730,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(16)复古特工美学__01.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(16)复古特工美学__01.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(16)复古特工美学.mp4",
       "id": "100组AI电影感提示词(16)复古特工美学__25__红毯对峙",
@@ -1633,7 +1741,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "黑白特工片头",
@@ -1651,8 +1761,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(16)复古特工美学__02.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(16)复古特工美学__02.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(16)复古特工美学.mp4",
       "id": "100组AI电影感提示词(16)复古特工美学__26__黑白特工片头",
@@ -1662,7 +1772,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "欧式老车与特工",
@@ -1680,8 +1792,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(16)复古特工美学__03.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(16)复古特工美学__03.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(16)复古特工美学.mp4",
       "id": "100组AI电影感提示词(16)复古特工美学__27__欧式老车与特工",
@@ -1691,7 +1803,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "后视镜凝视",
@@ -1709,8 +1823,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(16)复古特工美学__04.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(16)复古特工美学__04.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(16)复古特工美学.mp4",
       "id": "100组AI电影感提示词(16)复古特工美学__28__后视镜凝视",
@@ -1720,7 +1834,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "钥匙孔窥视",
@@ -1738,8 +1854,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(16)复古特工美学__05.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(16)复古特工美学__05.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(16)复古特工美学.mp4",
       "id": "100组AI电影感提示词(16)复古特工美学__29__钥匙孔窥视",
@@ -1749,7 +1865,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "百叶窗剪影",
@@ -1767,8 +1885,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(16)复古特工美学__06.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(16)复古特工美学__06.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(16)复古特工美学.mp4",
       "id": "100组AI电影感提示词(16)复古特工美学__30__百叶窗剪影",
@@ -1778,7 +1896,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "燃烧大厅孤坐",
@@ -1796,8 +1916,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(16)复古特工美学__07.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(16)复古特工美学__07.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(16)复古特工美学.mp4",
       "id": "100组AI电影感提示词(16)复古特工美学__31__燃烧大厅孤坐",
@@ -1807,7 +1927,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "酒吧香槟",
@@ -1825,8 +1947,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(16)复古特工美学__08.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(16)复古特工美学__08.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(16)复古特工美学.mp4",
       "id": "100组AI电影感提示词(16)复古特工美学__32__酒吧香槟",
@@ -1836,7 +1958,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "办公室窗边剪影",
@@ -1854,8 +1978,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(16)复古特工美学__09.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(16)复古特工美学__09.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(16)复古特工美学.mp4",
       "id": "100组AI电影感提示词(16)复古特工美学__33__办公室窗边剪影",
@@ -1865,7 +1989,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "夜机场冷战特工",
@@ -1883,8 +2009,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(16)复古特工美学__10.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(16)复古特工美学__10.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(16)复古特工美学.mp4",
       "id": "100组AI电影感提示词(16)复古特工美学__34__夜机场冷战特工",
@@ -1894,7 +2020,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "放映厅黑白投影",
@@ -1912,8 +2040,8 @@
         "performance": "无明确人物表演",
         "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(16)复古特工美学__11.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(16)复古特工美学__11.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(16)复古特工美学.mp4",
       "id": "100组AI电影感提示词(16)复古特工美学__35__放映厅黑白投影",
@@ -1923,7 +2051,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_13_16.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "id": "04-golden-hour-backlight",
@@ -1943,8 +2073,8 @@
         "performance": "向窗外望去并闭上双眼，安静感受风",
         "continuity": "汽车持续行驶；发丝、街景和镜头光斑连续运动"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(4)光影效果__02.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(4)光影效果__02.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "notes": "区段01为开场/标题与示意，不计正文。OCR中的‘窗边/向窗外’在多帧和画面语义下可确认；具体镜头焦段未出现。",
       "source_time": {
@@ -1953,7 +2083,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_01_04.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "id": "04-underwater-caustics",
@@ -1973,8 +2105,8 @@
         "performance": "缓缓呼气；穿水面后大口吸气",
         "continuity": "水下至水上的连续穿越；气泡、光线、水面波纹和湿发保持连续"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(4)光影效果__03.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(4)光影效果__03.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "notes": "区段02–03为同一完整水下提示词的连续文字/示意，已合并。OCR把‘散开’误识别为‘慰散/蒜散’，按语义和画面校正。",
       "source_time": {
@@ -1983,7 +2115,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_01_04.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "id": "04-tyndall-night-park",
@@ -2003,8 +2137,8 @@
         "performance": "背对镜头望向远方，轻轻晃动双腿",
         "continuity": "雾气、树叶、光束和远处车辆灯光持续微动；推进中空间纵深增强"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(4)光影效果__04.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(4)光影效果__04.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "notes": "区段03–04为同一完整雨后公园提示词的延续，已合并。区段05为结尾Logo/品牌，不计入正文。",
       "source_time": {
@@ -2013,7 +2147,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_01_04.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "胶片质感",
@@ -2031,8 +2167,8 @@
         "performance": "不适用",
         "continuity": "单一胶片质感预设；不含叙事连续性要求"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(5)镜头风格__02.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(5)镜头风格__02.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(5)镜头风格.mp4",
       "id": "100组AI电影感提示词(5)镜头风格__01__胶片质感",
@@ -2042,7 +2178,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_05_08.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "富士滤镜",
@@ -2060,8 +2198,8 @@
         "performance": "不适用",
         "continuity": "单一色彩风格预设；不含叙事连续性要求"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(5)镜头风格__03.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(5)镜头风格__03.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(5)镜头风格.mp4",
       "id": "100组AI电影感提示词(5)镜头风格__02__富士滤镜",
@@ -2071,7 +2209,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_05_08.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "复古DV",
@@ -2089,8 +2229,8 @@
         "performance": "不适用",
         "continuity": "保留DV录制缺陷和日期叠字作为统一视觉连续性"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(5)镜头风格__04.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(5)镜头风格__04.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(5)镜头风格.mp4",
       "id": "100组AI电影感提示词(5)镜头风格__03__复古DV",
@@ -2100,7 +2240,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_05_08.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "鱼眼镜头",
@@ -2118,8 +2260,8 @@
         "performance": "不适用",
         "continuity": "鱼眼畸变和对称空间作为持续视觉特征"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(5)镜头风格__05.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(5)镜头风格__05.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(5)镜头风格.mp4",
       "id": "100组AI电影感提示词(5)镜头风格__04__鱼眼镜头",
@@ -2129,7 +2271,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_05_08.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "Film Noir 黑色电影",
@@ -2147,8 +2291,8 @@
         "performance": "人物以剪影表现，不指定表演细节",
         "continuity": "黑白、高反差、阴影和雾光需贯穿镜头"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(6)色彩配方__02.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(6)色彩配方__02.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(6)色彩配方.mp4",
       "id": "100组AI电影感提示词(6)色彩配方__05__Film_Noir_黑色电影",
@@ -2158,7 +2302,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_05_08.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "洋红与青蓝 Magenta & Cyan",
@@ -2176,8 +2322,8 @@
         "performance": "不适用",
         "continuity": "保持洋红/青蓝双主色、故障和全息元素一致"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(6)色彩配方__03.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(6)色彩配方__03.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(6)色彩配方.mp4",
       "id": "100组AI电影感提示词(6)色彩配方__06__洋红与青蓝_Magenta_Cyan",
@@ -2187,7 +2333,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_05_08.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "青橙色调 Teal & Orange",
@@ -2205,8 +2353,8 @@
         "performance": "未指定",
         "continuity": "青绿环境与橙色主体的互补关系贯穿画面"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(6)色彩配方__04.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(6)色彩配方__04.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(6)色彩配方.mp4",
       "id": "100组AI电影感提示词(6)色彩配方__07__青橙色调_Teal_Orange",
@@ -2216,7 +2364,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_05_08.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "复古暖调 Warm Vintage",
@@ -2234,8 +2384,8 @@
         "performance": "未指定",
         "continuity": "暖色主导、中低对比度和丰富中间调保持统一"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(6)色彩配方__05.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(6)色彩配方__05.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(6)色彩配方.mp4",
       "id": "100组AI电影感提示词(6)色彩配方__08__复古暖调_Warm_Vintage",
@@ -2245,7 +2395,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_05_08.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "强忍泪水·极度克制",
@@ -2263,8 +2415,8 @@
         "performance": "微表情、眼神、呼吸；无哭喊、无夸张动作",
         "continuity": "情绪由平静压抑持续到泪意增强，不出现突然夸张爆发"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(7)演技控制__02.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(7)演技控制__02.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(7)演技控制.mp4",
       "id": "100组AI电影感提示词(7)演技控制__09__强忍泪水_极度克制",
@@ -2274,7 +2426,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_05_08.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "放空到专注的眼神转折",
@@ -2292,8 +2446,8 @@
         "performance": "眼神、瞳孔聚焦、眉头变化、呼吸停顿；无夸张表情",
         "continuity": "明确保持同一人物和姿势，情绪在数秒内完成渐进转折"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(7)演技控制__03.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(7)演技控制__03.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(7)演技控制.mp4",
       "id": "100组AI电影感提示词(7)演技控制__10__放空到专注的眼神转折",
@@ -2303,7 +2457,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_05_08.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "人群中的疲惫与疏离",
@@ -2321,8 +2477,8 @@
         "performance": "失焦目光、轻微眼神移动、缓慢眨眼、轻叹气；不做明显悲伤",
         "continuity": "人物姿势长期稳定，变化只发生在眼神、呼吸和嘴唇"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(7)演技控制__04.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(7)演技控制__04.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(7)演技控制.mp4",
       "id": "100组AI电影感提示词(7)演技控制__11__人群中的疲惫与疏离",
@@ -2332,7 +2488,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_05_08.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "俏皮可爱的眼神与微笑",
@@ -2350,8 +2508,8 @@
         "performance": "眼神、嘴角、轻微头部动作；自然连贯；无夸张表演",
         "continuity": "从一本正经逐步过渡到笑容，不能跳变"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(7)演技控制__05.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(7)演技控制__05.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(7)演技控制.mp4",
       "id": "100组AI电影感提示词(7)演技控制__12__俏皮可爱的眼神与微笑",
@@ -2361,7 +2519,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_05_08.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "温柔凝视与深情微笑",
@@ -2379,8 +2539,8 @@
         "performance": "稳定目光、眼尾弯起、微笑、呼吸放缓、下颌放松；无夸张动作",
         "continuity": "保持持续对视，情绪从专注逐渐转为温柔"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(7)演技控制__06.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(7)演技控制__06.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(7)演技控制.mp4",
       "id": "100组AI电影感提示词(7)演技控制__13__温柔凝视与深情微笑",
@@ -2390,7 +2550,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_05_08.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "同步跟随 Synchronized Tracking",
@@ -2408,8 +2570,8 @@
         "performance": "自然奔跑，不指定面部表演",
         "continuity": "一镜到底；人物、跟拍速度和前中后景运动需连续"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(8)镜头生命力__01.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(8)镜头生命力__01.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(8)镜头生命力.mp4",
       "id": "100组AI电影感提示词(8)镜头生命力__14__同步跟随_Synchronized_Tracking",
@@ -2419,7 +2581,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_05_08.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "反向运动 Opposing Motion",
@@ -2437,8 +2601,8 @@
         "performance": "自然步行；衣摆和头发随步伐、气流摆动",
         "continuity": "一镜到底；人物清晰稳定，列车持续高速反向运动"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(8)镜头生命力__02.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(8)镜头生命力__02.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(8)镜头生命力.mp4",
       "id": "100组AI电影感提示词(8)镜头生命力__15__反向运动_Opposing_Motion",
@@ -2448,7 +2612,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_05_08.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "静止主体 Still Subject",
@@ -2466,8 +2632,8 @@
         "performance": "女性安静望向镜头；仅轻微呼吸和衣料摆动",
         "continuity": "一镜到底；女性、建筑和环境保持稳定，人群持续流动"
       },
-      "representative_still": "assets/segment_stills/100组AI电影感提示词(8)镜头生命力__03.jpg",
-      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(8)镜头生命力__03.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(8)镜头生命力.mp4",
       "id": "100组AI电影感提示词(8)镜头生命力__16__静止主体_Still_Subject",
@@ -2477,7 +2643,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_05_08.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "电影级史诗科幻建筑｜Monumental Scale",
@@ -2495,8 +2663,8 @@
         "performance": "人物保持背对镜头、静止仰望",
         "continuity": "保持人物极小、行星超出窗框边界、真实材质与光学曝光"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(9)史诗科幻__02.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(9)史诗科幻__02.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(9)史诗科幻.mp4",
       "id": "100组AI电影感提示词(9)史诗科幻__01__电影级史诗科幻建筑_Monumental_Scale",
@@ -2506,7 +2674,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "未知遗迹｜Colossal Ruins",
@@ -2524,8 +2694,8 @@
         "performance": "人物不做夸张动作，作为尺度参照",
         "continuity": "保持巨像风化裂纹、碎石、尘土与近中远雾层次"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(9)史诗科幻__03.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(9)史诗科幻__03.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(9)史诗科幻.mp4",
       "id": "100组AI电影感提示词(9)史诗科幻__02__未知遗迹_Colossal_Ruins",
@@ -2535,7 +2705,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "科幻人物极近特写｜Extreme Close-up",
@@ -2553,8 +2725,8 @@
         "performance": "克制凝视，不做夸张表情",
         "continuity": "保持面罩划痕、尘埃、浅景深、镜头光晕与人物轮廓清晰"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(9)史诗科幻__04.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(9)史诗科幻__04.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(9)史诗科幻.mp4",
       "id": "100组AI电影感提示词(9)史诗科幻__03__科幻人物极近特写_Extreme_Close_up",
@@ -2564,7 +2736,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "灾难奇观｜Practical Destruction",
@@ -2582,8 +2756,8 @@
         "performance": "人物保持背对爆炸的孤独剪影",
         "continuity": "爆炸云需具真实体积；地面反射火光；避免CG塑料感"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(9)史诗科幻__05.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(9)史诗科幻__05.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(9)史诗科幻.mp4",
       "id": "100组AI电影感提示词(9)史诗科幻__04__灾难奇观_Practical_Destruction",
@@ -2593,7 +2767,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "空间折叠｜Space Distortion",
@@ -2611,8 +2787,8 @@
         "performance": "人物保持静止作为尺度参照",
         "continuity": "保持建筑真实材质、重力感、中央通道和极端尺度反差"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(9)史诗科幻__06.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(9)史诗科幻__06.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(9)史诗科幻.mp4",
       "id": "100组AI电影感提示词(9)史诗科幻__05__空间折叠_Space_Distortion",
@@ -2622,7 +2798,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "神秘未知｜Volumetric Light",
@@ -2640,8 +2818,8 @@
         "performance": "宇航员保持放松悬浮",
         "continuity": "保持左右对称、纯黑空间、真实宇航服和无梦幻柔焦"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(9)史诗科幻__07.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(9)史诗科幻__07.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(9)史诗科幻.mp4",
       "id": "100组AI电影感提示词(9)史诗科幻__06__神秘未知_Volumetric_Light",
@@ -2651,7 +2829,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "未来都市孤独｜Futuristic Isolation",
@@ -2669,8 +2849,8 @@
         "performance": "人物保持坐姿和远望",
         "continuity": "保持建筑尺度、浓雾层次、飞行器微小、前清后虚"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(9)史诗科幻__08.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(9)史诗科幻__08.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(9)史诗科幻.mp4",
       "id": "100组AI电影感提示词(9)史诗科幻__07__未来都市孤独_Futuristic_Isolation",
@@ -2680,7 +2860,9 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     },
     {
       "title": "宇宙天际｜Cosmic Metropolis",
@@ -2698,8 +2880,8 @@
         "performance": "人物缓慢行走，不改变尺度关系",
         "continuity": "保持弧形建筑、雾层、金色粒子、湿润反射和近远透视"
       },
-      "representative_still": "../assets/segment_stills/100组AI电影感提示词(9)史诗科幻__09.jpg",
-      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(9)史诗科幻__09.gif",
+      "representative_still": null,
+      "hover_gif": null,
       "confidence": "high",
       "source_video": "100组AI电影感提示词(9)史诗科幻.mp4",
       "id": "100组AI电影感提示词(9)史诗科幻__08__宇宙天际_Cosmic_Metropolis",
@@ -2709,7 +2891,10 @@
       },
       "review_status": "reviewed_initial",
       "review_batch": "reviewed_09_12.json",
-      "evidence_scope": "local_video_sample"
+      "evidence_scope": "local_video_sample",
+      "media_assets_bundled": false,
+      "media_note": "媒体示意图不随公开Skill包发布；需在原始内部资料库中按source_video与source_time查看。"
     }
-  ]
+  ],
+  "media_policy": "Text and structured fields are bundled. Original stills/GIFs are intentionally not bundled; do not claim the Skill can open or display them."
 }

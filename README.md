@@ -14,9 +14,11 @@
 
 ## 安装
 
-把 `film-prompt-rewriter/` 目录安装为本地 Agent Skill，或从公开 GitHub 仓库下载后安装。
+公开仓库：<https://github.com/nico-zhuang/film-prompt-rewriter>
 
-推荐安装后用以下类型的请求触发：
+下载后，将仓库中的 `film-prompt-rewriter/` 目录复制到你的 Agent Skills 目录，保留 `SKILL.md`、`references/` 和 `evals/`。如果你的宿主提供 Skill 安装命令，也可以把仓库目录作为本地路径安装。这个包只包含文本和结构化样本字段，不包含内部视频、静帧或GIF。
+
+安装后用以下类型的请求触发：
 
 - “把这段提示词改得更有电影感”
 - “给这个画面加真实手持感”
@@ -35,7 +37,7 @@
 
 ## 样本边界
 
-`references/local-sample-library.json` 来自一组本地中文 AI 电影感视频样本，包含92条人工初校条目。它是风格和结构参考，不是任何模型的效果保证。Skill 会区分“本地样本依据”和“通用电影语言”，不会把外部泛用词库伪装成本地验证经验。
+`references/local-sample-library.json` 来自一组本地中文 AI 电影感视频样本，包含92条第一轮人工初校条目。它是风格和结构参考，不是任何模型的效果保证。公开包不携带原始媒体；条目中的媒体字段按策略置空，来源视频和时间只用于内部资料追溯。Skill 会区分“本地样本依据”和“通用电影语言”，不会把外部泛用词库伪装成本地验证经验。
 
 ## 质量原则
 

@@ -1,41 +1,19 @@
 {
   "skill_name": "film-prompt-rewriter",
+  "purpose": "Compare ordinary rewriting with the Skill's evidence-aware cinematic rewrite.",
+  "assertion_schema": ["must_keep", "one_shot_or_shot_plan", "start_turn_endpoint", "single_camera_grammar", "no_unsupported_guarantee", "sample_citation_or_no_match", "adapter_scope", "negative_constraints_separate"],
   "evals": [
-    {
-      "id": 1,
-      "prompt": "把这段提示词改得更有电影感：一个女孩站在雨里的城市街道上，镜头慢慢靠近她。她很难过。",
-      "expected_output": "保留女孩、雨、城市和悲伤意图；补充单一推进镜头、起始状态/转折/结束状态、雨和城市光线的物理变化，并给出可直接使用的中文提示词与拆解。",
-      "files": []
-    },
-    {
-      "id": 2,
-      "prompt": "我有一张古堡大厅里女人的图，想做成暗黑哥特风视频，镜头要有电影感。目标模型是Vidu。",
-      "expected_output": "以图生视频为前提，不重写人物身份和场景；给出Vidu友好的运动、镜头、光影、氛围和连续性提示，并避免堆叠多个镜头动作。",
-      "files": []
-    },
-    {
-      "id": 3,
-      "prompt": "帮我把这个普通描述改成提示词：未来城市里一个小孩抬头看巨大的飞船，然后镜头飞到城市上空，再切到飞船内部。",
-      "expected_output": "识别为多镜头需求，不强行写成一个单镜头；输出简短镜头计划，并为每个镜头提供单独提示词。",
-      "files": []
-    },
-    {
-      "id": 4,
-      "prompt": "我想要那种公交车里戴耳机、窗外霓虹掠过的孤独真实感，把我的主体换成一个穿白衬衫的中年女人。",
-      "expected_output": "复用本地样本中的手持真实感结构，但替换主体；保留车辆颠簸、窗外流动光线和孤独情绪，不直接复制原样本人物。",
-      "files": []
-    },
-    {
-      "id": 5,
-      "prompt": "请给我一段很长的电影感提示词，里面要有推镜、环绕、升降、甩镜、爆炸、人物奔跑、下雨、闪电和无人机航拍。",
-      "expected_output": "指出动作和镜头过载；建议拆成多个镜头或选择一个主要镜头意图，给出可执行的拆分方案，而不是照单全收。",
-      "files": []
-    },
-    {
-      "id": 6,
-      "prompt": "把‘一个人在房间里很孤独’改成适合Seedance的视频提示词，不要解释太多，直接给我能复制的版本。",
-      "expected_output": "给出简洁可复制的单镜头中文提示词，至少包含主体、空间、一个动作、光线、镜头与结束状态；可附极短说明，不写长教程。",
-      "files": []
-    }
+    {"id":1,"prompt":"把这段提示词改得更有电影感：一个女孩站在雨里的城市街道上，镜头慢慢靠近她。她很难过。","must_keep":["女孩","雨","城市街道","靠近","悲伤"],"assertions":{"one_shot_or_shot_plan":"one_shot","start_turn_endpoint":true,"single_camera_grammar":true,"no_unsupported_guarantee":true,"sample_citation_or_no_match":true}},
+    {"id":2,"prompt":"我有一张古堡大厅里女人的图，想做成暗黑哥特风视频，镜头要有电影感。目标模型是Vidu。","must_keep":["参考图中的女人","古堡大厅","暗黑哥特","Vidu"],"assertions":{"one_shot_or_shot_plan":"one_shot","adapter_scope":"conservative_Vidu_template","start_turn_endpoint":true,"single_camera_grammar":true,"no_unsupported_guarantee":true,"sample_citation_or_no_match":true}},
+    {"id":3,"prompt":"我有一张古堡大厅里女人的参考图，不要改变人物长相、服装和场景，只给我图生视频运动提示词。","must_keep":["不改变人物长相","不改变服装","不改变场景","图生视频"],"assertions":{"one_shot_or_shot_plan":"one_shot","preserve_reference_identity":true,"no_reinvented_appearance":true,"single_camera_grammar":true}},
+    {"id":4,"prompt":"我想要那种公交车里戴耳机、窗外霓虹掠过的孤独真实感，把我的主体换成一个穿白衬衫的中年女人。","must_keep":["公交车","戴耳机","窗外霓虹","孤独真实感","穿白衬衫的中年女人"],"assertions":{"one_shot_or_shot_plan":"one_shot","sample_citation":"01-emotion-bus-handheld","sample_mechanism":"handheld realism + city lights + isolation","start_turn_endpoint":true}},
+    {"id":5,"prompt":"请给我一段很长的电影感提示词，里面要有推镜、环绕、升降、甩镜、爆炸、人物奔跑、下雨、闪电和无人机航拍。","assertions":{"one_shot_or_shot_plan":"shot_plan_or_explain_split","detect_overloaded_motion":true,"single_camera_grammar":true,"no_unsupported_guarantee":true}},
+    {"id":6,"prompt":"把‘一个人在房间里很孤独’改成适合Seedance的视频提示词，不要解释太多，直接给我能复制的版本。","must_keep":["一个人","房间","孤独","Seedance"],"assertions":{"one_shot_or_shot_plan":"one_shot","compact_mode":true,"start_turn_endpoint":true,"adapter_scope":"conservative_unknown_or_Seedance_template"}},
+    {"id":7,"prompt":"我想做一个古典东方人物在薄雾山水中的画面，使用一个本地样本中没有的特殊镜头效果。","assertions":{"sample_citation_or_no_match":"explicit_no_sufficient_match","no_fabricated_local_evidence":true,"assumptions_listed":true}},
+    {"id":8,"prompt":"一个人在房间里很孤独，固定机位，只有窗帘轻轻摆动，已经很具体了，不要过度改写。","must_keep":["一个人","房间","孤独","固定机位","窗帘轻轻摆动"],"assertions":{"preserve_sufficient_prompt":true,"no_unnecessary_adjective_stacking":true}},
+    {"id":9,"prompt":"未来城市里一个小孩抬头看巨大的飞船，然后镜头飞到城市上空，再切到飞船内部。","assertions":{"one_shot_or_shot_plan":"multi_shot_plan","detect_spatial_and_event_changes":true,"each_shot_has_one_action":true,"each_shot_has_time_range":true}},
+    {"id":10,"prompt":"Make this more cinematic: a woman waits alone at a bus stop at night, neon reflections on wet pavement, slow push-in.","must_keep":["woman","alone","bus stop","night","neon reflections","wet pavement","slow push-in"],"assertions":{"output_language":"English_or_match_user","one_shot_or_shot_plan":"one_shot","start_turn_endpoint":true,"single_camera_grammar":true}},
+    {"id":11,"prompt":"把一个温暖烛光室内改成冷白均匀顶光、深黑阴影和低饱和黑色电影，不要增加其他光源。","must_keep":["冷白均匀顶光","深黑阴影","低饱和黑色电影","不要增加其他光源"],"assertions":{"detect_lighting_conflict":true,"single_light_logic":true,"negative_constraints_separate":true}},
+    {"id":12,"prompt":"把普通提示词改成电影感，目标模型是一个没有适配资料的新模型。","assertions":{"adapter_scope":"generic_fallback","no_model_guarantee":true,"assumptions_listed":true}}
   ]
 }

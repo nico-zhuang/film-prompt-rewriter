@@ -22,12 +22,15 @@ The local sample library in `references/local-sample-library.json` is evidence f
 ## First classify the request
 
 - **Rewrite**: preserve the user's scene and improve specificity.
-- **Adapt**: rewrite for a named model or workflow; read `references/model-adapters.md`.
+- **Adapt**: rewrite for a named model or workflow; read `references/model-adapters.md`. Treat every adapter as a conservative template, not a tested performance guarantee.
 - **Compose**: combine selected visual modules; check for conflicting movement, lighting or scale.
-- **Multi-shot**: do not force several events into one prompt. Return a short shot plan, then one prompt per shot.
+- **Multi-shot**: detect more than just words like “then” or “cut”: multiple locations, time jumps, incompatible shot sizes, separate events, or a new camera position. Return a short timed shot plan, then one prompt per shot.
 - **Critique**: identify the weakest executable part and provide a targeted revision, not a generic rewrite.
+- **Static-image-only**: if the user asks only for a still image with no motion or temporal change, do not force this video Skill; provide a brief note or use the appropriate image skill.
 
-If the subject is clear, infer sensible missing details and state them briefly. Do not interrogate the user with a questionnaire. Ask only when the subject itself is genuinely ambiguous and a wrong assumption would make the prompt unusable.
+If the subject is clear, infer the minimum needed detail and list it under **Assumptions**. Never present an inferred lens, aperture, sound, exact color value, identity detail, era detail or prop as a user fact unless the user supplied it, a bundled sample explicitly supports it, or the target model requires it. Ask only when the subject itself is genuinely ambiguous and a wrong assumption would make the prompt unusable.
+
+This Skill is not for video editing, subtitles, full storyboards/director books, or rendering media. It rewrites prompts and plans; another tool must perform generation or editing.
 
 ## The one-shot contract
 
@@ -38,9 +41,9 @@ For a single generated clip, prefer:
 - one primary subject event
 - one light idea
 - one clear end state
-- at most two significant motion sources among camera, subject and environment
+- at most two **significant** motion sources among camera, subject and environment
 
-This is a coherence rule, not a ban on subtle motion. A slow push with breathing and drifting dust is coherent; a push, orbit, whip pan, crane and explosion in the same eight seconds is not.
+This is a coherence rule, not a ban on subtle supporting motion. A slow orbit with the subject as the main event and flower petals or fabric responding subtly is coherent; count the orbit and the subject event as significant, and describe the other motion as a fine environmental response. A push, orbit, whip pan, crane and explosion in the same eight seconds is not.
 
 ## Rewrite workflow
 
@@ -55,13 +58,13 @@ This is a coherence rule, not a ban on subtle motion. A slow push with breathing
 
 ## Output contract
 
-For a normal rewrite, output exactly these sections:
+For a normal rewrite, use these three sections by default. A quick request may collapse sections 2 and 3 into a short note, but it must still include the executable prompt and assumptions.
 
 ### 1. 可直接使用的提示词
 One coherent prompt in prose. Put negative constraints in a separate `负面约束` line when useful. Do not bury the prompt inside a long essay.
 
 ### 2. 镜头拆解
-Use a compact table or bullets:
+Start with **Assumptions** (only details inferred rather than supplied). Then use a compact table or bullets:
 
 - 视觉意图
 - 主体与环境
@@ -76,11 +79,13 @@ Use a compact table or bullets:
 - 连续性锚点
 
 ### 3. 复用说明
-State which local sample pattern(s) were used, if any, and what was deliberately changed. Distinguish:
+State which local sample pattern(s) were used, if any, and what was deliberately changed. When a sample is used, cite its exact `id`, `title`, `confidence`, and the mechanism transferred; never paste the whole sample unchanged. Distinguish:
 
-- **本地样本依据** — supported by the bundled reviewed library.
+- **本地样本依据** — supported by the bundled reviewed library; cite `sample_id` and `confidence`.
 - **通用电影语言** — a general craft choice, not a claim from the samples.
 - **待验证** — model-specific behavior or a detail not covered by the samples.
+
+If no sample reaches the retrieval threshold, say `未找到足够相似的本地样本` and use only clearly marked general craft guidance.
 
 For a quick request, collapse sections 2 and 3 into a short note, but never remove the executable prompt.
 
@@ -99,13 +104,24 @@ Reject or revise a draft if:
 
 ## Local sample retrieval
 
-When the request calls for a specific effect, search the bundled library conceptually by `title`, `normalized_prompt`, and `fields`. Prefer a structurally analogous example over a keyword match:
+Use the bundled JSON as a text/field reference library. The public Skill package intentionally does **not** bundle stills or GIFs; `representative_still` and `hover_gif` are null by policy. Do not claim to view media from this package. The internal source catalogue can map a cited entry back to its original media when available.
+
+Use this deterministic retrieval order:
+
+1. Normalize the request into intent tokens: subject, action, shot size, composition, camera motion, lighting, color, atmosphere, performance and continuity.
+2. Rank exact or near matches in `title`, `normalized_prompt`, then the structured `fields`; prefer mechanism overlap over shared mood adjectives.
+3. Keep at most three candidates. Require at least two meaningful field/mechanism matches, or one exact title/mechanism match.
+4. Prefer `confidence: high`, then `medium`. Use `low` only when the output explicitly says the evidence is weak.
+5. If the threshold is not met, do not cite a local sample; say `未找到足够相似的本地样本` and use marked general guidance.
+6. Cite each selected sample by `sample_id`, `title`, `confidence`, source video/time and the specific mechanism transferred.
+
+Useful mechanism examples:
 
 - emotion + foreground obstruction + push-in → “鱼缸前的忧郁推进”
 - handheld realism + city lights + isolation → “公交车内的手持孤独感”
 - orbit + golden hour + dreamlike atmosphere → “黄金时刻花海环绕运镜”
-- negative space / scale contrast → the reviewed composition and science-fiction entries
-- gothic / wuxia / wasteland / retro-agent → the reviewed style entries
+- negative space / scale contrast → reviewed composition and science-fiction entries
+- gothic / wuxia / wasteland / retro-agent → reviewed style entries
 
 Do not paste a sample unchanged when the user's subject differs. Preserve the visual mechanism and replace the scene facts.
 
