@@ -1,0 +1,2715 @@
+{
+  "schema_version": "0.1",
+  "status": "reviewed_initial",
+  "entry_count": 92,
+  "source_video_count": 16,
+  "reviewed_files": [
+    "reviewed_01_04.json",
+    "reviewed_05_08.json",
+    "reviewed_09_12.json",
+    "reviewed_13_16.json"
+  ],
+  "notes": "92条真实提示词初校完成；原100个自动区段中有片头/尾帧、重复展示或需要合并/拆分的区段，未机械计入。保留[待确认]和confidence，不把外部网络词库混入。",
+  "video_entry_counts": {
+    "100个AI电影感提示词（1）情绪运镜.mp4": 3,
+    "100个AI电影感提示词（2）首尾帧风格运镜.mp4": 3,
+    "100个AI电影感提示词（3）景别万能公式.mp4": 5,
+    "100组AI电影感提示词(10)中式美学色卡.mp4": 8,
+    "100组AI电影感提示词(11)构图技巧.mp4": 6,
+    "100组AI电影感提示词(12)视觉氛围元素.mp4": 5,
+    "100组AI电影感提示词(13)废土科幻美学.mp4": 5,
+    "100组AI电影感提示词(14)武侠美学.mp4": 9,
+    "100组AI电影感提示词(15)暗黑哥特美学.mp4": 10,
+    "100组AI电影感提示词(16)复古特工美学.mp4": 11,
+    "100组AI电影感提示词(4)光影效果.mp4": 3,
+    "100组AI电影感提示词(5)镜头风格.mp4": 4,
+    "100组AI电影感提示词(6)色彩配方.mp4": 4,
+    "100组AI电影感提示词(7)演技控制.mp4": 5,
+    "100组AI电影感提示词(8)镜头生命力.mp4": 3,
+    "100组AI电影感提示词(9)史诗科幻.mp4": 8
+  },
+  "entries": [
+    {
+      "id": "01-emotion-fish-tank-push",
+      "source_video": "100个AI电影感提示词（1）情绪运镜.mp4",
+      "title": "鱼缸前的忧郁推进",
+      "original_text_corrected": "午后室内，镜头透过玻璃鱼缸缓慢向前推进，聚焦鱼缸后方年轻女生的脸。女生缓慢向镜头反方向转头，眼神带有忧郁与落寞。流动水光在她脸上慢慢变化。前景水草与金鱼从镜头前轻轻漂过，形成明显空间层次。镜头缓缓向前推进，情绪压迫感逐渐增强。",
+      "normalized_prompt": "午后室内，一名年轻女生位于玻璃鱼缸后方。镜头隔着鱼缸缓慢向前推进并逐渐聚焦她的脸；她缓慢向镜头反方向转头，保持忧郁、落寞的眼神。前景水草与金鱼从镜头前轻轻漂过，流动水光在她脸上变化，形成前中后景层次与逐渐增强的情绪压迫感。",
+      "fields": {
+        "subject": "玻璃鱼缸后方的年轻女生；前景水草与金鱼",
+        "action": "女生缓慢转头；水草和金鱼漂过；水光变化",
+        "shot_size": "从中景/环境关系逐渐推进到面部近景，具体初始景别[待确认]",
+        "composition": "鱼缸、水草、金鱼形成前景遮挡，女生位于中后景；利用玻璃和水体制造层次",
+        "camera_motion": "隔着玻璃鱼缸缓慢向前推进",
+        "lighting": "午后室内光；流动水光投射到人物面部",
+        "color": "[待确认]；画面呈偏冷、低饱和水体质感",
+        "atmosphere": "忧郁、落寞、压迫感逐渐增强",
+        "performance": "缓慢向镜头反方向转头，眼神忧郁落寞",
+        "continuity": "单一连续推进；前景水草/金鱼持续漂过，水光持续变化"
+      },
+      "representative_still": "assets/segment_stills/100个AI电影感提示词（1）情绪运镜__02.jpg",
+      "hover_gif": "assets/segment_gifs/100个AI电影感提示词（1）情绪运镜__02.gif",
+      "confidence": "high",
+      "notes": "区段01为开场/视觉引子，未识别出可靠正文；区段02文字稳定，候选帧0011–0014相互印证。",
+      "source_time": {
+        "start": 5.0,
+        "end": 14.0
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_01_04.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "id": "01-emotion-flower-orbit",
+      "source_video": "100个AI电影感提示词（1）情绪运镜.mp4",
+      "title": "黄金时刻花海环绕运镜",
+      "original_text_corrected": "环绕运镜：进入梦境。黄金时刻的花海中，一位年轻女性[待确认]在盛开的野花之间，双臂轻轻展开。花瓣在风中围绕人物向上飞舞。镜头以电影感环绕运镜缓慢围绕人物旋转，形成明显空间层次与沉浸感。随着镜头转动，背景中的阳光、镜头光斑与逆光角度也自然发生变化，光线在人物身体与花海间不断流动。衣袖与头发随风摆动，整体氛围梦幻、浪漫，具有强烈电影感与情绪张力。",
+      "normalized_prompt": "进入梦境般的黄金时刻花海，一位年轻女性坐在盛开的野花之间，双臂轻轻展开，花瓣被风卷起并围绕她向上飞舞。镜头以缓慢、平滑的电影感环绕运镜围绕人物旋转；阳光、镜头光斑和逆光角度随镜头自然变化，光线在人物与花海之间流动。衣袖和头发随风摆动，营造梦幻、浪漫且具有情绪张力的画面。",
+      "fields": {
+        "subject": "黄金时刻花海中的年轻女性",
+        "action": "女性坐在花海中展开双臂；花瓣向上飞舞；衣袖与头发随风摆动",
+        "shot_size": "人物中景至中近景[待确认]",
+        "composition": "人物作为环绕中心，花海作为连续环境层；利用旋转产生空间层次",
+        "camera_motion": "缓慢电影感环绕运镜，围绕人物旋转",
+        "lighting": "黄金时刻阳光；逆光角度随环绕改变；镜头光斑流动",
+        "color": "暖金色、花海的高饱和自然色[具体色卡待确认]",
+        "atmosphere": "梦幻、浪漫、沉浸、情绪张力",
+        "performance": "双臂轻轻展开，保持梦境般开放姿态",
+        "continuity": "单一环绕镜头；人物居中稳定，背景光线和花瓣运动连续"
+      },
+      "representative_still": "assets/segment_stills/100个AI电影感提示词（1）情绪运镜__03.jpg",
+      "hover_gif": "assets/segment_gifs/100个AI电影感提示词（1）情绪运镜__03.gif",
+      "confidence": "medium",
+      "notes": "区段03–04实际是同一花海提示词的延续；原始自动边界22.9s落在同一文字/画面段内，已合并至约14–24s。OCR对“跑坐”“花瓣”“摆动”有误识别，按画面和多帧上下文校正；‘跑坐’原词无法确认，原文保留为[待确认]；normalized_prompt采用‘坐在’仅作为低风险语义归一化，后续应回看原视频确认。",
+      "source_time": {
+        "start": 14.0,
+        "end": 24.0
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_01_04.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "id": "01-emotion-bus-handheld",
+      "source_video": "100个AI电影感提示词（1）情绪运镜.mp4",
+      "title": "公交车内的手持孤独感",
+      "original_text_corrected": "手持镜头：真实呼吸感。公交车内，年轻男性戴着耳机靠在椅背上闭眼听音乐。手持镜头轻微跟随车辆颠簸产生自然起伏与呼吸感，画面带有细微不稳定感。窗外霓虹灯与街景不断掠过，车厢灯光随着车辆晃动产生轻微变化。整体氛围沉浸、真实，带有孤独感与城市情绪，像被真实摄影机偶然记录下的瞬间。",
+      "normalized_prompt": "公交车内，一名戴耳机的年轻男性靠在椅背上闭眼听音乐。采用带有真实呼吸感的手持镜头，随着车辆颠簸产生自然起伏和轻微不稳定。窗外霓虹灯与城市街景不断掠过，车厢灯光随车辆晃动产生细微变化。保持沉浸、真实、孤独的城市情绪，像被摄影机偶然记录下的瞬间。",
+      "fields": {
+        "subject": "公交车内戴耳机、闭眼听音乐的年轻男性",
+        "action": "靠在椅背上听音乐；车辆颠簸带来身体与镜头的轻微运动",
+        "shot_size": "车内人物中近景[待确认]",
+        "composition": "人物与车窗同框；窗外霓虹和街景作为流动背景",
+        "camera_motion": "手持镜头，随车辆颠簸自然起伏，轻微不稳定",
+        "lighting": "车厢灯光随车辆晃动轻微变化；窗外霓虹提供流动光源",
+        "color": "城市夜景霓虹色；具体色彩未在OCR中明确",
+        "atmosphere": "沉浸、真实、孤独、城市情绪",
+        "performance": "闭眼听音乐，安静保持状态",
+        "continuity": "车窗街景持续掠过；车厢灯光与手持晃动保持连续"
+      },
+      "representative_still": "assets/segment_stills/100个AI电影感提示词（1）情绪运镜__04.jpg",
+      "hover_gif": "assets/segment_gifs/100个AI电影感提示词（1）情绪运镜__04.gif",
+      "confidence": "high",
+      "notes": "区段24–28为转场/无可靠正文；区段29开始出现公交车正文，已将正文起点回溯为约28s。",
+      "source_time": {
+        "start": 28.0,
+        "end": 34.53
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_01_04.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "id": "02-dolly-zoom-pool",
+      "source_video": "100个AI电影感提示词（2）首尾帧风格运镜.mp4",
+      "title": "希区柯克变焦：泳池泡泡糖",
+      "original_text_corrected": "希区柯克变焦（dolly zoom）镜头。马卡龙色系复古户外泳池场景，金发波波头女孩站在画面中央吹着粉色泡泡糖。从图1开始，镜头进行 dolly zoom：摄影机缓慢向后拉离人物，同时长焦镜头缓慢推进放大。主角在画面中的大小保持不变，她身后的背景元素在无细节变化的情况下迅速被压缩拉近，仿佛背景正在膨胀并向她的后脑勺挤压过来，至图2。空间透视被极度压缩，产生诡异的不真实感。变焦达到最强烈时，粉色泡泡糖突然破裂。整体氛围复古、梦幻、诡异，具有强烈电影感。",
+      "normalized_prompt": "马卡龙色系的复古户外泳池中央，一名金发波波头女孩吹着粉色泡泡糖。以图1为起点执行希区柯克变焦：摄影机缓慢后退，同时长焦镜头缓慢推进，使人物在画面中大小基本不变，而背景透视迅速压缩并向人物后方挤压。变焦达到最强烈时，粉色泡泡糖突然破裂，画面保持复古、梦幻而诡异。",
+      "fields": {
+        "subject": "复古户外泳池中央的金发波波头女孩，粉色泡泡糖",
+        "action": "吹泡泡糖；变焦最强烈时泡泡糖突然破裂",
+        "shot_size": "人物居中，中景起始并保持人物大小[具体景别待确认]",
+        "composition": "人物中央；泳池背景作为透视压缩的参照",
+        "camera_motion": "摄影机缓慢向后拉；与长焦缓慢推进同步形成dolly zoom",
+        "lighting": "户外泳池自然光[具体时段待确认]",
+        "color": "马卡龙色系、粉色泡泡糖",
+        "atmosphere": "复古、梦幻、诡异、不真实",
+        "performance": "女孩持续吹泡泡糖，保持中央站立",
+        "continuity": "图1到图2的首尾帧变化；人物大小保持不变，背景透视逐渐压缩"
+      },
+      "representative_still": "assets/segment_stills/100个AI电影感提示词（2）首尾帧风格运镜__02.jpg",
+      "hover_gif": "assets/segment_gifs/100个AI电影感提示词（2）首尾帧风格运镜__02.gif",
+      "confidence": "high",
+      "notes": "区段01为开场/标题与示意，不是提示词正文。",
+      "source_time": {
+        "start": 4.6,
+        "end": 14.1
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_01_04.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "id": "02-whip-pan-theater",
+      "source_video": "100个AI电影感提示词（2）首尾帧风格运镜.mp4",
+      "title": "Whip pan甩镜：舞台到后台",
+      "original_text_corrected": "情绪切换：电影感 whip pan 甩镜转场。画面开始于雾气弥漫的冰川舞台，一位芭蕾舞者以剪影姿态独自在舞台中央起舞。冷蓝色灯光照亮冰川山脉布景，地面薄雾缓慢流动。随着舞者起舞，镜头快速向舞台侧方进行 whip pan 甩镜，伴随明显运动模糊、灯光拖影与镜头惯性。甩镜结束后，画面自然衔接到同一剧院后台空间：一位气质冷酷的女生独自坐在钢琴前演奏，后台钢架、幕布、设备与冷色雾气若隐若现，地面带有潮湿反光。整体保持统一电影氛围与舞台空间关系，通过 whip pan 将台前表演与幕后情绪瞬间连接。",
+      "normalized_prompt": "以雾气弥漫的冰川舞台开场，芭蕾舞者以剪影姿态在中央起舞，冷蓝灯光照亮冰川山脉布景。舞者起舞时，镜头快速向舞台侧方进行whip pan甩镜，产生运动模糊、灯光拖影和镜头惯性；甩镜结束后自然衔接到同一剧院的后台，一名冷峻女生坐在钢琴前演奏。保持钢架、幕布、设备、冷色雾气和潮湿反光的统一空间氛围。",
+      "fields": {
+        "subject": "冰川舞台上的芭蕾舞者；后台钢琴前的冷峻女生",
+        "action": "舞者起舞；镜头甩向舞台侧方；后台女生演奏钢琴",
+        "shot_size": "舞台中远景到后台中景[具体景别待确认]",
+        "composition": "舞台中央剪影；甩镜后通过同一剧院空间连接前台与后台",
+        "camera_motion": "快速whip pan甩镜转场，带运动模糊、灯光拖影和惯性",
+        "lighting": "冷蓝色舞台灯光；后台冷色雾气与潮湿反光",
+        "color": "冷蓝、冰川灰、低饱和冷色",
+        "atmosphere": "统一电影氛围；台前表演与幕后冷峻情绪切换",
+        "performance": "芭蕾舞者剪影起舞；女生冷静演奏钢琴",
+        "continuity": "首尾帧/图1图2转场；同一剧院空间关系必须保持"
+      },
+      "representative_still": "assets/segment_stills/100个AI电影感提示词（2）首尾帧风格运镜__04.jpg",
+      "hover_gif": "assets/segment_gifs/100个AI电影感提示词（2）首尾帧风格运镜__04.gif",
+      "confidence": "high",
+      "notes": "自动边界17.6–23.9基本准确；区段03为短暂转场/图像过渡，不单独计为提示词。",
+      "source_time": {
+        "start": 17.6,
+        "end": 24.2
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_01_04.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "id": "02-crane-pullback-cliff",
+      "source_video": "100个AI电影感提示词（2）首尾帧风格运镜.mp4",
+      "title": "升降拉远：英格兰海岸孤独人物",
+      "original_text_corrected": "升降拉远。19世纪英格兰海岸，午后偏傍晚的自然光。一位年轻女性独自站在白色悬崖边缘，穿着英伦感长裙与深色长外套，衣摆与发丝被海风吹起（图1）。镜头从人物近景开始，带有安静压抑的情绪感，随后非常缓慢、平滑地上升拉远：镜头一边向后，一边逐渐升高，白色悬崖边缘逐渐展开，人物逐渐变成广阔自然中的一个小点（图2）。",
+      "normalized_prompt": "19世纪英格兰海岸，午后偏傍晚自然光。一名身穿英伦长裙与深色长外套的年轻女性独自站在白色悬崖边缘，衣摆与发丝被海风吹起。镜头从人物近景开始，以安静、压抑的情绪缓慢向后拉远并逐渐升高，悬崖和海岸空间不断展开，人物最终缩小为广阔自然中的一个小点。",
+      "fields": {
+        "subject": "19世纪英格兰海岸白色悬崖边缘的年轻女性",
+        "action": "女性静立；衣摆和发丝被海风吹起",
+        "shot_size": "近景起始，最终远景/超远景",
+        "composition": "人物从近景主体变为广阔海岸中的小点；空间尺度逐步扩大",
+        "camera_motion": "非常缓慢平滑地上升并向后拉远",
+        "lighting": "午后偏傍晚的自然光",
+        "color": "白色悬崖、深色外套、海岸自然色[具体色彩待确认]",
+        "atmosphere": "安静、压抑、孤独、人与自然尺度对比",
+        "performance": "独自站立，保持克制状态",
+        "continuity": "图1近景到图2远景；人物位置、悬崖与海岸空间连续"
+      },
+      "representative_still": "assets/segment_stills/100个AI电影感提示词（2）首尾帧风格运镜__05.jpg",
+      "hover_gif": "assets/segment_gifs/100个AI电影感提示词（2）首尾帧风格运镜__05.gif",
+      "confidence": "high",
+      "notes": "区段24–30延续whip-pan/转场尾部，区段30左右才出现升降拉远完整文字。",
+      "source_time": {
+        "start": 30.0,
+        "end": 37.3
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_01_04.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "id": "03-wide-shot",
+      "source_video": "100个AI电影感提示词（3）景别万能公式.mp4",
+      "title": "大远景：交代宏大环境",
+      "original_text_corrected": "大远景。交代宏大场景、地理空间与时代氛围。提示关键词：超远景、人物极小、巨大环境、史诗感、广阔天空、环境压迫感、人物被世界吞没、大量留白、MAX电影构图、空气透视、宏大场景。",
+      "normalized_prompt": "使用大远景交代宏大场景、地理空间与时代氛围：人物保持极小比例，置于巨大环境和广阔天空中，利用大量留白、空气透视与MAX电影构图制造史诗感、环境压迫感和人物被世界吞没的感觉。",
+      "fields": {
+        "subject": "环境中的极小人物",
+        "action": "以环境关系为主，人物动作不突出",
+        "shot_size": "大远景/超远景",
+        "composition": "人物极小、巨大环境、广阔天空、大量留白、空气透视",
+        "camera_motion": "原视频主要连续展示景别示意，具体运动[待确认]",
+        "lighting": "示意画面的自然/电影光线，具体光源[待确认]",
+        "color": "示意画面偏电影化自然色，具体色卡[待确认]",
+        "atmosphere": "史诗、宏大、环境压迫、人物被世界吞没",
+        "performance": "人物作为尺度参照，动作不明确",
+        "continuity": "景别教学连续展示；不是一个完整叙事镜头"
+      },
+      "representative_still": "assets/segment_stills/100个AI电影感提示词（3）景别万能公式__wide.jpg",
+      "hover_gif": "assets/segment_gifs/100个AI电影感提示词（3）景别万能公式__wide.gif",
+      "confidence": "high",
+      "notes": "视频3不是单一提示词长卡，而是连续景别教学；自动48.77秒整段边界需要拆成至少4个景别条目。",
+      "source_time": {
+        "start": 9.0,
+        "end": 15.0
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_01_04.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "id": "03-wide-shot-relation",
+      "source_video": "100个AI电影感提示词（3）景别万能公式.mp4",
+      "title": "远景：人物与环境的关系",
+      "original_text_corrected": "远景。人物与环境的关系。提示关键词：远景、全身镜头、人物完整出现、环境中、中央构图、环境叙事。",
+      "normalized_prompt": "使用远景完整呈现人物，并保留人物与环境的关系：人物全身出现在环境中，可采用中央构图，让环境承担叙事功能。",
+      "fields": {
+        "subject": "环境中的完整人物",
+        "action": "人物动作可见但不压过环境叙事",
+        "shot_size": "远景、全身镜头",
+        "composition": "人物完整出现，中央构图，环境叙事",
+        "camera_motion": "连续景别示意，具体运动[待确认]",
+        "lighting": "[待确认]",
+        "color": "[待确认]",
+        "atmosphere": "人物与环境关系清晰、环境叙事",
+        "performance": "全身动作可见，细微表演不突出",
+        "continuity": "从大远景向人物更近一层的景别教学"
+      },
+      "representative_still": "assets/segment_stills/100个AI电影感提示词（3）景别万能公式__far.jpg",
+      "hover_gif": "assets/segment_gifs/100个AI电影感提示词（3）景别万能公式__far.gif",
+      "confidence": "high",
+      "notes": "时间为近似复核区间；需在最终HTML中从视频实际画面重新截取对应远景静帧。",
+      "source_time": {
+        "start": 19.0,
+        "end": 24.0
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_01_04.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "id": "03-medium-shot",
+      "source_video": "100个AI电影感提示词（3）景别万能公式.mp4",
+      "title": "中景：肢体动作与部分环境",
+      "original_text_corrected": "中景。肢体动作与部分环境。提示关键词：中景、半身镜头、胸口以上、人物表情清晰、背景虚化、[待确认]焦背景、情绪氛围、人物情绪主导。",
+      "normalized_prompt": "使用中景或半身镜头，画面取人物胸口以上，保证人物表情清晰，同时保留部分环境并让背景适度虚化。让人物情绪主导画面，并维持可读的情绪氛围。",
+      "fields": {
+        "subject": "人物上半身",
+        "action": "肢体动作与面部表情同时可见",
+        "shot_size": "中景、半身镜头、胸口以上",
+        "composition": "人物主体占比提高，部分环境保留，背景虚化",
+        "camera_motion": "连续景别示意，具体运动[待确认]",
+        "lighting": "面部光影需清晰，具体光源[待确认]",
+        "color": "[待确认]",
+        "atmosphere": "情绪氛围明确，人物情绪主导",
+        "performance": "表情清晰，肢体动作可读",
+        "continuity": "从远景继续推进到中景"
+      },
+      "representative_still": "assets/segment_stills/100个AI电影感提示词（3）景别万能公式__medium.jpg",
+      "hover_gif": "assets/segment_gifs/100个AI电影感提示词（3）景别万能公式__medium.gif",
+      "confidence": "medium",
+      "notes": "OCR中的‘桑焦背景’无法确认，保留为[待确认]；需要从原始画面补截中景静帧。",
+      "source_time": {
+        "start": 26.0,
+        "end": 32.0
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_01_04.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "id": "03-face-closeup",
+      "source_video": "100个AI电影感提示词（3）景别万能公式.mp4",
+      "title": "面部特写：放大细微情绪",
+      "original_text_corrected": "面部特写。强调表情和细微动作，拉近与角色的心理距离。提示关键词：面部特写、情绪特写、眼神细节、面部光影、睫毛细节、真实皮肤纹理、背景虚化、情绪放大、呼吸感、电影肖像、细微情绪变化。",
+      "normalized_prompt": "使用面部特写强调表情和细微动作，拉近观众与角色的心理距离。突出眼神、面部光影、睫毛细节和真实皮肤纹理，背景虚化，捕捉呼吸感与细微情绪变化，形成情绪放大、具有电影肖像质感的画面。",
+      "fields": {
+        "subject": "人物面部",
+        "action": "眼神、呼吸和细微表情变化",
+        "shot_size": "面部特写、情绪特写",
+        "composition": "面部占据画面主体，背景虚化",
+        "camera_motion": "连续特写示意，具体运动[待确认]",
+        "lighting": "面部光影清晰可见",
+        "color": "[待确认]",
+        "atmosphere": "心理距离近、情绪放大、呼吸感",
+        "performance": "眼神细节与微表情变化",
+        "continuity": "由中景继续推进至面部特写"
+      },
+      "representative_still": "assets/segment_stills/100个AI电影感提示词（3）景别万能公式__face_closeup.jpg",
+      "hover_gif": "assets/segment_gifs/100个AI电影感提示词（3）景别万能公式__face_closeup.gif",
+      "confidence": "high",
+      "notes": "OCR在0037–0038帧稳定；实际时间区间为近似值。",
+      "source_time": {
+        "start": 34.0,
+        "end": 40.0
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_01_04.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "id": "03-extreme-closeup",
+      "source_video": "100个AI电影感提示词（3）景别万能公式.mp4",
+      "title": "极近特写：强化心理张力",
+      "original_text_corrected": "极近特写。极大强化情绪与心理张力。提示关键词：极近特写、微距镜头、皮肤纹理、突出细节、瞳孔反光、超浅景深、微表情、情绪震动感、呼吸细节、情绪强度。",
+      "normalized_prompt": "使用极近特写或微距镜头，极大强化情绪与心理张力。突出皮肤纹理、瞳孔反光和微表情，采用超浅景深，捕捉呼吸细节，制造强烈的情绪震动感与情绪强度。",
+      "fields": {
+        "subject": "人物局部面部/眼睛/皮肤细节",
+        "action": "微表情、瞳孔反光、呼吸细节",
+        "shot_size": "极近特写、微距镜头",
+        "composition": "局部细节填满画面，超浅景深",
+        "camera_motion": "连续景别示意，具体运动[待确认]",
+        "lighting": "瞳孔反光和皮肤纹理需要可见，具体光源[待确认]",
+        "color": "[待确认]",
+        "atmosphere": "情绪震动感、心理张力、情绪强度",
+        "performance": "微表情和呼吸细节",
+        "continuity": "面部特写继续推进到极近特写"
+      },
+      "representative_still": "assets/segment_stills/100个AI电影感提示词（3）景别万能公式__extreme_closeup.jpg",
+      "hover_gif": "assets/segment_gifs/100个AI电影感提示词（3）景别万能公式__extreme_closeup.gif",
+      "confidence": "high",
+      "notes": "区段48–48.77为结尾/品牌或过渡，不计入提示词正文。",
+      "source_time": {
+        "start": 41.0,
+        "end": 47.0
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_01_04.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "朱红雪院｜中式古典室内",
+      "original_text_corrected": "中式古典室内望向雪后庭院。摄影机位于昏暗木质房间内部，中央两扇古老木门完全打开，门外是覆雪的传统庭院；左侧纱帘被微风吹起，右上方一枝盛开的红梅斜向伸入室内。冬日暖阳从门外斜射进来，形成明显体积光，在旧木地板上投下长长的门框与梅枝影子。室内为深乌木色，门外雪地呈冷白色，形成丰富的冷暖对照；轻微空气尘埃、真实胶片颗粒、东方电影摄影质感。",
+      "normalized_prompt": "从昏暗木质室内望向雪后庭院，打开的古门、红梅和体积光形成深乌木、冷白雪地与暖阳的中式电影画面。",
+      "fields": {
+        "subject": "古老木门、雪后传统庭院、红梅、旧木房间",
+        "action": "纱帘随风轻动；阳光进入室内",
+        "shot_size": "中远景",
+        "composition": "中央对称门框；红梅斜向伸入；门框与梅枝投影",
+        "camera_motion": "静态或极慢推进",
+        "lighting": "冬日暖阳斜射；明显体积光；室内深影",
+        "color": "深乌木、冷白雪地、深红、橘红、暖阳",
+        "atmosphere": "古典、宁静、含蓄",
+        "performance": "无人物；纱帘轻动",
+        "continuity": "保持门框、红梅影子、冷暖内外关系"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(10)中式美学色卡__01.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(10)中式美学色卡__01.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(10)中式美学色卡.mp4",
+      "id": "100组AI电影感提示词(10)中式美学色卡__09__朱红雪院_中式古典室内",
+      "source_time": {
+        "start": 0,
+        "end": 5.3
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "朱砂宫墙雪景",
+      "original_text_corrected": "中式古典电影美学，冬日雪景。画面侧视一整面高大的朱砂红宫墙，墙体沿透视向远处延伸，上方露出覆满白雪的古建筑与灰瓦飞檐；左侧是大片白色雪地与湖面，形成大面积留白。远处一个极小的红衣人物撑伞独自行走，画面上方伸入几枝纤细红梅，雪花由近及远飘落。整体以朱砂红、白雪和柔光为主，低饱和，空气透视明显，安静、朴素、诗意，真实电影摄影质感。",
+      "normalized_prompt": "用朱砂红宫墙的透视线、白雪留白与远处撑伞红衣人物构成中式冬日画面；低饱和柔光和红梅枝条保留诗意电影感。",
+      "fields": {
+        "subject": "朱砂红宫墙、覆雪古建筑、白雪、远处红衣撑伞人物、红梅",
+        "action": "人物独自行走；雪花飘落",
+        "shot_size": "远景",
+        "composition": "宫墙沿透视延伸；大面积雪地留白；人物极小",
+        "camera_motion": "静态远景或极慢平移",
+        "lighting": "冬日柔光；明显空气透视",
+        "color": "朱砂红、白雪、灰瓦、低饱和柔光",
+        "atmosphere": "安静、朴素、诗意",
+        "performance": "人物保持孤独步行",
+        "continuity": "保持红墙透视、雪地留白、红衣点缀与红梅枝条"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(10)中式美学色卡__02.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(10)中式美学色卡__02.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(10)中式美学色卡.mp4",
+      "id": "100组AI电影感提示词(10)中式美学色卡__10__朱砂宫墙雪景",
+      "source_time": {
+        "start": 5.3,
+        "end": 9.7
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "江南秋桥",
+      "original_text_corrected": "中式江南秋景，电影摄影质感。镜头透过茂密的秋日枝叶望向一座古老石拱桥，前景大量赭黄、橘红、枫红色树叶虚化遮挡画面，粗壮深色树枝横贯上方，形成天然框景。桥洞位于画面中央，一艘小型乌篷船正从桥洞下驶过。夕阳从桥后照射进来，水面形成明亮金色反光。枫红、暖金、深褐配色，高光温暖、阴影浓郁，浅景深、前景散景、柔和逆光，具有浓郁的中式秋日电影感。",
+      "normalized_prompt": "透过秋日枝叶和粗枝天然框景，观看乌篷船穿过中央石拱桥；以夕阳金色反光、枫红暖金深褐和浅景深构成江南秋日电影感。",
+      "fields": {
+        "subject": "古老石拱桥、乌篷船、秋日枝叶",
+        "action": "乌篷船驶过桥洞",
+        "shot_size": "中远景",
+        "composition": "桥洞居中；前景虚化枝叶遮挡；上方粗枝框景",
+        "camera_motion": "静态观察或轻微跟随船",
+        "lighting": "夕阳逆光；水面金色反光",
+        "color": "赭黄、橘红、枫红、暖金、深褐",
+        "atmosphere": "温暖、诗意、江南秋日",
+        "performance": "船缓慢驶过",
+        "continuity": "保持桥洞中央、前景散景和夕阳方向"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(10)中式美学色卡__03.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(10)中式美学色卡__03.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(10)中式美学色卡.mp4",
+      "id": "100组AI电影感提示词(10)中式美学色卡__11__江南秋桥",
+      "source_time": {
+        "start": 9.7,
+        "end": 14.1
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "沙丘骆驼队",
+      "original_text_corrected": "极远景电影构图，辽阔沙漠中巨大的沙丘从画面左侧向右侧延展，三四匹骆驼与数名旅人形成深色剪影，其中一人携带小旗。远方是连续起伏的灰蓝色山脉与广阔平原，天空占据较大面积。真实电影长焦摄影质感。",
+      "normalized_prompt": "以极远景和长焦压缩展示横向延展的沙丘、骆驼旅队剪影、灰蓝山脉与大面积天空；主体保持极小，突出辽阔尺度。",
+      "fields": {
+        "subject": "沙丘、三四匹骆驼、数名旅人、小旗、远方山脉与平原",
+        "action": "骆驼队横向前行",
+        "shot_size": "极远景",
+        "composition": "沙丘横向延展；旅队为深色剪影；天空占大面积",
+        "camera_motion": "长焦远距离观察或极慢横移",
+        "lighting": "自然强光；主体剪影",
+        "color": "沙金、灰蓝山脉、深色剪影",
+        "atmosphere": "辽阔、孤寂、史诗",
+        "performance": "旅队稳定前行",
+        "continuity": "保持人物骆驼极小、山脉层次与大面积天空"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(10)中式美学色卡__04.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(10)中式美学色卡__04.gif",
+      "confidence": "medium",
+      "source_video": "100组AI电影感提示词(10)中式美学色卡.mp4",
+      "id": "100组AI电影感提示词(10)中式美学色卡__12__沙丘骆驼队",
+      "source_time": {
+        "start": 14.1,
+        "end": 18.4
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "盛夏荷塘仰拍",
+      "original_text_corrected": "极低机位，垂直向天空仰拍。巨大荷叶从画面四周向中央伸展，部分叶片距离镜头极近，形成前景遮挡；粗壮荷梗斜向穿过画面。强逆光穿透叶片，使荷叶呈现明亮鲜嫩的绿色，细密叶脉清晰可见。荷叶之间形成不规则空隙，露出明亮天空与细碎白云。部分叶片处于阴影中，形成不同绿色层次。自然强逆光、清透空气感、真实植物纹理，盛夏、明亮、诗意的东方电影摄影。",
+      "normalized_prompt": "用极低机位垂直仰拍，让荷叶从四周包围天空；强逆光穿透叶片，突出叶脉、前景遮挡和多层鲜绿。",
+      "fields": {
+        "subject": "巨大荷叶、粗壮荷梗、天空与白云",
+        "action": "荷叶轻微摆动",
+        "shot_size": "极低机位仰拍",
+        "composition": "荷叶四周向中央伸展；近叶遮挡；不规则天空留白",
+        "camera_motion": "锁定仰拍或轻微上仰",
+        "lighting": "自然强逆光穿透叶片",
+        "color": "鲜嫩茵绿、深绿、明亮天空色",
+        "atmosphere": "盛夏、明亮、清透、诗意",
+        "performance": "无人物；植物自然摆动",
+        "continuity": "保持叶脉纹理、前景遮挡、逆光方向"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(10)中式美学色卡__05.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(10)中式美学色卡__05.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(10)中式美学色卡.mp4",
+      "id": "100组AI电影感提示词(10)中式美学色卡__13__盛夏荷塘仰拍",
+      "source_time": {
+        "start": 18.4,
+        "end": 22.8
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "古典东方人物｜清冷薄纱",
+      "original_text_corrected": "古典东方人物电影特写。深青黑色背景中，一位清冷古典女子位于画面中央偏左，身体微侧，头部轻轻回望，身穿宽松的月白色长袍，头部包裹半透明银灰薄纱，面容克制。镜头与人物之间悬挂数层薄纱，轻轻掠过并遮挡人物面部很小一部分，形成朦胧视感与空间层次。细小白色雪粒在空气中漂浮。冷青色侧光穿过纱帘落在人物脸颊与衣服上，另一侧落入深色阴影。整体为天青、深青黑、月白与银灰，胶片颗粒、冷峻、清冷、半梦半醒的电影质感。",
+      "normalized_prompt": "古典东方女子身穿月白长袍、隔着半透明银灰薄纱回望；冷青侧光、深青黑背景与漂浮雪粒营造清冷半梦半醒的特写。",
+      "fields": {
+        "subject": "清冷古典女子、月白长袍、银灰薄纱、白色雪粒",
+        "action": "女子身体微侧、头部轻轻回望；薄纱掠过面部",
+        "shot_size": "人物特写",
+        "composition": "人物中央偏左；薄纱作前景遮挡；朦胧层次",
+        "camera_motion": "锁定特写；薄纱轻掠",
+        "lighting": "冷青侧光穿过纱帘；另一侧深影",
+        "color": "天青、深青黑、月白、银灰",
+        "atmosphere": "冷峻、清冷、半梦半醒",
+        "performance": "克制回望",
+        "continuity": "保持薄纱遮挡比例、雪粒和冷暖明暗关系"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(10)中式美学色卡__06.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(10)中式美学色卡__06.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(10)中式美学色卡.mp4",
+      "id": "100组AI电影感提示词(10)中式美学色卡__14__古典东方人物_清冷薄纱",
+      "source_time": {
+        "start": 22.8,
+        "end": 27.1
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "中式山水｜孤舟红灯",
+      "original_text_corrected": "中式山水电影美学，极简构图。清晨湖面被大片幽暗茂密的山林包围，山林占据画面上半部分；湖面占据下半部分，细微水纹反射冷色天空。画面中央偏右只有一艘细长黑色乌篷船，一名戴斗笠的渔人站在船头，人物与船只均为极小深色剪影。船篷旁悬挂唯一一盏红色灯笼，红光及倒影成为整幅画面的视觉焦点。低饱和冷青绿色、深色山林、安静水面，真实中式山水电影摄影。",
+      "normalized_prompt": "在清晨幽暗山林与冷色湖面的极简构图中，只保留中央偏右的孤舟渔人和一盏红灯；用红光及倒影作为唯一视觉焦点。",
+      "fields": {
+        "subject": "幽暗山林、清晨湖面、细长乌篷船、戴斗笠渔人、红灯笼",
+        "action": "渔人站在船头；船缓慢漂行",
+        "shot_size": "远景",
+        "composition": "山林上半部、湖面下半部；船置中央偏右；极小剪影",
+        "camera_motion": "静态远景或极慢横移",
+        "lighting": "冷色清晨天光；红灯笼局部发光",
+        "color": "深青绿、冷灰、黑色、唯一红色点缀",
+        "atmosphere": "安静、克制、东方山水",
+        "performance": "渔人保持站立，船轻微漂移",
+        "continuity": "保持红灯及倒影为唯一焦点、极简留白与小尺度主体"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(10)中式美学色卡__07.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(10)中式美学色卡__07.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(10)中式美学色卡.mp4",
+      "id": "100组AI电影感提示词(10)中式美学色卡__15__中式山水_孤舟红灯",
+      "source_time": {
+        "start": 27.1,
+        "end": 31.5
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "冬夜宫城｜群青与暗绛红",
+      "original_text_corrected": "冬夜古代宫城，高处俯视构图。大量传统中式宫殿屋顶从前景向远处层层延伸，覆雪灰瓦在深群青夜色中形成连续的冷蓝色屋脊；朱红宫墙与木结构隐藏在阴影中。远处主殿位于画面上方中央，屋檐边缘受到微弱暖红灯光照亮。中央雪地小路上一名撑伞人物独自行走，留下细长阴影。空气中有稀疏小雪与蓝色薄雾。整体采用深群青、雪青、暗绛红配色，蓝色占绝对主导，红光仅作局部点缀；层次丰富，幽静而不阴森，具有古典历史电影的夜景质感。",
+      "normalized_prompt": "从高处俯视覆雪宫城屋脊和中央雪路上的撑伞人物；以深群青、雪青为主，暗绛红屋檐光作局部点缀，营造幽静历史夜景。",
+      "fields": {
+        "subject": "覆雪古代宫城、层叠灰瓦屋顶、主殿、撑伞人物",
+        "action": "人物沿中央雪地小路独自行走",
+        "shot_size": "高处俯视远景",
+        "composition": "屋顶由前景向远处延伸；主殿上方中央；雪路作纵向引导",
+        "camera_motion": "高处静态俯视或极慢推进",
+        "lighting": "深夜冷光；主殿屋檐微弱暖红灯；蓝色薄雾",
+        "color": "深群青、雪青、暗绛红、雪白",
+        "atmosphere": "幽静、不阴森、历史感",
+        "performance": "人物小尺度独行，留下细长阴影",
+        "continuity": "保持屋脊层叠、中央雪路、蓝主红辅的色彩关系"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(10)中式美学色卡__08.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(10)中式美学色卡__08.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(10)中式美学色卡.mp4",
+      "id": "100组AI电影感提示词(10)中式美学色卡__16__冬夜宫城_群青与暗绛红",
+      "source_time": {
+        "start": 31.5,
+        "end": 35.9
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "框中框｜Frame within a Frame",
+      "original_text_corrected": "复古老剧院后台视角，镜头正对舞台。一名穿浅色长裙的女子背对镜头独自站在舞台中央，手持扫帚。深红色厚重天鹅绒幕布从画面左右两侧和顶部自然垂落，将明亮舞台包围，形成明显的框中框构图。舞台背景有复古彩色装饰物，细小纸屑漂浮在空气中，多束冷白色顶光穿过薄雾照向舞台。前景幕布与后台较暗，人物和舞台被光线突出，人物比例较小，空间幽深。复古剧院氛围，真实电影摄影，细腻胶片颗粒。",
+      "normalized_prompt": "用左右及顶部自然垂落的深红天鹅绒幕布包围舞台，形成框中框；小比例背影人物站在明亮舞台中央，冷白顶光穿雾而下。",
+      "fields": {
+        "subject": "复古老剧院、浅色长裙女子、扫帚、红色天鹅绒幕布",
+        "action": "女子背对镜头站在舞台中央，手持扫帚",
+        "shot_size": "中远景",
+        "composition": "幕布形成外框；舞台为内框；人物居中且比例较小",
+        "camera_motion": "正对舞台的锁定机位",
+        "lighting": "冷白顶光穿过薄雾；前景与后台较暗",
+        "color": "深红幕布、冷白舞台光、暗背景",
+        "atmosphere": "幽深、复古、舞台感",
+        "performance": "女子背对镜头、动作克制",
+        "continuity": "保持幕布自然垂落、人物小比例、舞台内外明暗层次"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(11)构图技巧__01.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(11)构图技巧__01.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(11)构图技巧.mp4",
+      "id": "100组AI电影感提示词(11)构图技巧__17__框中框_Frame_within_a_Frame",
+      "source_time": {
+        "start": 0,
+        "end": 6.7
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "前景遮挡｜Foreground Obstruction",
+      "original_text_corrected": "短卷发红唇的东方女子侧身坐在画面中景，身穿深绿色丝绒礼服，佩戴精致复古珠宝。摄影机隔着近距离水晶吊灯拍摄，大量失焦的水晶、玻璃杯与金色光斑自然侵入画面，局部遮挡人物脸部和身体，形成明显的前景—人物—背景三层空间。焦点落在女子面部，背景是红灯、镜面与模糊宾客。暖金色低度光线，浅景深，柔和高光与晶莹散景，复古奢华电影质感，微胶片颗粒。",
+      "normalized_prompt": "隔着近距离水晶吊灯拍摄侧身女子，让失焦水晶、玻璃杯和金色光斑局部遮挡人物；焦点落在面部，建立前景—人物—背景三层空间。",
+      "fields": {
+        "subject": "短卷发红唇东方女子、深绿色丝绒礼服、复古珠宝、水晶吊灯",
+        "action": "女子侧身坐在中景",
+        "shot_size": "中景人物特写",
+        "composition": "前景失焦水晶遮挡；人物中景；背景红灯、镜面、宾客三层空间",
+        "camera_motion": "隔着前景物体锁定或极慢侧移",
+        "lighting": "暖金低度光；浅景深；柔和高光和散景",
+        "color": "深绿丝绒、暖金、红灯",
+        "atmosphere": "复古、奢华、暧昧",
+        "performance": "女子侧身坐姿，面部保持焦点",
+        "continuity": "遮挡只覆盖局部脸和身体；保持面部清晰、前中后景层次"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(11)构图技巧__02.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(11)构图技巧__02.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(11)构图技巧.mp4",
+      "id": "100组AI电影感提示词(11)构图技巧__18__前景遮挡_Foreground_Obstruction",
+      "source_time": {
+        "start": 6.7,
+        "end": 12.7
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "引导线｜Leading Line",
+      "original_text_corrected": "傍晚的布拉格查理大桥，一对穿深色大衣的男女和镜头缓慢走向老城。笔直延伸的石板桥面、两侧石栏、连续排列的古典路灯共同形成清晰的引导线构图，在远处查理大桥老城桥塔附近自然汇聚至消失点。布拉格老城屋顶与尖塔逐渐隐入雾中，天空呈淡雅橙色与紫色暮光，路灯泛出柔和暖光。真实电影摄影，微胶片颗粒。",
+      "normalized_prompt": "沿石板桥缓慢前行，让桥面、石栏和路灯共同把视线引向远处老城桥塔消失点；橙紫暮光和暖路灯落入雾中。",
+      "fields": {
+        "subject": "查理大桥、穿深色大衣的一对男女、古典路灯、老城桥塔",
+        "action": "两人和镜头缓慢走向老城",
+        "shot_size": "中远景行进镜头",
+        "composition": "桥面、石栏、路灯形成多条引导线，汇聚于消失点",
+        "camera_motion": "缓慢前行跟拍",
+        "lighting": "橙紫暮光；路灯柔和暖光；远景雾化",
+        "color": "淡橙、紫色暮光、石板灰、暖灯黄",
+        "atmosphere": "浪漫、古典、暮色",
+        "performance": "两人并行缓慢行走",
+        "continuity": "保持消失点、桥塔、引导线和人物前进方向"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(11)构图技巧__03.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(11)构图技巧__03.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(11)构图技巧.mp4",
+      "id": "100组AI电影感提示词(11)构图技巧__19__引导线_Leading_Line",
+      "source_time": {
+        "start": 12.7,
+        "end": 19.1
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "负空间｜Negative Space",
+      "original_text_corrected": "极简主义雾夜城市，巨大的深蓝色建筑立面占据画面左侧与上方，大面积纯净蓝色浓雾和建筑墙面形成强烈负空间。所有叙事主体集中在画面底部较小区域：建筑底部一间散发橙黄色暖光的小店，零星人物、一个独自行走的黑色剪影以及停在路边的出租车。右侧高楼逐渐消失在蓝色雾气中，人物与建筑尺度形成巨大反差。整体以深蓝、蓝黑和局部暖黄灯光作为视觉焦点，构图极简克制，安静孤独，真实夜景电影摄影。",
+      "normalized_prompt": "用巨大深蓝建筑和纯净浓雾占据大部分画面，把小店、行人黑色剪影和出租车压缩在底部小区域；以尺度反差和局部暖黄灯光形成负空间构图。",
+      "fields": {
+        "subject": "深蓝建筑立面、浓雾城市、小店、孤独行人、出租车",
+        "action": "行人独自走过；出租车停在路边",
+        "shot_size": "远景",
+        "composition": "主体集中底部；上方和左侧大面积负空间；建筑尺度压迫人物",
+        "camera_motion": "锁定远景或极慢横移",
+        "lighting": "雾夜低照度；小店橙黄暖光为焦点",
+        "color": "深蓝、蓝黑、局部橙黄",
+        "atmosphere": "安静、孤独、极简、压迫",
+        "performance": "行人缓慢独行",
+        "continuity": "保持主体底部小比例、建筑巨大、雾中右侧消失"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(11)构图技巧__04.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(11)构图技巧__04.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(11)构图技巧.mp4",
+      "id": "100组AI电影感提示词(11)构图技巧__20__负空间_Negative_Space",
+      "source_time": {
+        "start": 19.1,
+        "end": 25.6
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "螺旋构图｜Spiral Composition",
+      "original_text_corrected": "从建筑顶部垂直俯拍一座螺旋楼梯。象牙白大理石阶梯沿中央挑空区旋转，方向保持一致，楼层之间自然衔接；雕花栏杆沿楼梯边缘连续延伸，形成真实建筑结构的完整螺旋。楼梯外围逐渐收向中心，引导视线向下。画面以明亮象牙白和奶油色为主，少量红色区域与红毯作为视觉强调，面积浅色留白，明亮柔和的高级光线，杂志大片质感，真实建筑摄影。",
+      "normalized_prompt": "从建筑顶部垂直俯拍完整螺旋楼梯，让象牙白大理石阶梯和雕花栏杆连续收向中心；用少量红毯作为唯一强调色。",
+      "fields": {
+        "subject": "象牙白大理石螺旋楼梯、雕花栏杆、红毯",
+        "action": "无主要人物；视线沿楼梯向中心下行",
+        "shot_size": "垂直俯拍建筑远景",
+        "composition": "完整螺旋结构；外围向中心收束；红色小面积强调",
+        "camera_motion": "垂直锁定俯拍或极慢旋转",
+        "lighting": "明亮柔和高级光线；材质细节清晰",
+        "color": "象牙白、奶油色、少量红色",
+        "atmosphere": "秩序、优雅、建筑摄影、杂志感",
+        "performance": "无人物表演",
+        "continuity": "保持旋转方向、中央挑空、栏杆连续和红色比例克制"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(11)构图技巧__05.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(11)构图技巧__05.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(11)构图技巧.mp4",
+      "id": "100组AI电影感提示词(11)构图技巧__21__螺旋构图_Spiral_Composition",
+      "source_time": {
+        "start": 25.6,
+        "end": 31.7
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "三分构图｜Rule of Thirds",
+      "original_text_corrected": "辽阔幽静的深绿色湖面，一名男孩独自坐在狭长的黑色木船上划船，人物与船整体位于画面右下方三分之一交点附近，左侧与上方保留大面积完整水面，形成明确的三分构图和自然留白。男孩穿简单浅色上衣，手持长木桨划过水面，产生细微波纹与水花。柔和阳光从侧上方落在人物、船沿和局部水面上，背景逐渐沉入深青绿色阴影。水面颜色层次丰富但环境极简，无多余主体。真实自然光摄影，安静克制的电影感，轻微胶片质感。",
+      "normalized_prompt": "把划船男孩和黑色木船放在右下三分之一交点，左侧与上方保留完整深绿湖面；侧上方柔光、细微水花和自然留白构成安静电影感。",
+      "fields": {
+        "subject": "男孩、狭长黑色木船、深绿色湖面",
+        "action": "男孩划船，木桨产生细微波纹和水花",
+        "shot_size": "远景",
+        "composition": "主体位于右下三分之一交点；左上大面积留白",
+        "camera_motion": "静态远景或轻微跟随",
+        "lighting": "侧上方柔和阳光照亮人物、船沿和水面",
+        "color": "深绿色、深青绿、浅色衣服、自然高光",
+        "atmosphere": "安静、克制、辽阔",
+        "performance": "男孩独自缓慢划船",
+        "continuity": "保持三分交点、无多余主体、船行方向和留白"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(11)构图技巧__06.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(11)构图技巧__06.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(11)构图技巧.mp4",
+      "id": "100组AI电影感提示词(11)构图技巧__22__三分构图_Rule_of_Thirds",
+      "source_time": {
+        "start": 31.7,
+        "end": 39.4
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "侧逆光轮廓",
+      "original_text_corrected": "增加一束来自画面右后方、斜射进入阳台的光线，形成柔和而明显的侧逆光。阳光勾勒出人物发丝与肩部的金色轮廓，部分花卉被逆光照亮，呈现通透质感。室内前景保持较深阴影，背景建筑保留冷青灰色调，形成自然冷暖对比与丰富明暗层次。柔和高光、轻微空气颗粒感、细腻胶片颗粒，真实自然的电影摄影质感。",
+      "normalized_prompt": "在阳台场景中增加右后方斜射的柔和侧逆光，勾勒人物发丝、肩部和花卉金色轮廓；前景深影、背景冷青灰与空气颗粒保留自然电影质感。",
+      "fields": {
+        "subject": "阳台人物与花卉、背景建筑",
+        "action": "阳光进入并勾勒人物与花卉；主体可保持静止",
+        "shot_size": "中景",
+        "composition": "右后侧光源形成轮廓；前景深影、背景冷青灰",
+        "camera_motion": "锁定或极慢推进",
+        "lighting": "右后方柔和侧逆光；人物发丝肩部金色轮廓",
+        "color": "金色高光、冷青灰背景、深色前景",
+        "atmosphere": "通透、自然、电影感",
+        "performance": "人物动作未明确，保留原动作",
+        "continuity": "只增加光线与空气质感，不改变原构图和主体"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(12)视觉氛围元素__01.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(12)视觉氛围元素__01.gif",
+      "confidence": "medium",
+      "source_video": "100组AI电影感提示词(12)视觉氛围元素.mp4",
+      "id": "100组AI电影感提示词(12)视觉氛围元素__23__侧逆光轮廓",
+      "source_time": {
+        "start": 0,
+        "end": 7.7
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "傍晚建筑几何光影",
+      "original_text_corrected": "将光线调整为傍晚低角度的暖色侧光，阳光从画面左侧斜射，在宫墙、石砖墙面和地面形成大面积、边缘清晰的建筑几何投影。屋檐与立柱的阴影错落分布，人物部分处于阴影中，墙面保留局部暖色亮区，形成强烈但自然的明暗对比。适当加深暗部，降低整体曝光，保留砖墙细节与真实材质，暖棕色电影调色，细腻胶片颗粒，沉静、克制、具有历史叙事感的电影摄影质感。",
+      "normalized_prompt": "把光线改为左侧斜射的傍晚低角度暖色侧光，让宫墙、石砖与地面形成清晰几何投影；人物部分入影，整体压低曝光并以暖棕调和胶片颗粒保持历史感。",
+      "fields": {
+        "subject": "宫墙、石砖墙面、屋檐、立柱、人物",
+        "action": "人物保持原动作，部分进入阴影",
+        "shot_size": "中远景",
+        "composition": "建筑几何投影构成画面结构；明暗分区",
+        "camera_motion": "锁定或轻微推进",
+        "lighting": "傍晚左侧低角度暖色侧光；屋檐立柱投影；暗部加深",
+        "color": "暖棕、砖墙色、局部暖亮区、深影",
+        "atmosphere": "沉静、克制、历史叙事",
+        "performance": "人物部分处于阴影",
+        "continuity": "保持墙面材质、投影边缘和原构图"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(12)视觉氛围元素__02.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(12)视觉氛围元素__02.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(12)视觉氛围元素.mp4",
+      "id": "100组AI电影感提示词(12)视觉氛围元素__24__傍晚建筑几何光影",
+      "source_time": {
+        "start": 7.7,
+        "end": 13.6
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "阴冷清晨浓雾",
+      "original_text_corrected": "将天气调整为浓雾弥漫的阴冷清晨，大面积冷青灰色雾气笼罩整个港口，近景船体保留部分清晰细节，中远景建筑与船只逐渐被雾气遮蔽，形成明显的空气透视和空间层次。整体降低环境亮度与色彩饱和度，采用低调冷色电影调色。船体中央及甲板上亮起几盏暖琥珀色灯光，灯光穿透周围雾气形成柔和、自然扩散的光晕；暖色光线倒映在潮湿的石板路和积水中。",
+      "normalized_prompt": "将港口天气改为冷青灰浓雾清晨，让近景船体清晰、中远景逐渐消失；船体暖琥珀灯穿透雾气形成柔和光晕，并倒映在湿地面。",
+      "fields": {
+        "subject": "港口、近景船体、中远景建筑与船只、潮湿石板路",
+        "action": "船体灯光持续亮起；港口环境保持缓慢雾化",
+        "shot_size": "中远景",
+        "composition": "近中远景空气透视；船体为近景锚点",
+        "camera_motion": "锁定或极慢观察",
+        "lighting": "冷雾环境；船体暖琥珀灯形成扩散光晕",
+        "color": "冷青灰、低饱和、暖琥珀点光",
+        "atmosphere": "阴冷、潮湿、寂静",
+        "performance": "人物未明确，保持原主体动作",
+        "continuity": "保持近景清晰、中远景雾化、灯光倒影"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(12)视觉氛围元素__03.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(12)视觉氛围元素__03.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(12)视觉氛围元素.mp4",
+      "id": "100组AI电影感提示词(12)视觉氛围元素__25__阴冷清晨浓雾",
+      "source_time": {
+        "start": 13.6,
+        "end": 19.7
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "傍晚横风",
+      "original_text_corrected": "增加一阵从画面左侧吹向右侧的自然风，人物发丝轻微向右飘动，酒红色长裙裙摆向右后方扬起，形成自然的裙褶与流动感。前景与中景的野草、花穗随风向同一方向倾斜，部分细长草产生轻微动态模糊。远处厚重云层保留原有形态，增强阴云的层次与明暗变化。整体保持低饱和灰棕色调、柔和的傍晚逆光与细腻胶片颗粒。",
+      "normalized_prompt": "加入从左向右的自然横风，使人物发丝、酒红长裙、野草和花穗统一向右后方运动；保持低饱和灰棕、傍晚逆光和胶片颗粒。",
+      "fields": {
+        "subject": "人物、酒红长裙、野草与花穗、厚重云层",
+        "action": "发丝、裙摆、草和花穗向右后方随风；细草产生轻微动态模糊",
+        "shot_size": "中景",
+        "composition": "人物与草地保持原构图；风向形成横向动态线",
+        "camera_motion": "锁定或轻微跟随，重点表现风的方向",
+        "lighting": "柔和傍晚逆光；云层明暗层次增强",
+        "color": "低饱和灰棕、酒红裙摆、柔和暖光",
+        "atmosphere": "自然、流动、压低情绪",
+        "performance": "人物保持原姿态，衣物和发丝响应风",
+        "continuity": "所有可动元素统一左向右风向；不改变背景形态"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(12)视觉氛围元素__04.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(12)视觉氛围元素__04.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(12)视觉氛围元素.mp4",
+      "id": "100组AI电影感提示词(12)视觉氛围元素__26__傍晚横风",
+      "source_time": {
+        "start": 19.7,
+        "end": 28.5
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "阴雨玻璃与城市暖光",
+      "original_text_corrected": "将窗外天气调整为阴雨。玻璃表面布满细密雨滴与凝结水汽，部分雨滴汇聚成细长水痕，沿玻璃自然向下流动。透过湿润玻璃，城市暖黄色灯光发生自然散射，形成大小不一的柔和光斑。焦点适当偏向玻璃上的雨滴，人物面部隔着玻璃呈现轻微柔化效果。保留整体冷蓝色调，增强窗外暖光与冷色雨景的对比。",
+      "normalized_prompt": "把窗外改成阴雨天气，重点表现玻璃雨滴、水汽和向下流动的水痕；焦点偏向湿玻璃，人物面部轻微柔化，冷蓝雨景与城市暖黄散射光形成对比。",
+      "fields": {
+        "subject": "湿润玻璃、窗外城市、隔窗人物",
+        "action": "雨滴汇聚并沿玻璃向下流；城市灯光散射",
+        "shot_size": "近景/中近景",
+        "composition": "玻璃雨滴作前景焦点；人物隔玻璃在后景柔化",
+        "camera_motion": "锁定玻璃焦点或极慢拉焦",
+        "lighting": "冷蓝环境；城市暖黄灯光透过雨滴散射成光斑",
+        "color": "冷蓝雨景、暖黄色灯光",
+        "atmosphere": "阴雨、潮湿、孤独、城市感",
+        "performance": "人物面部隔玻璃轻微柔化",
+        "continuity": "保持玻璃在前、人物在后、冷暖对比和水痕运动"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(12)视觉氛围元素__05.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(12)视觉氛围元素__05.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(12)视觉氛围元素.mp4",
+      "id": "100组AI电影感提示词(12)视觉氛围元素__27__阴雨玻璃与城市暖光",
+      "source_time": {
+        "start": 28.5,
+        "end": 36.5
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "Cavern Light",
+      "original_text_corrected": "巨大的荒漠岩石洞穴内部，深褐色岩壁与不规则巨型岩石从画面顶部和两侧包围空间，形成压迫感的天然框架。洞穴顶部狭窄裂隙透入强烈暖金色阳光，形成有清晰边界的达尔光，照亮空气中的细微沙尘。画面中央偏下，一名身披沙色长袍的旅人独自站立，人物比例极小，周围是粗粝岩石与砂砾；洞穴深处幽暗，形成鲜明明暗对比。低机位超广角远景，史诗级空间尺度，写实科幻电影质感。",
+      "normalized_prompt": "巨大的荒漠岩石洞穴内部，深褐色岩壁与不规则巨型岩石从画面顶部和两侧包围空间，形成压迫感的天然框架。洞穴顶部狭窄裂隙透入强烈暖金色阳光，形成有清晰边界的达尔光，照亮空气中的细微沙尘。画面中央偏下，一名身披沙色长袍的旅人独自站立，人物比例极小，周围是粗粝岩石与砂砾；洞穴深处幽暗，形成鲜明明暗对比。低机位超广角远景，史诗级空间尺度，写实科幻电影质感。",
+      "fields": {
+        "subject": "沙色长袍旅人、荒漠岩洞",
+        "action": "独自站立",
+        "shot_size": "超广角远景",
+        "composition": "低机位；岩壁形成天然框架；人物置于中央偏下",
+        "camera_motion": "固定或极慢推进",
+        "lighting": "裂隙暖金达尔光；洞穴深处保持暗部",
+        "color": "深褐岩壁、暖金阳光、黑暗阴影",
+        "atmosphere": "压迫、史诗、写实科幻",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(13)废土科幻美学__02.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(13)废土科幻美学__02.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(13)废土科幻美学.mp4",
+      "id": "100组AI电影感提示词(13)废土科幻美学__01__Cavern_Light",
+      "source_time": {
+        "start": 4.7,
+        "end": 12.7
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "The Desert Portal",
+      "original_text_corrected": "一片广阔寂静的异星荒漠，一座巨大的弧形岩石建筑从地面延伸至画面上方，建筑表面粗糙并带有细密纹理。画面中间偏右，一名旅人独自坐在沙丘顶部，人物在宏大环境中显得渺小。远处是起伏沙丘与若隐若现的荒漠山脉，天空无云，从顶部灰青色自然渐变到地平线橙金色；大面积留白与逆光形成前景暗部和背景柔光，超现实科幻电影质感。",
+      "normalized_prompt": "一片广阔寂静的异星荒漠，一座巨大的弧形岩石建筑从地面延伸至画面上方，建筑表面粗糙并带有细密纹理。画面中间偏右，一名旅人独自坐在沙丘顶部，人物在宏大环境中显得渺小。远处是起伏沙丘与若隐若现的荒漠山脉，天空无云，从顶部灰青色自然渐变到地平线橙金色；大面积留白与逆光形成前景暗部和背景柔光，超现实科幻电影质感。",
+      "fields": {
+        "subject": "异星荒漠、弧形岩石建筑、孤独旅人",
+        "action": "旅人静坐沙丘",
+        "shot_size": "远景",
+        "composition": "极简构图；建筑形成框架；人物偏右",
+        "camera_motion": "固定远景",
+        "lighting": "逆光；地平线橙金渐变",
+        "color": "灰青到橙金；低饱和沙色",
+        "atmosphere": "寂静、孤独、超现实科幻",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(13)废土科幻美学__03.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(13)废土科幻美学__03.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(13)废土科幻美学.mp4",
+      "id": "100组AI电影感提示词(13)废土科幻美学__02__The_Desert_Portal",
+      "source_time": {
+        "start": 12.7,
+        "end": 20.6
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "Traveler in the Dust",
+      "original_text_corrected": "辽阔荒凉的异星沙漠中，一位身披半透明薄纱的神秘旅人背对镜头，位于画面右侧，面部隐藏在兜帽与阴影中。强烈沙漠风将轻薄面纱向左侧吹起，纱布形成流动曲线并显出编织纹理；人物下身逐渐融入飞扬沙尘。背景是沙尘笼罩的荒漠平原与模糊岩石山脉，低饱和米白与灰黄色，柔和漫射光，中近景人物构图，真实布料动力学，浅景深。",
+      "normalized_prompt": "辽阔荒凉的异星沙漠中，一位身披半透明薄纱的神秘旅人背对镜头，位于画面右侧，面部隐藏在兜帽与阴影中。强烈沙漠风将轻薄面纱向左侧吹起，纱布形成流动曲线并显出编织纹理；人物下身逐渐融入飞扬沙尘。背景是沙尘笼罩的荒漠平原与模糊岩石山脉，低饱和米白与灰黄色，柔和漫射光，中近景人物构图，真实布料动力学，浅景深。",
+      "fields": {
+        "subject": "半透明薄纱旅人",
+        "action": "沙风吹动面纱与衣物",
+        "shot_size": "中近景",
+        "composition": "人物位于右侧；背对镜头；面纱形成左向动势",
+        "camera_motion": "固定或轻微跟随",
+        "lighting": "柔和漫射光；低对比度空气透视",
+        "color": "米白、灰黄、低饱和",
+        "atmosphere": "荒凉、神秘、风沙感",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(13)废土科幻美学__04.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(13)废土科幻美学__04.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(13)废土科幻美学.mp4",
+      "id": "100组AI电影感提示词(13)废土科幻美学__03__Traveler_in_the_Dust",
+      "source_time": {
+        "start": 20.6,
+        "end": 28.6
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "Beneath the Megastructure",
+      "original_text_corrected": "一座宏伟古老的未来主义建筑遗迹矗立在荒凉海岸，灰黑色粗野主义建筑从画面左侧向远方延伸，多组倾斜几何支撑形成重复透视线。建筑左侧巨大三角形开口透出琥珀色光，主体与前景处于深灰阴影；右侧是被冷青色浓雾笼罩的海岸与灰蓝天空，人物比例极小。超广角远景，强烈冷暖色对比，低饱和青灰，压抑神秘的科幻氛围。",
+      "normalized_prompt": "一座宏伟古老的未来主义建筑遗迹矗立在荒凉海岸，灰黑色粗野主义建筑从画面左侧向远方延伸，多组倾斜几何支撑形成重复透视线。建筑左侧巨大三角形开口透出琥珀色光，主体与前景处于深灰阴影；右侧是被冷青色浓雾笼罩的海岸与灰蓝天空，人物比例极小。超广角远景，强烈冷暖色对比，低饱和青灰，压抑神秘的科幻氛围。",
+      "fields": {
+        "subject": "粗野主义未来建筑遗迹、荒凉海岸、微小人物",
+        "action": "人物置于建筑尺度中",
+        "shot_size": "超广角远景",
+        "composition": "左侧建筑引导线；人物极小；海岸作右侧平衡",
+        "camera_motion": "固定远景",
+        "lighting": "建筑开口琥珀光；右侧冷雾",
+        "color": "灰黑、琥珀、冷青灰",
+        "atmosphere": "宏大、压抑、神秘",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(13)废土科幻美学__05.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(13)废土科幻美学__05.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(13)废土科幻美学.mp4",
+      "id": "100组AI电影感提示词(13)废土科幻美学__04__Beneath_the_Megastructure",
+      "source_time": {
+        "start": 28.6,
+        "end": 44.6
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "Eyes of the Desert",
+      "original_text_corrected": "极近距离只露出人物双眼、眼睑和部分鼻梁，双眼呈清澈浅冰蓝色，虹膜纹理精细，带有异星科幻感。镜头从正面略低角度贴近面部，焦点精准落在双眼，皮肤纹理、睫毛和细微沙尘清晰可见。前景虚焦蓝色薄纱从右上斜向穿过，部分遮挡眼睛边缘。暖金阳光从侧上方穿透布料缝隙，在鼻梁与脸颊形成斑驳高光，其余区域保持深蓝阴影；极浅景深，35mm胶片质感。",
+      "normalized_prompt": "极近距离只露出人物双眼、眼睑和部分鼻梁，双眼呈清澈浅冰蓝色，虹膜纹理精细，带有异星科幻感。镜头从正面略低角度贴近面部，焦点精准落在双眼，皮肤纹理、睫毛和细微沙尘清晰可见。前景虚焦蓝色薄纱从右上斜向穿过，部分遮挡眼睛边缘。暖金阳光从侧上方穿透布料缝隙，在鼻梁与脸颊形成斑驳高光，其余区域保持深蓝阴影；极浅景深，35mm胶片质感。",
+      "fields": {
+        "subject": "异星旅人的冰蓝双眼",
+        "action": "坚定凝视镜头",
+        "shot_size": "极近特写",
+        "composition": "正面略低角度；眼睛作为唯一焦点；前景薄纱遮挡",
+        "camera_motion": "静止特写",
+        "lighting": "侧上方暖金斑驳光；深蓝阴影",
+        "color": "冰蓝、暖金、深蓝",
+        "atmosphere": "神秘、异星、克制",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(13)废土科幻美学__06.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(13)废土科幻美学__06.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(13)废土科幻美学.mp4",
+      "id": "100组AI电影感提示词(13)废土科幻美学__05__Eyes_of_the_Desert",
+      "source_time": {
+        "start": 44.6,
+        "end": 55.17
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "殿中对峙",
+      "original_text_corrected": "宏伟幽暗的中式古殿内部，朱红木柱纵深排列，斑驳漆面与传统雕花梁架隐约可见。两名头戴斗笠、身穿深黑宽袖长袍的侠客在大殿中央低姿态对峙。暗红烟雾从右侧翻涌进入，红色花瓣散落空中与地面；柔和暖光穿透烟雾形成体积光。低机位广角远景，人物在建筑中比例较小，黑红配色，戏剧张力。",
+      "normalized_prompt": "宏伟幽暗的中式古殿内部，朱红木柱纵深排列，斑驳漆面与传统雕花梁架隐约可见。两名头戴斗笠、身穿深黑宽袖长袍的侠客在大殿中央低姿态对峙。暗红烟雾从右侧翻涌进入，红色花瓣散落空中与地面；柔和暖光穿透烟雾形成体积光。低机位广角远景，人物在建筑中比例较小，黑红配色，戏剧张力。",
+      "fields": {
+        "subject": "两名黑袍斗笠侠客",
+        "action": "低姿态对峙",
+        "shot_size": "广角远景",
+        "composition": "中式古殿纵深；朱红柱列形成引导线",
+        "camera_motion": "固定远景",
+        "lighting": "暖光穿透暗红烟雾",
+        "color": "朱红、黑、暗金",
+        "atmosphere": "肃杀、神秘、戏剧化",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(14)武侠美学__01.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(14)武侠美学__01.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(14)武侠美学.mp4",
+      "id": "100组AI电影感提示词(14)武侠美学__06__殿中对峙",
+      "source_time": {
+        "start": 0,
+        "end": 5.2
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "隐世瀑布",
+      "original_text_corrected": "东方武侠电影中的隐世瀑布场景。高大山岩与瀑布从画面右上方延伸至左侧，形成天然框景；瀑布从岩壁倾泻而下，冷蓝色水流在岩石间流动，空气中弥漫细密水雾。画面中央偏下，一名身穿深色武侠长袍的侠客独自站在岩石上，衣摆随风轻扬。宽幅远景构图，前景岩石与瀑布形成空间层次，冷蓝、灰青低饱和色调，安静、克制的古典武侠氛围。",
+      "normalized_prompt": "东方武侠电影中的隐世瀑布场景。高大山岩与瀑布从画面右上方延伸至左侧，形成天然框景；瀑布从岩壁倾泻而下，冷蓝色水流在岩石间流动，空气中弥漫细密水雾。画面中央偏下，一名身穿深色武侠长袍的侠客独自站在岩石上，衣摆随风轻扬。宽幅远景构图，前景岩石与瀑布形成空间层次，冷蓝、灰青低饱和色调，安静、克制的古典武侠氛围。",
+      "fields": {
+        "subject": "深色武侠长袍侠客、山岩、瀑布",
+        "action": "独自站立，衣摆随风轻扬",
+        "shot_size": "宽幅远景",
+        "composition": "瀑布和山岩形成右上至左侧的天然框景；人物中央偏下；前景岩石制造层次",
+        "camera_motion": "固定远景或极慢推进",
+        "lighting": "冷调漫射自然光；水雾柔化光线",
+        "color": "冷蓝、灰青、低饱和",
+        "atmosphere": "隐世、安静、克制、古典武侠",
+        "performance": "人物静立，动作极少",
+        "continuity": "保持人物站位、瀑布流向、水雾和冷调光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(14)武侠美学__02.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(14)武侠美学__02.gif",
+      "confidence": "medium",
+      "source_video": "100组AI电影感提示词(14)武侠美学.mp4",
+      "id": "100组AI电影感提示词(14)武侠美学__07__隐世瀑布",
+      "source_time": {
+        "start": 5.2,
+        "end": 11.2
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "雪原独行",
+      "original_text_corrected": "浅蓝色积雪覆盖的古典雪原，冷蓝雾气中一名头戴深黑宽大斗篷的孤独侠客站在画面中央，侧向镜头，衣摆自然垂落，脚下有深色倒影；左右高大树木形成框景，远处隐入雾中。低饱和冷色、柔和漫射光、安静孤寂的古典武侠氛围。",
+      "normalized_prompt": "浅蓝色积雪覆盖的古典雪原，冷蓝雾气中一名头戴深黑宽大斗篷的孤独侠客站在画面中央，侧向镜头，衣摆自然垂落，脚下有深色倒影；左右高大树木形成框景，远处隐入雾中。低饱和冷色、柔和漫射光、安静孤寂的古典武侠氛围。",
+      "fields": {
+        "subject": "深黑斗篷孤独侠客",
+        "action": "静立并让衣摆随风轻动",
+        "shot_size": "中远景",
+        "composition": "中央人物；两侧树木框景；雾化背景",
+        "camera_motion": "固定或极慢横移",
+        "lighting": "柔和漫射冷光",
+        "color": "浅蓝、深黑、灰青",
+        "atmosphere": "孤寂、清冷、克制",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(14)武侠美学__03.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(14)武侠美学__03.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(14)武侠美学.mp4",
+      "id": "100组AI电影感提示词(14)武侠美学__08__雪原独行",
+      "source_time": {
+        "start": 11.2,
+        "end": 17.3
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "竹海轻功",
+      "original_text_corrected": "青灰山峰被白雾环绕的竹海上空，两名身穿白色古装的侠客施展轻功相互追逐，身体前倾、双臂展开保持平衡，宽大衣袍与长发在空中飘扬；人物比例极小，突出高山竹海尺度。前景深绿竹林，远景青蓝山峰，自然天光，电影级写实质感。",
+      "normalized_prompt": "青灰山峰被白雾环绕的竹海上空，两名身穿白色古装的侠客施展轻功相互追逐，身体前倾、双臂展开保持平衡，宽大衣袍与长发在空中飘扬；人物比例极小，突出高山竹海尺度。前景深绿竹林，远景青蓝山峰，自然天光，电影级写实质感。",
+      "fields": {
+        "subject": "两名古装侠客",
+        "action": "空中轻功追逐",
+        "shot_size": "超远景",
+        "composition": "人物极小；竹海与山峰构成空间层次",
+        "camera_motion": "横向跟拍或缓慢平移",
+        "lighting": "自然天光；山间漫射光",
+        "color": "深绿、青蓝、白雾",
+        "atmosphere": "轻盈、宏大、写实",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(14)武侠美学__04.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(14)武侠美学__04.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(14)武侠美学.mp4",
+      "id": "100组AI电影感提示词(14)武侠美学__09__竹海轻功",
+      "source_time": {
+        "start": 17.3,
+        "end": 23.2
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "花海传人",
+      "original_text_corrected": "青石小径穿过繁茂白色花海，古树枝干向中央延伸形成天然拱形框景，道路尽头是树林中的人物或传人身影。达尔光穿过花枝，画面具有古典诗意与柔和浅景深。",
+      "normalized_prompt": "青石小径穿过繁茂白色花海，古树枝干向中央延伸形成天然拱形框景，道路尽头是树林中的人物或传人身影。达尔光穿过花枝，画面具有古典诗意与柔和浅景深。",
+      "fields": {
+        "subject": "白色花海、青石小径、远处人物",
+        "action": "人物沿小径出现或停留",
+        "shot_size": "远景",
+        "composition": "拱形树枝框景；小径引导至消失点",
+        "camera_motion": "固定或轻微前推",
+        "lighting": "花枝间穿透的暖光",
+        "color": "白、青绿、暖金",
+        "atmosphere": "诗意、宁静、东方古典",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(14)武侠美学__05.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(14)武侠美学__05.gif",
+      "confidence": "medium",
+      "source_video": "100组AI电影感提示词(14)武侠美学.mp4",
+      "id": "100组AI电影感提示词(14)武侠美学__10__花海传人",
+      "source_time": {
+        "start": 23.2,
+        "end": 29.1
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "雪中三女侠",
+      "original_text_corrected": "冬日雪景，三名年轻东方女侠占据画面主体，黑色长发半束半披，几缕发丝被寒风吹动；她们拉紧肩头深灰黑厚布披风，细小雪花落在头发、肩膀和衣褶，部分雪花从镜头前掠过形成虚焦。冷蓝环境光，后方柔和暖光勾勒发丝轮廓，克制而富有情绪。",
+      "normalized_prompt": "冬日雪景，三名年轻东方女侠占据画面主体，黑色长发半束半披，几缕发丝被寒风吹动；她们拉紧肩头深灰黑厚布披风，细小雪花落在头发、肩膀和衣褶，部分雪花从镜头前掠过形成虚焦。冷蓝环境光，后方柔和暖光勾勒发丝轮廓，克制而富有情绪。",
+      "fields": {
+        "subject": "三名年轻东方女侠",
+        "action": "拉紧披风并承受落雪",
+        "shot_size": "近景",
+        "composition": "人物群像；前景雪花制造层次",
+        "camera_motion": "固定近景",
+        "lighting": "冷蓝环境光+暖色轮廓光",
+        "color": "冷蓝、灰黑、暖金",
+        "atmosphere": "寒冷、克制、有情绪",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(14)武侠美学__06.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(14)武侠美学__06.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(14)武侠美学.mp4",
+      "id": "100组AI电影感提示词(14)武侠美学__11__雪中三女侠",
+      "source_time": {
+        "start": 29.1,
+        "end": 35.2
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "雨巷红伞",
+      "original_text_corrected": "[待确认]雨后古典街巷，深红色油纸伞位于画面左下或中央，湿润石板反射红伞与侧光，背景呈古典中式建筑和散落白花/雨滴质感，整体使用低饱和青灰与深红对比。",
+      "normalized_prompt": "[待确认]雨后古典街巷，深红色油纸伞位于画面左下或中央，湿润石板反射红伞与侧光，背景呈古典中式建筑和散落白花/雨滴质感，整体使用低饱和青灰与深红对比。",
+      "fields": {
+        "subject": "[待确认]红伞与古典巷道",
+        "action": "雨后静置或轻微移动",
+        "shot_size": "中景",
+        "composition": "红伞作为视觉锚点；湿石板反射",
+        "camera_motion": "[待确认]固定或轻推",
+        "lighting": "柔和侧光；雨后反射",
+        "color": "青灰、深红、湿黑",
+        "atmosphere": "雨后、含蓄、古典武侠",
+        "performance": "人物信息不足，保留[待确认]",
+        "continuity": "保持雨后湿润地面与红伞位置"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(14)武侠美学__07.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(14)武侠美学__07.gif",
+      "confidence": "low",
+      "source_video": "100组AI电影感提示词(14)武侠美学.mp4",
+      "id": "100组AI电影感提示词(14)武侠美学__12__雨巷红伞",
+      "source_time": {
+        "start": 35.2,
+        "end": 41.1
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "庭院听风",
+      "original_text_corrected": "隐世中式庭院，一棵巨大古树位于左侧，粗壮树干向上延伸；画面偏下是一位身穿浅青宽袖古装的女子，背靠树或坐在庭台上，身旁有古琴/水池与少量落花，白色轻纱帘幕随风飘动。柔和暖光与青绿色环境交织，金色光线穿过纱幕形成空间层次。",
+      "normalized_prompt": "隐世中式庭院，一棵巨大古树位于左侧，粗壮树干向上延伸；画面偏下是一位身穿浅青宽袖古装的女子，背靠树或坐在庭台上，身旁有古琴/水池与少量落花，白色轻纱帘幕随风飘动。柔和暖光与青绿色环境交织，金色光线穿过纱幕形成空间层次。",
+      "fields": {
+        "subject": "浅青宽袖古装女子、中式庭院、纱帘",
+        "action": "静坐或听风，衣袖与纱幕轻动",
+        "shot_size": "中远景",
+        "composition": "古树作左侧前景；人物偏下；纱幕作层次",
+        "camera_motion": "固定或轻微横移",
+        "lighting": "柔和暖光穿过纱幕",
+        "color": "浅青、青绿、米白、暖金",
+        "atmosphere": "静谧、雅致、东方诗意",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(14)武侠美学__08.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(14)武侠美学__08.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(14)武侠美学.mp4",
+      "id": "100组AI电影感提示词(14)武侠美学__13__庭院听风",
+      "source_time": {
+        "start": 41.1,
+        "end": 50.9
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "落日对决",
+      "original_text_corrected": "[待确认]远景构图，太阳位于画面中上方，地面和天空呈浓郁橙红渐变，两侧高大芦苇向中央倾斜，人物或侠客在空旷环境中形成决斗对峙，强烈明暗对比，压抑肃杀的江湖氛围，真实电影摄影质感。",
+      "normalized_prompt": "[待确认]远景构图，太阳位于画面中上方，地面和天空呈浓郁橙红渐变，两侧高大芦苇向中央倾斜，人物或侠客在空旷环境中形成决斗对峙，强烈明暗对比，压抑肃杀的江湖氛围，真实电影摄影质感。",
+      "fields": {
+        "subject": "[待确认]对峙侠客与芦苇荒地",
+        "action": "对峙或准备决斗",
+        "shot_size": "远景",
+        "composition": "中央对峙；芦苇两侧形成框景",
+        "camera_motion": "固定远景",
+        "lighting": "夕阳逆光",
+        "color": "橙红、暗棕、黑",
+        "atmosphere": "肃杀、紧张、江湖感",
+        "performance": "人物动作细节[待确认]",
+        "continuity": "保持人物相对位置与夕阳方向"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(14)武侠美学__10.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(14)武侠美学__10.gif",
+      "confidence": "low",
+      "source_video": "100组AI电影感提示词(14)武侠美学.mp4",
+      "id": "100组AI电影感提示词(14)武侠美学__14__落日对决",
+      "source_time": {
+        "start": 50.9,
+        "end": 59.23
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "[待确认]哥特拱门晨雾",
+      "original_text_corrected": "透过一座古老石砌拱门望向远处的哥特式城堡或城市，尖拱结构隐没在浓重灰蓝晨雾中；近景有深绿色蕨蔓和花枝向画面中央延伸，形成框中框构图，近景玫瑰轻微虚化，远处建筑随雾逐渐模糊，低饱和蓝绿调与柔和漫射光营造哥特童话氛围。",
+      "normalized_prompt": "透过一座古老石砌拱门望向远处的哥特式城堡或城市，尖拱结构隐没在浓重灰蓝晨雾中；近景有深绿色蕨蔓和花枝向画面中央延伸，形成框中框构图，近景玫瑰轻微虚化，远处建筑随雾逐渐模糊，低饱和蓝绿调与柔和漫射光营造哥特童话氛围。",
+      "fields": {
+        "subject": "古老石拱门、哥特城堡、蕨蔓",
+        "action": "远处建筑隐没在雾中",
+        "shot_size": "近景框景",
+        "composition": "拱门框中框；前景植物虚化",
+        "camera_motion": "固定或极慢推进",
+        "lighting": "柔和漫射晨光",
+        "color": "灰蓝、深绿、低饱和",
+        "atmosphere": "哥特童话、神秘、古老",
+        "performance": "无明确人物表演",
+        "continuity": "保持雾层和前景枝叶位置"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(15)暗黑哥特美学__02.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(15)暗黑哥特美学__02.gif",
+      "confidence": "low",
+      "source_video": "100组AI电影感提示词(15)暗黑哥特美学.mp4",
+      "id": "100组AI电影感提示词(15)暗黑哥特美学__15___待确认_哥特拱门晨雾",
+      "source_time": {
+        "start": 6.2,
+        "end": 12.3
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "月光独奏",
+      "original_text_corrected": "古典城堡大厅，尖拱落地窗横向排列，窗外是笼罩在薄雾中的古老城市。画面中央偏右摆放一架黑色三角钢琴，一名神秘女子侧身低头坐在琴凳上，面部被轻薄白纱遮住，只见模糊轮廓；白纱从头顶垂至地面，布料有银白闪光颗粒，散发幽灵般微光。深蓝灰低调照明，人物与钢琴形成强烈明暗对比。",
+      "normalized_prompt": "古典城堡大厅，尖拱落地窗横向排列，窗外是笼罩在薄雾中的古老城市。画面中央偏右摆放一架黑色三角钢琴，一名神秘女子侧身低头坐在琴凳上，面部被轻薄白纱遮住，只见模糊轮廓；白纱从头顶垂至地面，布料有银白闪光颗粒，散发幽灵般微光。深蓝灰低调照明，人物与钢琴形成强烈明暗对比。",
+      "fields": {
+        "subject": "白纱女子与黑色三角钢琴",
+        "action": "低头静坐或轻触琴键",
+        "shot_size": "中远景",
+        "composition": "钢琴与女子偏右；尖拱窗作背景",
+        "camera_motion": "固定",
+        "lighting": "深蓝灰低调光；白纱微光",
+        "color": "深蓝灰、黑、银白",
+        "atmosphere": "幽灵、哥特、空灵",
+        "performance": "侧身低头；面部遮蔽",
+        "continuity": "保持白纱遮面与钢琴位置"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(15)暗黑哥特美学__03.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(15)暗黑哥特美学__03.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(15)暗黑哥特美学.mp4",
+      "id": "100组AI电影感提示词(15)暗黑哥特美学__16__月光独奏",
+      "source_time": {
+        "start": 12.3,
+        "end": 18.4
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "楼梯下的猩红",
+      "original_text_corrected": "深红色古典宫殿内部，严格对称远景构图；中央高大黑色拱形门洞内被猩红灯光照亮，一段白色古典楼梯向左上方延伸。身穿浅香槟色丝绸长裙的年轻女子站在楼梯底部，侧身仰望上方，双手轻扶栏杆，裙摆拖在台阶上；复古金色吊灯提供暖光，前景深黑阴影与黑色地面红色倒影形成黑红高反差。",
+      "normalized_prompt": "深红色古典宫殿内部，严格对称远景构图；中央高大黑色拱形门洞内被猩红灯光照亮，一段白色古典楼梯向左上方延伸。身穿浅香槟色丝绸长裙的年轻女子站在楼梯底部，侧身仰望上方，双手轻扶栏杆，裙摆拖在台阶上；复古金色吊灯提供暖光，前景深黑阴影与黑色地面红色倒影形成黑红高反差。",
+      "fields": {
+        "subject": "香槟色长裙女子、古典楼梯、拱门",
+        "action": "站在楼梯底部仰望",
+        "shot_size": "对称远景",
+        "composition": "中央对称；楼梯形成左上斜线",
+        "camera_motion": "固定舞台式构图",
+        "lighting": "猩红空间光+吊灯暖光",
+        "color": "黑、猩红、白、香槟金",
+        "atmosphere": "戏剧、神秘、哥特",
+        "performance": "侧身仰望；双手扶栏杆",
+        "continuity": "保持对称轴、楼梯与红色光源"
+      },
+      "representative_still": "assets/segment_stills/15_03_stair.jpg",
+      "hover_gif": "assets/segment_gifs/15_03_stair.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(15)暗黑哥特美学.mp4",
+      "id": "100组AI电影感提示词(15)暗黑哥特美学__17__楼梯下的猩红",
+      "source_time": {
+        "start": 18.4,
+        "end": 27.0
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "烛火未眠",
+      "original_text_corrected": "古典哥特悬疑质感，极暗环境中的近景人物摄影。一位棕色卷发年轻女子身穿复古象牙白睡裙，微微俯身低头凝视桌面上的古老信件或泛黄手稿，一根燃烧的蜡烛是唯一光源，琥珀烛光照亮脸颊、锁骨与双手，另一半面容隐没在黑色阴影中；背景近乎全黑，浅景深，古典油画般光影，安静神秘而压抑。",
+      "normalized_prompt": "古典哥特悬疑质感，极暗环境中的近景人物摄影。一位棕色卷发年轻女子身穿复古象牙白睡裙，微微俯身低头凝视桌面上的古老信件或泛黄手稿，一根燃烧的蜡烛是唯一光源，琥珀烛光照亮脸颊、锁骨与双手，另一半面容隐没在黑色阴影中；背景近乎全黑，浅景深，古典油画般光影，安静神秘而压抑。",
+      "fields": {
+        "subject": "棕色卷发女子、古老信件、蜡烛",
+        "action": "俯身凝视信件",
+        "shot_size": "近景",
+        "composition": "人物与蜡烛形成局部焦点；背景全黑",
+        "camera_motion": "固定近景",
+        "lighting": "单一暖烛光；半脸落入阴影",
+        "color": "琥珀、象牙白、黑",
+        "atmosphere": "安静、压抑、悬疑",
+        "performance": "低头专注，双手靠近信件",
+        "continuity": "保持蜡烛为唯一光源"
+      },
+      "representative_still": "assets/segment_stills/15_04_candle.jpg",
+      "hover_gif": "assets/segment_gifs/15_04_candle.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(15)暗黑哥特美学.mp4",
+      "id": "100组AI电影感提示词(15)暗黑哥特美学__18__烛火未眠",
+      "source_time": {
+        "start": 27.0,
+        "end": 30.5
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "浪漫古典哥特花园",
+      "original_text_corrected": "白色巴洛克宫殿与连续雕花石拱门构成庭院背景，墙面攀满深绿藤蔓与盛开的粉白玫瑰，庭院中有洁白大理石天使雕塑、古典喷泉和花丛。柔和阳光与斑驳光影穿过建筑，浅景深与低饱和色彩营造浪漫古典哥特花园。",
+      "normalized_prompt": "白色巴洛克宫殿与连续雕花石拱门构成庭院背景，墙面攀满深绿藤蔓与盛开的粉白玫瑰，庭院中有洁白大理石天使雕塑、古典喷泉和花丛。柔和阳光与斑驳光影穿过建筑，浅景深与低饱和色彩营造浪漫古典哥特花园。",
+      "fields": {
+        "subject": "巴洛克宫殿、天使雕塑、玫瑰花园",
+        "action": "花园静态展示，花枝轻动",
+        "shot_size": "中远景",
+        "composition": "拱门与雕塑形成层次",
+        "camera_motion": "固定或极慢横移",
+        "lighting": "柔和阳光、斑驳光影",
+        "color": "白、粉、深绿、米金",
+        "atmosphere": "浪漫、古典、哥特童话",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(15)暗黑哥特美学__05.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(15)暗黑哥特美学__05.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(15)暗黑哥特美学.mp4",
+      "id": "100组AI电影感提示词(15)暗黑哥特美学__19__浪漫古典哥特花园",
+      "source_time": {
+        "start": 30.5,
+        "end": 36.6
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "弦上浮生",
+      "original_text_corrected": "神秘哥特幻想电影美学，一位身穿黑色长裙的年轻女子侧身站在巨大古典竖琴旁，微微低头，双手轻柔拨动琴弦，长卷发垂落肩背。黑色竖琴占据画面右半，弧形琴身与琴弦形成几何线条；背景深青绿色，浓密白烟从左侧弥漫，冷白顶光穿透烟雾，在发丝、侧脸、手指和琴弦上形成轮廓光，人物与竖琴近乎剪影。",
+      "normalized_prompt": "神秘哥特幻想电影美学，一位身穿黑色长裙的年轻女子侧身站在巨大古典竖琴旁，微微低头，双手轻柔拨动琴弦，长卷发垂落肩背。黑色竖琴占据画面右半，弧形琴身与琴弦形成几何线条；背景深青绿色，浓密白烟从左侧弥漫，冷白顶光穿透烟雾，在发丝、侧脸、手指和琴弦上形成轮廓光，人物与竖琴近乎剪影。",
+      "fields": {
+        "subject": "黑裙女子与黑色古典竖琴",
+        "action": "轻柔拨动琴弦",
+        "shot_size": "中景",
+        "composition": "竖琴占右半；人物侧身；几何琴弦作线条",
+        "camera_motion": "固定",
+        "lighting": "冷白顶光穿透烟雾形成轮廓光",
+        "color": "深青绿、黑、冷白",
+        "atmosphere": "空灵、神秘、静谧",
+        "performance": "低头拨弦",
+        "continuity": "保持竖琴与人物近乎剪影"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(15)暗黑哥特美学__06.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(15)暗黑哥特美学__06.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(15)暗黑哥特美学.mp4",
+      "id": "100组AI电影感提示词(15)暗黑哥特美学__20__弦上浮生",
+      "source_time": {
+        "start": 36.6,
+        "end": 42.6
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "迷宫奔跑",
+      "original_text_corrected": "暗黑浪漫哥特电影美学，古老欧洲园林迷宫中，一位短棕发年轻女子背对镜头沿狭窄通道奔跑，身穿浅香槟色露背长裙，多层雪纺裙摆随奔跑扬起。整齐修剪的深绿树篱与高大深色柏树形成天然框架，远处对称分布两座白色古典天使雕塑；背景迷宫消失在灰绿色薄雾中，微弱阳光从树冠间洒落，深绿与暖金色调，神秘紧张。",
+      "normalized_prompt": "暗黑浪漫哥特电影美学，古老欧洲园林迷宫中，一位短棕发年轻女子背对镜头沿狭窄通道奔跑，身穿浅香槟色露背长裙，多层雪纺裙摆随奔跑扬起。整齐修剪的深绿树篱与高大深色柏树形成天然框架，远处对称分布两座白色古典天使雕塑；背景迷宫消失在灰绿色薄雾中，微弱阳光从树冠间洒落，深绿与暖金色调，神秘紧张。",
+      "fields": {
+        "subject": "浅香槟长裙女子、欧洲园林迷宫",
+        "action": "沿通道向远处奔跑",
+        "shot_size": "中远景跟拍",
+        "composition": "树篱形成通道；远处天使对称",
+        "camera_motion": "从人物背后跟拍",
+        "lighting": "树冠间微弱阳光；局部柔和过曝",
+        "color": "深绿、暖金、灰雾",
+        "atmosphere": "神秘、紧张、哥特童话",
+        "performance": "背对镜头奔跑；裙摆扬起",
+        "continuity": "保持人物背影、通道方向和对称天使"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(15)暗黑哥特美学__07.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(15)暗黑哥特美学__07.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(15)暗黑哥特美学.mp4",
+      "id": "100组AI电影感提示词(15)暗黑哥特美学__21__迷宫奔跑",
+      "source_time": {
+        "start": 42.6,
+        "end": 48.7
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "废弃教堂黑猫",
+      "original_text_corrected": "暗黑哥特式废弃教堂内部，彩色花窗的尖拱几何纹样中有大面积破碎玻璃；窗台下方一只黑猫安静停留，周围是几乎完全隐没在黑暗中的古老教堂结构，花窗透入微弱冷光，画面荒凉、神秘并带有宗教感。",
+      "normalized_prompt": "暗黑哥特式废弃教堂内部，彩色花窗的尖拱几何纹样中有大面积破碎玻璃；窗台下方一只黑猫安静停留，周围是几乎完全隐没在黑暗中的古老教堂结构，花窗透入微弱冷光，画面荒凉、神秘并带有宗教感。",
+      "fields": {
+        "subject": "废弃哥特教堂、破碎花窗、黑猫",
+        "action": "黑猫安静停留",
+        "shot_size": "中远景",
+        "composition": "花窗作为中心几何图案；黑猫偏下",
+        "camera_motion": "固定",
+        "lighting": "花窗微弱冷光；其余区域近黑",
+        "color": "黑、灰蓝、碎彩色玻璃",
+        "atmosphere": "荒凉、宗教感、神秘",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(15)暗黑哥特美学__08.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(15)暗黑哥特美学__08.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(15)暗黑哥特美学.mp4",
+      "id": "100组AI电影感提示词(15)暗黑哥特美学__22__废弃教堂黑猫",
+      "source_time": {
+        "start": 48.7,
+        "end": 54.7
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "维多利亚哥特",
+      "original_text_corrected": "维多利亚式哥特人物肖像，长黑发女子穿古典黑色长裙并佩戴细密蕾丝面纱，面纱遮住额头与眼周但仍能看见忧郁眼神；她正面面对镜头，身后有银色古典双烛台，烛火产生暖光，背景带灰蓝色装饰性浮雕和冷调环境光，暖冷对比、低饱和、阴郁肃穆。",
+      "normalized_prompt": "维多利亚式哥特人物肖像，长黑发女子穿古典黑色长裙并佩戴细密蕾丝面纱，面纱遮住额头与眼周但仍能看见忧郁眼神；她正面面对镜头，身后有银色古典双烛台，烛火产生暖光，背景带灰蓝色装饰性浮雕和冷调环境光，暖冷对比、低饱和、阴郁肃穆。",
+      "fields": {
+        "subject": "戴蕾丝面纱的维多利亚女子",
+        "action": "正面凝视镜头",
+        "shot_size": "近景肖像",
+        "composition": "正面居中；面纱和双眼为焦点",
+        "camera_motion": "固定",
+        "lighting": "烛台暖光+灰蓝冷环境光",
+        "color": "黑、灰蓝、暖金、银",
+        "atmosphere": "阴郁、肃穆、维多利亚哥特",
+        "performance": "忧郁凝视",
+        "continuity": "保持面纱、双眼与烛台位置"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(15)暗黑哥特美学__09.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(15)暗黑哥特美学__09.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(15)暗黑哥特美学.mp4",
+      "id": "100组AI电影感提示词(15)暗黑哥特美学__23__维多利亚哥特",
+      "source_time": {
+        "start": 54.7,
+        "end": 60.8
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "镜中人影",
+      "original_text_corrected": "维多利亚式暗黑哥特室内，一面巨大的古董银色雕花镜子摆放在华丽巴洛克梳妆台上，镜框有花卉浮雕与卷草纹，银白珍珠项链从镜顶垂落，部分珍珠散落在桌面和前景地板。镜面陈旧斑驳有灰尘与岁月痕迹，镜中右侧映出磨砂玻璃窗及窗后模糊的黑色女性人影；镜子两侧银色烛台以微弱烛光照亮金属与珍珠，横向构图，冷暖光交织，精致诡异。",
+      "normalized_prompt": "维多利亚式暗黑哥特室内，一面巨大的古董银色雕花镜子摆放在华丽巴洛克梳妆台上，镜框有花卉浮雕与卷草纹，银白珍珠项链从镜顶垂落，部分珍珠散落在桌面和前景地板。镜面陈旧斑驳有灰尘与岁月痕迹，镜中右侧映出磨砂玻璃窗及窗后模糊的黑色女性人影；镜子两侧银色烛台以微弱烛光照亮金属与珍珠，横向构图，冷暖光交织，精致诡异。",
+      "fields": {
+        "subject": "古董雕花镜、珍珠、镜中黑色女性影子",
+        "action": "镜中影子保持若隐若现",
+        "shot_size": "横向中远景",
+        "composition": "镜面与镜中倒影构成主构图",
+        "camera_motion": "固定",
+        "lighting": "窗后冷光+烛台暖光",
+        "color": "银灰、蓝灰、暖金、黑",
+        "atmosphere": "神秘、精致、诡异",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(15)暗黑哥特美学__10.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(15)暗黑哥特美学__10.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(15)暗黑哥特美学.mp4",
+      "id": "100组AI电影感提示词(15)暗黑哥特美学__24__镜中人影",
+      "source_time": {
+        "start": 60.8,
+        "end": 69.67
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "红毯对峙",
+      "original_text_corrected": "电影级特工动作片美学，极高机位俯拍。一片宽阔深红地毯占据画面，左侧偏下是一名黑色西装、白衬衫、黑领带的长发男子，侧身面向右上方，右手握枪，神情冷静；右上方十余名黑色西装男性特工密集列阵，同时举枪瞄准他，双方之间留出大面积红毯。高处单一硬光源在红地毯上投下细长锐利黑影，极高反差，红黑配色。",
+      "normalized_prompt": "电影级特工动作片美学，极高机位俯拍。一片宽阔深红地毯占据画面，左侧偏下是一名黑色西装、白衬衫、黑领带的长发男子，侧身面向右上方，右手握枪，神情冷静；右上方十余名黑色西装男性特工密集列阵，同时举枪瞄准他，双方之间留出大面积红毯。高处单一硬光源在红地毯上投下细长锐利黑影，极高反差，红黑配色。",
+      "fields": {
+        "subject": "长发男子与十余名男性特工",
+        "action": "双方举枪对峙",
+        "shot_size": "极高机位远景",
+        "composition": "红毯留白隔开双方；斜向阵列",
+        "camera_motion": "固定俯拍",
+        "lighting": "高处单一硬光；锐利长阴影",
+        "color": "深红、黑、白",
+        "atmosphere": "压迫、对峙、戏剧",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(16)复古特工美学__01.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(16)复古特工美学__01.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(16)复古特工美学.mp4",
+      "id": "100组AI电影感提示词(16)复古特工美学__25__红毯对峙",
+      "source_time": {
+        "start": 0,
+        "end": 6.0
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "黑白特工片头",
+      "original_text_corrected": "1960年代经典黑白特工电影片头美学，横版16:9。旋转膛线由画面四周向中央收拢，形成环形视觉引导，中央是一条地平线。一名身材修长的复古好莱坞风格女性站在圆形画面中央，复古波浪卷发，佩戴精致耳饰与手镯，微微侧身低头看向抬起的手，柔和正面布光勾勒五官与服装轮廓，高对比黑白摄影和细腻银盐胶片质感。",
+      "normalized_prompt": "1960年代经典黑白特工电影片头美学，横版16:9。旋转膛线由画面四周向中央收拢，形成环形视觉引导，中央是一条地平线。一名身材修长的复古好莱坞风格女性站在圆形画面中央，复古波浪卷发，佩戴精致耳饰与手镯，微微侧身低头看向抬起的手，柔和正面布光勾勒五官与服装轮廓，高对比黑白摄影和细腻银盐胶片质感。",
+      "fields": {
+        "subject": "复古好莱坞女性特工",
+        "action": "微侧身低头看向手部",
+        "shot_size": "中远景",
+        "composition": "圆形膛线环形引导；人物居中",
+        "camera_motion": "旋转膛线式视觉运动；人物近乎静止",
+        "lighting": "柔和正面布光",
+        "color": "高对比黑白、银盐灰阶",
+        "atmosphere": "冷峻、经典、片头感",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(16)复古特工美学__02.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(16)复古特工美学__02.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(16)复古特工美学.mp4",
+      "id": "100组AI电影感提示词(16)复古特工美学__26__黑白特工片头",
+      "source_time": {
+        "start": 6.0,
+        "end": 12.1
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "欧式老车与特工",
+      "original_text_corrected": "复古欧洲街景，一辆银灰色老式汽车在古老欧式建筑前呈对角线摆放，复古圆形仪表盘清晰可见；车身右侧站着穿黑色西裤的年轻男子。低角度金色阳光从左上照射，车身形成温暖高光，人物与汽车投下长而清晰的阴影；深棕与暖金色调，优雅、复古、神秘。",
+      "normalized_prompt": "复古欧洲街景，一辆银灰色老式汽车在古老欧式建筑前呈对角线摆放，复古圆形仪表盘清晰可见；车身右侧站着穿黑色西裤的年轻男子。低角度金色阳光从左上照射，车身形成温暖高光，人物与汽车投下长而清晰的阴影；深棕与暖金色调，优雅、复古、神秘。",
+      "fields": {
+        "subject": "银灰老式汽车、年轻男性特工",
+        "action": "站在车旁准备行动",
+        "shot_size": "中远景",
+        "composition": "汽车对角线；建筑拱门作背景",
+        "camera_motion": "固定或缓慢侧移",
+        "lighting": "低角度金色夕阳",
+        "color": "银灰、深棕、暖金",
+        "atmosphere": "优雅、复古、神秘",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(16)复古特工美学__03.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(16)复古特工美学__03.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(16)复古特工美学.mp4",
+      "id": "100组AI电影感提示词(16)复古特工美学__27__欧式老车与特工",
+      "source_time": {
+        "start": 12.1,
+        "end": 18.2
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "后视镜凝视",
+      "original_text_corrected": "经典复古特工电影摄影，敞篷老式跑车内部视角，摄影机位于驾驶员后方偏右，以近距离越肩构图拍摄。一名穿深色西装、戴黑色墨镜的年轻男性占据左侧前景，抬左手调整车内中央长方形后视镜，手腕佩戴银色机械表；镜中清晰映出驾驶员双眼和部分面部，木质方向盘、复古机械仪表盘和黑色皮革内饰在下方，窗外蓝绿色山脉、湖泊和欧式建筑自然虚化，柔和午后阳光与复古胶片色彩。",
+      "normalized_prompt": "经典复古特工电影摄影，敞篷老式跑车内部视角，摄影机位于驾驶员后方偏右，以近距离越肩构图拍摄。一名穿深色西装、戴黑色墨镜的年轻男性占据左侧前景，抬左手调整车内中央长方形后视镜，手腕佩戴银色机械表；镜中清晰映出驾驶员双眼和部分面部，木质方向盘、复古机械仪表盘和黑色皮革内饰在下方，窗外蓝绿色山脉、湖泊和欧式建筑自然虚化，柔和午后阳光与复古胶片色彩。",
+      "fields": {
+        "subject": "墨镜男特工、敞篷老车、后视镜",
+        "action": "抬手调整后视镜",
+        "shot_size": "近距离越肩中近景",
+        "composition": "人物左侧前景；镜中双眼为焦点",
+        "camera_motion": "固定车内视角",
+        "lighting": "柔和午后光；反射关系",
+        "color": "复古棕、蓝绿、金色",
+        "atmosphere": "私密、优雅、特工感",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(16)复古特工美学__04.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(16)复古特工美学__04.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(16)复古特工美学.mp4",
+      "id": "100组AI电影感提示词(16)复古特工美学__28__后视镜凝视",
+      "source_time": {
+        "start": 18.2,
+        "end": 24.3
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "钥匙孔窥视",
+      "original_text_corrected": "黑色电影与复古特工美学，巨大古典钥匙孔轮廓位于画面中央偏下，通过钥匙孔望向昏暗私人房间。年轻男子穿深色衬衫，慵懒坐在棕色复古皮质单人沙发上，一腿交叠，双臂搭扶手，侧头凝视远处，神情冷漠；地灯柔光照亮面部、沙发皮革和缓慢升起的香烟烟雾，暗绿色墙壁隐入阴影。固定窥视视角，神秘私密。",
+      "normalized_prompt": "黑色电影与复古特工美学，巨大古典钥匙孔轮廓位于画面中央偏下，通过钥匙孔望向昏暗私人房间。年轻男子穿深色衬衫，慵懒坐在棕色复古皮质单人沙发上，一腿交叠，双臂搭扶手，侧头凝视远处，神情冷漠；地灯柔光照亮面部、沙发皮革和缓慢升起的香烟烟雾，暗绿色墙壁隐入阴影。固定窥视视角，神秘私密。",
+      "fields": {
+        "subject": "钥匙孔、深色衬衫男子、复古沙发",
+        "action": "慵懒坐着并侧头凝视",
+        "shot_size": "钥匙孔框景中景",
+        "composition": "钥匙孔作为外部遮罩；人物居中",
+        "camera_motion": "固定窥视视角",
+        "lighting": "地灯柔光；背景低照度",
+        "color": "棕色、暗绿、黑、暖黄",
+        "atmosphere": "私密、冷漠、黑色电影",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(16)复古特工美学__05.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(16)复古特工美学__05.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(16)复古特工美学.mp4",
+      "id": "100组AI电影感提示词(16)复古特工美学__29__钥匙孔窥视",
+      "source_time": {
+        "start": 24.3,
+        "end": 30.3
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "百叶窗剪影",
+      "original_text_corrected": "经典黑色特工电影美学，低机位远景，严格中央透视构图。深棕墙面和古典木质护墙板延伸至走廊尽头，尽头是一扇高大的双开百叶窗；身穿深色西装的年轻男子背对镜头站在窗前，双手靠近裤袋，身体微微偏向一侧，低头凝视窗外。金色夕阳从百叶窗缝隙斜射入室内，形成平行体积光束和木地板明暗条纹，人物成为深色逆光剪影，发丝与肩部被金光勾勒，空间有淡淡烟尘，暖金与深棕，沉静神秘。",
+      "normalized_prompt": "经典黑色特工电影美学，低机位远景，严格中央透视构图。深棕墙面和古典木质护墙板延伸至走廊尽头，尽头是一扇高大的双开百叶窗；身穿深色西装的年轻男子背对镜头站在窗前，双手靠近裤袋，身体微微偏向一侧，低头凝视窗外。金色夕阳从百叶窗缝隙斜射入室内，形成平行体积光束和木地板明暗条纹，人物成为深色逆光剪影，发丝与肩部被金光勾勒，空间有淡淡烟尘，暖金与深棕，沉静神秘。",
+      "fields": {
+        "subject": "走廊、百叶窗、深色西装男子",
+        "action": "背对镜头凝视窗外",
+        "shot_size": "低机位远景",
+        "composition": "中央透视；百叶窗与走廊引导至人物",
+        "camera_motion": "固定",
+        "lighting": "夕阳穿过百叶窗形成平行体积光",
+        "color": "暖金、深棕、黑",
+        "atmosphere": "沉静、神秘、黑色电影",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(16)复古特工美学__06.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(16)复古特工美学__06.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(16)复古特工美学.mp4",
+      "id": "100组AI电影感提示词(16)复古特工美学__30__百叶窗剪影",
+      "source_time": {
+        "start": 30.3,
+        "end": 36.4
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "燃烧大厅孤坐",
+      "original_text_corrected": "电影级特工惊悚片画面，破败欧式大厅完全对称的正面构图；中央一名穿深色西装的男子背对镜头独坐在深色皮质高背椅上，身体笔直平静。建筑猛烈燃烧，两侧墙壁和屋顶横梁被橙红火焰吞噬，远处火墙升腾，天花板中央悬挂黑色枝形吊灯，地面散落焦黑碎屑，浓烟与火星充满空气。摄影机在人物正后方，低机位广角远景，男子成深黑剪影，橙色火光形成逆光，末日感。",
+      "normalized_prompt": "电影级特工惊悚片画面，破败欧式大厅完全对称的正面构图；中央一名穿深色西装的男子背对镜头独坐在深色皮质高背椅上，身体笔直平静。建筑猛烈燃烧，两侧墙壁和屋顶横梁被橙红火焰吞噬，远处火墙升腾，天花板中央悬挂黑色枝形吊灯，地面散落焦黑碎屑，浓烟与火星充满空气。摄影机在人物正后方，低机位广角远景，男子成深黑剪影，橙色火光形成逆光，末日感。",
+      "fields": {
+        "subject": "西装男子、高背椅、燃烧欧式大厅",
+        "action": "背对镜头静坐",
+        "shot_size": "低机位广角远景",
+        "composition": "完全对称；人物居中；枝形吊灯为中心",
+        "camera_motion": "固定后方视角",
+        "lighting": "橙红火焰逆光；烟尘火星",
+        "color": "黑、橙红、焦褐",
+        "atmosphere": "压抑、末日、惊悚",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(16)复古特工美学__07.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(16)复古特工美学__07.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(16)复古特工美学.mp4",
+      "id": "100组AI电影感提示词(16)复古特工美学__31__燃烧大厅孤坐",
+      "source_time": {
+        "start": 36.4,
+        "end": 42.5
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "酒吧香槟",
+      "original_text_corrected": "复古高级特工与黑色电影美学，正面中景。一名年轻英俊男子穿合体黑色礼服、白衬衫与黑领结，独坐昏暗酒吧深棕皮质卡座，身体后靠，左臂搭在沙发扶手，手轻握浅金香槟高脚杯，神情冷静略带审视。深色木桌上有金属烟盒与暗红鲜花，脸侧飘散细腻烟雾；背景深墨绿，一束带彩色边缘的斜向强光从右上照射，形成脸部明暗分割。",
+      "normalized_prompt": "复古高级特工与黑色电影美学，正面中景。一名年轻英俊男子穿合体黑色礼服、白衬衫与黑领结，独坐昏暗酒吧深棕皮质卡座，身体后靠，左臂搭在沙发扶手，手轻握浅金香槟高脚杯，神情冷静略带审视。深色木桌上有金属烟盒与暗红鲜花，脸侧飘散细腻烟雾；背景深墨绿，一束带彩色边缘的斜向强光从右上照射，形成脸部明暗分割。",
+      "fields": {
+        "subject": "黑领结男子、香槟、酒吧卡座",
+        "action": "手握酒杯并审视前方",
+        "shot_size": "正面中景",
+        "composition": "人物居中；桌面道具作前景",
+        "camera_motion": "固定",
+        "lighting": "右上斜向硬光带；低调布光",
+        "color": "深棕、墨绿、浅金、暗红",
+        "atmosphere": "冷静、审视、黑色电影",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(16)复古特工美学__08.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(16)复古特工美学__08.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(16)复古特工美学.mp4",
+      "id": "100组AI电影感提示词(16)复古特工美学__32__酒吧香槟",
+      "source_time": {
+        "start": 42.5,
+        "end": 48.5
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "办公室窗边剪影",
+      "original_text_corrected": "经典政治惊悚/特工电影美学，宽阔昏暗的欧式私人办公室，尽头是高大的古典落地窗，窗外阴天欧洲城市建筑与石质阳台栏杆。一名身穿黑色西装的中年男子背对镜头站在窗前，双手自然垂落，凝视窗外；灰白自然光将其塑成完整黑色剪影。室内深色木墙板和厚重窗帘隐入暗部，暖黄台灯照亮古典边柜，右侧深棕皮沙发，中央黑色高光茶几倒映窗户轮廓。低调照明，大面积深黑留白，冷暖对比，庄严隐秘。",
+      "normalized_prompt": "经典政治惊悚/特工电影美学，宽阔昏暗的欧式私人办公室，尽头是高大的古典落地窗，窗外阴天欧洲城市建筑与石质阳台栏杆。一名身穿黑色西装的中年男子背对镜头站在窗前，双手自然垂落，凝视窗外；灰白自然光将其塑成完整黑色剪影。室内深色木墙板和厚重窗帘隐入暗部，暖黄台灯照亮古典边柜，右侧深棕皮沙发，中央黑色高光茶几倒映窗户轮廓。低调照明，大面积深黑留白，冷暖对比，庄严隐秘。",
+      "fields": {
+        "subject": "中年男特工、欧式办公室、落地窗",
+        "action": "背对镜头凝视窗外",
+        "shot_size": "远景",
+        "composition": "窗户作为终点；大面积黑色留白；茶几反射",
+        "camera_motion": "固定",
+        "lighting": "窗外灰白自然光+室内暖黄台灯",
+        "color": "黑、灰白、深棕、暖黄",
+        "atmosphere": "庄严、隐秘、政治惊悚",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(16)复古特工美学__09.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(16)复古特工美学__09.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(16)复古特工美学.mp4",
+      "id": "100组AI电影感提示词(16)复古特工美学__33__办公室窗边剪影",
+      "source_time": {
+        "start": 48.5,
+        "end": 56.6
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "夜机场冷战特工",
+      "original_text_corrected": "复古冷战特工电影美学，夜晚机场停机坪，正面中远景。前景左侧是一名成熟男性特工，穿合体黑色礼服、白衬衫与黑领结，严肃面向镜头，右手提黑色皮质公文包。身后是黑色复古豪华四门轿车，方正车身、镀铬直瀑式格栅、圆形轮毂，车头暖黄车灯点亮，车身带潮湿反光；更远处白色私人商务喷气机横向延展，机场后方是金黄色灯光的夜间城市山坡，画面略欠曝、灰棕低饱和、35mm胶片颗粒。",
+      "normalized_prompt": "复古冷战特工电影美学，夜晚机场停机坪，正面中远景。前景左侧是一名成熟男性特工，穿合体黑色礼服、白衬衫与黑领结，严肃面向镜头，右手提黑色皮质公文包。身后是黑色复古豪华四门轿车，方正车身、镀铬直瀑式格栅、圆形轮毂，车头暖黄车灯点亮，车身带潮湿反光；更远处白色私人商务喷气机横向延展，机场后方是金黄色灯光的夜间城市山坡，画面略欠曝、灰棕低饱和、35mm胶片颗粒。",
+      "fields": {
+        "subject": "成熟男特工、黑色轿车、私人喷气机",
+        "action": "提公文包站立",
+        "shot_size": "正面中远景",
+        "composition": "前景人物左侧；车辆与飞机横向层叠",
+        "camera_motion": "固定",
+        "lighting": "车灯暖黄；夜间环境低照度",
+        "color": "灰棕、黑、暖黄",
+        "atmosphere": "冷战、严肃、真实夜摄",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(16)复古特工美学__10.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(16)复古特工美学__10.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(16)复古特工美学.mp4",
+      "id": "100组AI电影感提示词(16)复古特工美学__34__夜机场冷战特工",
+      "source_time": {
+        "start": 56.6,
+        "end": 62.6
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "放映厅黑白投影",
+      "original_text_corrected": "复古黑白电影美学，充满悬疑感的私密放映厅。一位穿黑色晚礼服的年轻女性，深色头发盘成复古发髻，佩戴华丽首饰，肩颈露出；一块巨大的电影银幕投射复古女演员的黑白面部特写，画面左上可见老式电影放映机的一部分，空气中漂浮尘埃，远处有模糊宾客与暖黄色小台灯。整体昏暗，银灰与暖黄调，优雅神秘。",
+      "normalized_prompt": "复古黑白电影美学，充满悬疑感的私密放映厅。一位穿黑色晚礼服的年轻女性，深色头发盘成复古发髻，佩戴华丽首饰，肩颈露出；一块巨大的电影银幕投射复古女演员的黑白面部特写，画面左上可见老式电影放映机的一部分，空气中漂浮尘埃，远处有模糊宾客与暖黄色小台灯。整体昏暗，银灰与暖黄调，优雅神秘。",
+      "fields": {
+        "subject": "晚礼服女性、电影银幕、老式放映机",
+        "action": "观看银幕中的黑白特写",
+        "shot_size": "中远景",
+        "composition": "银幕主导；女性和放映机形成前后景层次",
+        "camera_motion": "固定或极慢推近",
+        "lighting": "投影银灰光+台灯暖光",
+        "color": "银灰、黑、暖黄",
+        "atmosphere": "悬疑、优雅、神秘",
+        "performance": "无明确人物表演",
+        "continuity": "单镜头静态构图；保持主体、服装、场景与光线一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(16)复古特工美学__11.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(16)复古特工美学__11.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(16)复古特工美学.mp4",
+      "id": "100组AI电影感提示词(16)复古特工美学__35__放映厅黑白投影",
+      "source_time": {
+        "start": 62.6,
+        "end": 70.63
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_13_16.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "id": "04-golden-hour-backlight",
+      "source_video": "100组AI电影感提示词(4)光影效果.mp4",
+      "title": "黄金时段逆光：车窗边的青春忧郁",
+      "original_text_corrected": "黄金时段逆光。汽车缓慢行驶在洛杉矶街头。年轻女生坐在车窗边，夕阳从身后低角度照射而来，金色发丝形成耀眼而柔软的光晕。她向窗外望去，闭上双眼感受迎面而来的风。发丝不断被吹散又重新落下，在镜头前形成轻盈的动态层次。阳光透过发丝产生闪烁的高光颗粒，整个画面仿佛被一层金色薄雾包裹。镜头轻微手持感，缓慢靠近人物面部。背景中的街道、车辆和棕榈树被压缩成柔和散景。镜头偶尔捕捉到太阳直射镜头产生的蓝绿色炫光和暖色镜头光斑。梦幻、自由、青春、带一点忧郁感。真实电影实拍质感。黄金时段逆光，发丝高光，电影级轮廓光，柔和镜头光晕，Kodak Vision3色彩，电影级调色。",
+      "normalized_prompt": "黄金时段的洛杉矶街头，一辆汽车缓慢行驶，年轻女生坐在车窗边。夕阳从她身后低角度逆光照射，金色发丝形成柔软光晕；她望向窗外并闭眼感受迎面而来的风，发丝被吹散后重新落下。镜头带有轻微手持感，缓慢靠近她的面部；街道、车辆和棕榈树压缩成柔和散景，阳光透过发丝形成闪烁高光颗粒，偶尔出现蓝绿色炫光与暖色镜头光斑。梦幻、自由、青春，带一点忧郁；真实电影实拍质感，Kodak Vision3色彩。",
+      "fields": {
+        "subject": "洛杉矶街头缓慢行驶汽车车窗边的年轻女生",
+        "action": "望向窗外、闭眼感受风；发丝被吹散并重新落下",
+        "shot_size": "人物近景/中近景，镜头缓慢靠近面部",
+        "composition": "车窗框定人物；街道、车辆、棕榈树作为压缩背景散景",
+        "camera_motion": "轻微手持感，缓慢靠近人物面部",
+        "lighting": "黄金时段低角度逆光；发丝轮廓光；阳光穿过发丝形成闪烁高光",
+        "color": "金色暖光、蓝绿色炫光、暖色镜头光斑；Kodak Vision3色彩",
+        "atmosphere": "梦幻、自由、青春、带一点忧郁",
+        "performance": "向窗外望去并闭上双眼，安静感受风",
+        "continuity": "汽车持续行驶；发丝、街景和镜头光斑连续运动"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(4)光影效果__02.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(4)光影效果__02.gif",
+      "confidence": "high",
+      "notes": "区段01为开场/标题与示意，不计正文。OCR中的‘窗边/向窗外’在多帧和画面语义下可确认；具体镜头焦段未出现。",
+      "source_time": {
+        "start": 6.2,
+        "end": 18.3
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_01_04.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "id": "04-underwater-caustics",
+      "source_video": "100组AI电影感提示词(4)光影效果.mp4",
+      "title": "水下折影：蓝紫泳池中的漂浮",
+      "original_text_corrected": "水下折影。深蓝色泳池内部，蓝色与紫色泳池灯光交织，将整个水下空间染成梦幻的冷色调。泳池墙壁与人物身体表面不断流动着真实的水波折射光纹，光影随着水面起伏缓慢变化。一位身穿天使造型服装的年轻女生漂浮在水下。镜头从她的侧面开始。长发在水中缓慢散开，身体几乎失重般向上漂浮。女生缓缓呼气，一串巨大的气泡从嘴边涌出。气泡不断扩大、分裂、旋转，向水面快速上升。紫蓝色灯光穿透气泡，在气泡表面形成梦幻反射。镜头跟随人物缓慢向上移动，随着距离水面越来越近，水面的波纹和光线逐渐变得更加明亮。水波折射形成不断流动的光斑，在人物脸部和身体上来回游走。最终人物缓慢穿过水面，头部冲出水面的一瞬间，大量水珠飞散，镜头从水下自然穿越到水面上方。人物大口吸气，湿润的头发贴在脸颊两侧，泳池灯光在背景形成柔和散景。梦幻、孤独、自由、超现实。真实电影摄影质感，水下折射光（caustic lighting），蓝紫色泳池灯光，漂浮感，真实气泡模拟，慢动作，浅景深，Euphoria风格摄影，55mm电影镜头，电影级调色，超高细节。",
+      "normalized_prompt": "深蓝色泳池水下，蓝紫色灯光交织，水波折射光纹在墙壁和人物身体上流动。一名身穿天使造型服装的年轻女生从侧面漂浮在水中，长发缓慢散开，身体近乎失重地向上移动。她缓缓呼气，巨大气泡从嘴边涌出并扩大、分裂、旋转上升；紫蓝灯光穿透气泡形成梦幻反射。镜头跟随人物缓慢上移，水面逐渐明亮，最终随人物穿过水面，从水下自然穿越到水上；她大口吸气，湿发贴在脸颊两侧。使用caustic水下折射光、蓝紫泳池灯、慢动作、浅景深、55mm电影镜头和Euphoria风格调色。",
+      "fields": {
+        "subject": "深蓝泳池中的年轻女生，身穿天使造型服装",
+        "action": "水下漂浮上升、呼气产生气泡、最终穿过水面并吸气",
+        "shot_size": "侧面人物中景起，跟随至穿水面的中近景[部分待确认]",
+        "composition": "人物与气泡作为主体；水面作为上方终点；水波光纹覆盖空间",
+        "camera_motion": "从侧面开始，缓慢跟随人物向上并穿越水面",
+        "lighting": "蓝紫泳池灯；水下caustic折射光；水面附近逐渐变亮",
+        "color": "深蓝、蓝紫、冷色梦幻调",
+        "atmosphere": "梦幻、孤独、自由、超现实",
+        "performance": "缓缓呼气；穿水面后大口吸气",
+        "continuity": "水下至水上的连续穿越；气泡、光线、水面波纹和湿发保持连续"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(4)光影效果__03.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(4)光影效果__03.gif",
+      "confidence": "high",
+      "notes": "区段02–03为同一完整水下提示词的连续文字/示意，已合并。OCR把‘散开’误识别为‘慰散/蒜散’，按语义和画面校正。",
+      "source_time": {
+        "start": 18.3,
+        "end": 30.4
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_01_04.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "id": "04-tyndall-night-park",
+      "source_video": "100组AI电影感提示词(4)光影效果.mp4",
+      "title": "丁达尔光与镜头光晕：雨后公园",
+      "original_text_corrected": "丁达尔光与镜头光晕。电影级夜景镜头。深夜的公园被薄雾笼罩，地面刚下过雨，潮湿的路面倒映着远处微弱的灯光。高大的树木形成天然拱顶，蓝色月光从树叶缝隙间穿透而下，形成清晰可见的丁达尔光束。远处暖黄色路灯穿过雾气，与冷色月光形成强烈冷暖对比。一位年轻女生独自坐在野餐桌上，背对镜头，安静地望向远方。她轻轻晃动双腿，头发随着微风缓慢摆动。空气中的雾气持续流动，光束在烟雾中若隐若现，不断发生细微变化。树叶轻轻摇摆，使穿透树林的光线产生自然闪烁感。远处偶尔有车辆驶过，灯光在背景形成柔和散景。镜头缓慢向前推进，从远景逐渐接近人物。推进过程中，体积光束穿过雾气形成层层空间纵深。镜头偶尔出现轻微镜头光晕效果。整体氛围安静、梦幻、孤独而浪漫。真实电影摄影质感，夜景体积光，丁达尔光，薄雾环境，冷暖对比照明，电影级光影层次，浅景深，胶片颗粒，55mm电影镜头，电影级调色，高级氛围感。",
+      "normalized_prompt": "深夜雨后的公园被薄雾笼罩，潮湿路面倒映远处微弱灯光。高大树木形成天然拱顶，蓝色月光从叶隙穿透形成清晰丁达尔光束，远处暖黄色路灯穿过雾气，与冷月光形成强烈冷暖对比。一名年轻女生背对镜头独坐野餐桌，轻轻晃动双腿，头发随微风摆动。雾气和树叶持续微动，远处车辆灯光形成柔和散景。镜头从远景缓慢推进接近人物，体积光在雾中建立层层纵深，偶尔出现轻微镜头光晕。保持安静、梦幻、孤独而浪漫的真实电影摄影质感，浅景深、胶片颗粒、55mm镜头。",
+      "fields": {
+        "subject": "雨后深夜公园野餐桌旁背对镜头的年轻女生",
+        "action": "女生轻晃双腿；头发随风摆动；远处车辆偶尔驶过",
+        "shot_size": "远景起，缓慢推进至人物中远景/中景",
+        "composition": "树木天然拱顶；人物背对镜头；湿地面反射；月光束建立纵深",
+        "camera_motion": "从远景缓慢向前推进",
+        "lighting": "蓝色月光形成丁达尔光束；暖黄色路灯穿雾；冷暖对比；轻微镜头光晕",
+        "color": "冷蓝月光与暖黄路灯对比，湿地反射色",
+        "atmosphere": "安静、梦幻、孤独、浪漫、雨后薄雾",
+        "performance": "背对镜头望向远方，轻轻晃动双腿",
+        "continuity": "雾气、树叶、光束和远处车辆灯光持续微动；推进中空间纵深增强"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(4)光影效果__04.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(4)光影效果__04.gif",
+      "confidence": "high",
+      "notes": "区段03–04为同一完整雨后公园提示词的延续，已合并。区段05为结尾Logo/品牌，不计入正文。",
+      "source_time": {
+        "start": 30.4,
+        "end": 44.4
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_01_04.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "胶片质感",
+      "original_text_corrected": "关键词：高光略微过曝但柔和；暗部保留细节、空气感明显；画面边缘带有轻微胶片漏光效果；Kodak Vision3 35mm film look；真实胶片颗粒；柔和高光过渡，低反差，轻微焦外泛光；夏日回忆感，自然光摄影；电影级胶片色彩，怀旧而温暖。",
+      "normalized_prompt": "Kodak Vision3 35mm 胶片质感，真实胶片颗粒，电影级胶片色彩；高光略微过曝但保持柔和过渡，暗部保留细节并带有空气感；低反差、轻微焦外泛光，画面边缘有轻微胶片漏光；自然光摄影，呈现温暖、怀旧、像夏日回忆一样的氛围。",
+      "fields": {
+        "subject": "未指定主体",
+        "action": "未指定动作",
+        "shot_size": "未指定",
+        "composition": "未指定",
+        "camera_motion": "未指定",
+        "lighting": "自然光；柔和高光过渡",
+        "color": "Kodak Vision3 35mm；电影级胶片色彩；怀旧暖色",
+        "atmosphere": "夏日回忆感、温暖、怀旧、空气感",
+        "performance": "不适用",
+        "continuity": "单一胶片质感预设；不含叙事连续性要求"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(5)镜头风格__02.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(5)镜头风格__02.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(5)镜头风格.mp4",
+      "id": "100组AI电影感提示词(5)镜头风格__01__胶片质感",
+      "source_time": {
+        "start": 5.8,
+        "end": 18.0
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_05_08.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "富士滤镜",
+      "original_text_corrected": "关键词：呈现典型富士 Classic Negative 色彩风格；蓝色偏青，绿色轻微降饱和，色彩克制自然；高光柔和不过曝；阴影略带层次感与轻微压暗效果；空气通透，色彩干净；带有旅行摄影和日系生活杂志的气质；宁静、治愈、克制、留白感。",
+      "normalized_prompt": "典型富士 Classic Negative 色彩风格：蓝色偏青，绿色轻微降饱和，整体色彩克制自然；高光柔和不过曝，阴影保留层次并轻微压暗；空气通透、色彩干净，带有旅行摄影和日系生活杂志气质，整体宁静、治愈、克制并保留留白感。",
+      "fields": {
+        "subject": "未指定主体",
+        "action": "未指定动作",
+        "shot_size": "未指定",
+        "composition": "留白感；未指定具体构图",
+        "camera_motion": "未指定",
+        "lighting": "高光柔和、不过曝；自然通透",
+        "color": "富士 Classic Negative；蓝色偏青；绿色轻微降饱和；克制自然",
+        "atmosphere": "宁静、治愈、旅行摄影、日系生活杂志、留白",
+        "performance": "不适用",
+        "continuity": "单一色彩风格预设；不含叙事连续性要求"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(5)镜头风格__03.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(5)镜头风格__03.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(5)镜头风格.mp4",
+      "id": "100组AI电影感提示词(5)镜头风格__02__富士滤镜",
+      "source_time": {
+        "start": 18.0,
+        "end": 30.1
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_05_08.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "复古DV",
+      "original_text_corrected": "关键词：自动曝光不断跟随灯光变化轻微调整；画面偶尔轻微过曝或压暗；对焦略微迟缓，亮部出现轻微拖影和高光溢出；整体氛围温暖、怀旧、安静，略带神秘感；真实DV录像质感，家用摄像机风格；低动态范围，轻微噪点，轻微白平衡漂移；自动曝光波动，2000年代家庭录像；画面左下角白色像素字体显示时间日期。",
+      "normalized_prompt": "2000年代家庭录像风格的真实复古DV质感：家用摄像机画面，低动态范围，轻微噪点和白平衡漂移；自动曝光随灯光变化轻微调整，画面偶尔轻微过曝或压暗；对焦略微迟缓，亮部出现轻微拖影和高光溢出；整体温暖、怀旧、安静并略带神秘感，画面左下角显示白色像素字体的时间日期。",
+      "fields": {
+        "subject": "未指定主体",
+        "action": "未指定动作",
+        "shot_size": "未指定",
+        "composition": "左下角叠加白色像素字体时间日期",
+        "camera_motion": "未指定",
+        "lighting": "自动曝光随灯光变化轻微调整；亮部高光溢出",
+        "color": "复古暖色；低动态范围；轻微白平衡漂移",
+        "atmosphere": "温暖、怀旧、安静、略带神秘感、2000年代家庭录像",
+        "performance": "不适用",
+        "continuity": "保留DV录制缺陷和日期叠字作为统一视觉连续性"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(5)镜头风格__04.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(5)镜头风格__04.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(5)镜头风格.mp4",
+      "id": "100组AI电影感提示词(5)镜头风格__03__复古DV",
+      "source_time": {
+        "start": 30.1,
+        "end": 48.5
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_05_08.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "鱼眼镜头",
+      "original_text_corrected": "关键词：镜头采用超广角鱼眼镜头拍摄；建筑线条产生明显而自然的弯曲变形；空间被极度拉伸；360相机质感；空间透视夸张，对称构图；沉浸式视角，建筑线条弯曲变形。",
+      "normalized_prompt": "采用超广角鱼眼镜头和360相机质感拍摄，极度拉伸空间，产生明显而自然的建筑线条弯曲变形；使用夸张空间透视和对称构图，营造沉浸式视角。",
+      "fields": {
+        "subject": "建筑空间；示意画面为拱顶大厅与人物",
+        "action": "未指定动作",
+        "shot_size": "超广角远景/沉浸式视角",
+        "composition": "对称构图；建筑线条向边缘弯曲",
+        "camera_motion": "未指定",
+        "lighting": "未指定",
+        "color": "未指定；保留360相机成像质感",
+        "atmosphere": "沉浸、夸张透视、空间被极度拉伸",
+        "performance": "不适用",
+        "continuity": "鱼眼畸变和对称空间作为持续视觉特征"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(5)镜头风格__05.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(5)镜头风格__05.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(5)镜头风格.mp4",
+      "id": "100组AI电影感提示词(5)镜头风格__04__鱼眼镜头",
+      "source_time": {
+        "start": 48.5,
+        "end": 57.2
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_05_08.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "Film Noir 黑色电影",
+      "original_text_corrected": "提示关键词：黑白电影、低调照明、高反差光影、深黑阴影、体积雾、潮湿街道、路灯光束、雨夜、侦探电影、硬光、剪影人物、神秘感、孤独感、胶片颗粒、经典黑色电影风格。画面特征：黑白；极强明暗对比；阴影占画面大面积；雾气与光束明显。情绪：神秘、孤独、压抑。",
+      "normalized_prompt": "经典Film Noir黑色电影风格：黑白画面，低调照明和极强明暗对比，深黑阴影占据大面积画面；潮湿街道与雨夜环境中，硬质路灯光束穿过体积雾，人物以剪影出现；加入胶片颗粒，营造神秘、孤独、压抑的侦探电影氛围。",
+      "fields": {
+        "subject": "雨夜街道中的侦探或剪影人物",
+        "action": "未指定具体动作",
+        "shot_size": "未指定",
+        "composition": "大面积阴影；人物剪影；光束穿透雾气",
+        "camera_motion": "未指定",
+        "lighting": "低调照明；硬光；路灯光束；体积雾",
+        "color": "黑白；极强明暗对比；深黑阴影",
+        "atmosphere": "雨夜、潮湿、神秘、孤独、压抑、经典黑色电影",
+        "performance": "人物以剪影表现，不指定表演细节",
+        "continuity": "黑白、高反差、阴影和雾光需贯穿镜头"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(6)色彩配方__02.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(6)色彩配方__02.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(6)色彩配方.mp4",
+      "id": "100组AI电影感提示词(6)色彩配方__05__Film_Noir_黑色电影",
+      "source_time": {
+        "start": 5.5,
+        "end": 17.6
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_05_08.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "洋红与青蓝 Magenta & Cyan",
+      "original_text_corrected": "提示关键词：赛博朋克、洋红与青蓝配色、全息投影、数字故障、霓虹城市、未来都市、体积雾、发光粒子、扫描线、电子噪点、雨夜反射、虚拟现实氛围。画面特征：Magenta + Cyan双主色；全息投影；故障与粒子特效。情绪：未来感、孤独感、科技感、超现实。",
+      "normalized_prompt": "赛博朋克未来都市，使用洋红与青蓝的双主色；霓虹城市和雨夜反射构成环境，全息投影、数字故障、扫描线、电子噪点和发光粒子叠加在体积雾中，营造未来感、科技感、孤独感与超现实氛围。",
+      "fields": {
+        "subject": "未来都市/赛博朋克城市",
+        "action": "未指定主体动作",
+        "shot_size": "未指定",
+        "composition": "霓虹城市层叠；全息投影与粒子特效分布在空间中",
+        "camera_motion": "未指定",
+        "lighting": "洋红与青蓝霓虹；体积雾中的发光光源",
+        "color": "Magenta + Cyan双主色",
+        "atmosphere": "未来感、孤独感、科技感、超现实、雨夜反射",
+        "performance": "不适用",
+        "continuity": "保持洋红/青蓝双主色、故障和全息元素一致"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(6)色彩配方__03.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(6)色彩配方__03.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(6)色彩配方.mp4",
+      "id": "100组AI电影感提示词(6)色彩配方__06__洋红与青蓝_Magenta_Cyan",
+      "source_time": {
+        "start": 17.6,
+        "end": 29.8
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_05_08.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "青橙色调 Teal & Orange",
+      "original_text_corrected": "提示关键词：青橙互补色、霓虹暖光、电影级色彩分离、雨夜街景、潮湿反射、动态模糊、胶片颗粒、雾气、城市夜景、浪漫氛围、记忆感、光晕、高级商业电影质感。画面特征：青绿色环境；橙色人物或灯光；雾气融合两种颜色；常带运动模糊。情绪：浪漫、情绪化、电影感、回忆感。",
+      "normalized_prompt": "青橙互补色电影风格：青绿色环境与橙色人物或暖色灯光形成色彩分离；雨夜街景、潮湿反射、城市夜景和雾气融合两种颜色，加入动态模糊、胶片颗粒和光晕，营造浪漫、情绪化、带有回忆感的高级商业电影质感。",
+      "fields": {
+        "subject": "雨夜城市街景；人物或暖色灯光作为橙色主体",
+        "action": "未指定具体动作",
+        "shot_size": "未指定",
+        "composition": "青绿色环境与橙色主体形成视觉分离",
+        "camera_motion": "可有运动模糊；具体运动未指定",
+        "lighting": "霓虹暖光；雾气融合青绿与橙色光线",
+        "color": "Teal & Orange青橙互补色；青绿色环境；橙色人物/灯光",
+        "atmosphere": "雨夜、潮湿、浪漫、情绪化、记忆感、城市夜景",
+        "performance": "未指定",
+        "continuity": "青绿环境与橙色主体的互补关系贯穿画面"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(6)色彩配方__04.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(6)色彩配方__04.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(6)色彩配方.mp4",
+      "id": "100组AI电影感提示词(6)色彩配方__07__青橙色调_Teal_Orange",
+      "source_time": {
+        "start": 29.8,
+        "end": 41.9
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_05_08.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "复古暖调 Warm Vintage",
+      "original_text_corrected": "提示关键词：复古暖色调、蜂蜜金色、琥珀色光线、奶油白、暖木色、夕阳逆光、法式窗户、水晶吊灯、胶片颗粒、柔和高光、Kodak Vision3、怀旧电影、欧洲老宅、丝绸质感、梦境氛围。画面特征：暖色主导；中低对比度；柔和高光；丰富中间调。情绪：浪漫、情绪化、电影感、回忆感。",
+      "normalized_prompt": "复古暖调电影质感：蜂蜜金色、琥珀色光线、奶油白与暖木色构成暖色主导的画面；夕阳逆光穿过法式窗户，水晶吊灯和欧洲老宅作为环境元素；加入Kodak Vision3胶片颗粒、柔和高光、中低对比度和丰富中间调，呈现丝绸质感、梦境氛围、浪漫与回忆感。",
+      "fields": {
+        "subject": "欧洲老宅中的人物/空间；示意画面为白色长裙人物",
+        "action": "未指定具体动作",
+        "shot_size": "未指定",
+        "composition": "法式窗户、老宅和人物形成空间层次",
+        "camera_motion": "未指定",
+        "lighting": "夕阳逆光；琥珀色光线；水晶吊灯；柔和高光",
+        "color": "蜂蜜金色、琥珀、奶油白、暖木色；Kodak Vision3",
+        "atmosphere": "复古、浪漫、梦境、怀旧电影、欧洲老宅、回忆感",
+        "performance": "未指定",
+        "continuity": "暖色主导、中低对比度和丰富中间调保持统一"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(6)色彩配方__05.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(6)色彩配方__05.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(6)色彩配方.mp4",
+      "id": "100组AI电影感提示词(6)色彩配方__08__复古暖调_Warm_Vintage",
+      "source_time": {
+        "start": 41.9,
+        "end": 55.93
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_05_08.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "强忍泪水·极度克制",
+      "original_text_corrected": "人物强忍泪水，情绪极度克制。眼眶缓缓泛红，眼底蓄满泪光，目光失焦，眉头轻蹙，嘴唇紧抿，嘴角微微颤抖，鼻尖轻微泛红，呼吸带哽咽，湿润的睫毛轻轻颤动时她依然努力保持平静。全程没有哭喊，没有夸张动作，仅通过眼神、呼吸和微表情展现压抑、委屈与心碎，慢动作，电影级真实表演。",
+      "normalized_prompt": "近景人物强忍泪水，情绪极度克制；眼眶逐渐泛红、眼底蓄满泪光，目光失焦，眉头轻蹙，嘴唇紧抿、嘴角微微颤抖，鼻尖泛红，呼吸带哽咽，湿润睫毛轻颤但人物努力保持平静。不要哭喊或夸张动作，只用眼神、呼吸和微表情表现压抑、委屈与心碎，慢动作，电影级真实表演。",
+      "fields": {
+        "subject": "女性人物面部",
+        "action": "强忍泪水；眼眶泛红；呼吸哽咽；睫毛轻颤",
+        "shot_size": "面部近景/特写（根据示意画面推定）",
+        "composition": "面部表情为视觉中心",
+        "camera_motion": "未指定",
+        "lighting": "未指定；需保持眼泪、眼眶和微表情可见",
+        "color": "未指定",
+        "atmosphere": "压抑、委屈、心碎、克制",
+        "performance": "微表情、眼神、呼吸；无哭喊、无夸张动作",
+        "continuity": "情绪由平静压抑持续到泪意增强，不出现突然夸张爆发"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(7)演技控制__02.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(7)演技控制__02.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(7)演技控制.mp4",
+      "id": "100组AI电影感提示词(7)演技控制__09__强忍泪水_极度克制",
+      "source_time": {
+        "start": 6.2,
+        "end": 12.3
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_05_08.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "放空到专注的眼神转折",
+      "original_text_corrected": "人物安静地思考，长时间凝视前方，眼神略显放空，眉头轻轻皱起。几秒后，眼神突然微微一凝，瞳孔聚焦，像是捕捉到了某个关键细节。眉头缓缓舒展，视线轻轻抬起，呼吸短暂停顿，神情变得异常专注和坚定。全程没有夸张表情，仅通过眼神和细微面部变化完成情绪转折。",
+      "normalized_prompt": "人物安静思考，长时间凝视前方，眼神略显放空，眉头轻轻皱起；几秒后眼神微微一凝、瞳孔聚焦，像捕捉到关键细节；眉头缓缓舒展，视线轻轻抬起，呼吸短暂停顿，神情变得专注而坚定。全程不使用夸张表情，只通过眼神和细微面部变化完成情绪转折。",
+      "fields": {
+        "subject": "人物面部",
+        "action": "从放空凝视到捕捉细节、眼神聚焦并变得坚定",
+        "shot_size": "面部近景/特写（根据示意画面推定）",
+        "composition": "以眼神和眉眼区域为视觉中心",
+        "camera_motion": "未指定",
+        "lighting": "未指定",
+        "color": "未指定",
+        "atmosphere": "安静、思考、专注、坚定",
+        "performance": "眼神、瞳孔聚焦、眉头变化、呼吸停顿；无夸张表情",
+        "continuity": "明确保持同一人物和姿势，情绪在数秒内完成渐进转折"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(7)演技控制__03.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(7)演技控制__03.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(7)演技控制.mp4",
+      "id": "100组AI电影感提示词(7)演技控制__10__放空到专注的眼神转折",
+      "source_time": {
+        "start": 12.3,
+        "end": 18.3
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_05_08.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "人群中的疲惫与疏离",
+      "original_text_corrected": "女人静静望向某个方向，目光失焦，她长时间保持同一个姿势，偶尔缓慢眨眼，视线轻轻偏移又停留，嘴唇微微放松，呼吸轻缓，不易察觉地轻叹一口气，陷入无尽的思绪。她没有明显的悲伤，只流露出淡淡的疲惫、落寞与疏离。在热闹的人群中，她显得格外安静，像是与周围的世界隔着一层无形的距离。",
+      "normalized_prompt": "女性在热闹人群中静静望向某个方向，目光失焦并长时间保持同一姿势；偶尔缓慢眨眼，视线轻轻偏移又停留，嘴唇微微放松，呼吸轻缓并不易察觉地叹气。不要明显悲伤，只表现淡淡的疲惫、落寞和疏离，像与周围世界隔着一层无形距离。",
+      "fields": {
+        "subject": "热闹人群中的女性",
+        "action": "静静凝视；缓慢眨眼；视线偏移；轻叹气",
+        "shot_size": "中近景/近景（根据示意画面推定）",
+        "composition": "人物在热闹人群中保持安静，形成动静对比",
+        "camera_motion": "未指定",
+        "lighting": "未指定",
+        "color": "未指定",
+        "atmosphere": "疲惫、落寞、疏离、安静、无尽思绪",
+        "performance": "失焦目光、轻微眼神移动、缓慢眨眼、轻叹气；不做明显悲伤",
+        "continuity": "人物姿势长期稳定，变化只发生在眼神、呼吸和嘴唇"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(7)演技控制__04.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(7)演技控制__04.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(7)演技控制.mp4",
+      "id": "100组AI电影感提示词(7)演技控制__11__人群中的疲惫与疏离",
+      "source_time": {
+        "start": 18.3,
+        "end": 24.4
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_05_08.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "俏皮可爱的眼神与微笑",
+      "original_text_corrected": "人物故意撇起嘴唇，眼神故意看向一旁，轻轻偏过头，像是在闹一点可爱的小情绪。她努力保持一本正经，嘴角却一点点放松，眼底渐渐浮现笑意，最终自己先绷不住，忍不住露出一抹甜甜的笑容。整个过程自然连贯，仅通过眼神、嘴角和轻微头部动作表现情绪，古灵精怪、俏皮可爱，没有夸张表演。",
+      "normalized_prompt": "人物故意撇嘴，眼神看向一旁并轻轻偏头，像在闹一点可爱的小情绪；她努力保持一本正经，但嘴角逐渐放松，眼底浮现笑意，最后绷不住露出甜甜的笑容。动作自然连贯，只通过眼神、嘴角和轻微头部动作表现古灵精怪、俏皮可爱，不要夸张表演。",
+      "fields": {
+        "subject": "女性人物面部",
+        "action": "撇嘴、侧看、偏头、逐渐露出甜甜笑容",
+        "shot_size": "面部近景/特写（根据示意画面推定）",
+        "composition": "面部和眼神居中突出",
+        "camera_motion": "未指定",
+        "lighting": "未指定",
+        "color": "未指定",
+        "atmosphere": "古灵精怪、俏皮、可爱、轻松",
+        "performance": "眼神、嘴角、轻微头部动作；自然连贯；无夸张表演",
+        "continuity": "从一本正经逐步过渡到笑容，不能跳变"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(7)演技控制__05.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(7)演技控制__05.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(7)演技控制.mp4",
+      "id": "100组AI电影感提示词(7)演技控制__12__俏皮可爱的眼神与微笑",
+      "source_time": {
+        "start": 24.4,
+        "end": 30.5
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_05_08.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "温柔凝视与深情微笑",
+      "original_text_corrected": "男人始终安静望着对方，目光稳定而专注，几乎没有移开视线。随着视线停留，眼神逐渐柔和，眼尾轻轻弯起，眉眼自然舒展，嘴角缓缓扬起治愈的笑意。他轻轻眨眼，呼吸放缓，下颌微微放松，全程没有夸张动作，通过眼神、呼吸和细腻微表情流露出温柔、宠溺与深情。",
+      "normalized_prompt": "男人始终安静望着对方，目光稳定而专注；随着视线停留，眼神逐渐柔和，眼尾轻轻弯起，眉眼舒展，嘴角缓缓扬起温柔的笑意。轻轻眨眼，呼吸放缓，下颌微微放松，全程无夸张动作，只用眼神、呼吸和细腻微表情表达温柔、宠溺与深情。",
+      "fields": {
+        "subject": "男性人物面部与对视对象",
+        "action": "持续凝视；眼神柔和；眉眼舒展；嘴角扬起；轻眨眼",
+        "shot_size": "中近景/近景（根据示意画面推定）",
+        "composition": "人物与对视对象形成关系构图，焦点在眼神",
+        "camera_motion": "未指定",
+        "lighting": "未指定",
+        "color": "未指定",
+        "atmosphere": "温柔、宠溺、深情、治愈",
+        "performance": "稳定目光、眼尾弯起、微笑、呼吸放缓、下颌放松；无夸张动作",
+        "continuity": "保持持续对视，情绪从专注逐渐转为温柔"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(7)演技控制__06.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(7)演技控制__06.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(7)演技控制.mp4",
+      "id": "100组AI电影感提示词(7)演技控制__13__温柔凝视与深情微笑",
+      "source_time": {
+        "start": 30.5,
+        "end": 38.03
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_05_08.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "同步跟随 Synchronized Tracking",
+      "original_text_corrected": "复古欧洲爱情电影质感，55mm胶片摄影，柔和自然光。一镜到底。年轻女性抱着一束野花，以正常速度从左向右奔跑，身体随脚步自然起伏，手臂摆动，头发、衣裙和花束受奔跑惯性自然晃动，花瓣洒落。摄影机位于人物侧面，以胸口高度与人物大致同速横向跟拍，跟拍速度偶尔略微落后，再平滑追上人物，使构图产生细微变化。镜头带有轻微手持震动和呼吸感。背景树林、草地和花丛形成明显的水平动态模糊；近景树叶、花枝和树干高速掠过镜头，偶尔短暂遮挡人物；远景移动较慢，形成明显的前中后景运动视差。斑驳阳光不断扫过人物和环境，增强真实运动感。",
+      "normalized_prompt": "复古欧洲爱情电影质感，55mm胶片摄影，柔和自然光，一镜到底。年轻女性抱着一束野花，以正常速度从左向右奔跑，身体随脚步起伏，手臂摆动，头发、衣裙和花束随惯性自然晃动并有花瓣洒落。摄影机位于人物侧面、胸口高度，以大致同速横向跟拍，偶尔略微落后再平滑追上，形成细微构图变化；保留轻微手持震动和呼吸感。树林、草地和花丛形成水平动态模糊，近景树叶和树干高速掠过并偶尔遮挡人物，远景移动较慢形成前中后景运动视差；斑驳阳光扫过人物和环境。",
+      "fields": {
+        "subject": "抱着野花奔跑的年轻女性",
+        "action": "从左向右奔跑；花瓣洒落；衣裙、头发和花束随惯性晃动",
+        "shot_size": "侧面中景/中近景，胸口高度",
+        "composition": "人物横向移动；前中后景分层；近景遮挡与运动视差",
+        "camera_motion": "与人物大致同速横向跟拍；偶尔落后再追上；轻微手持呼吸感",
+        "lighting": "柔和自然光；斑驳阳光扫过人物和环境",
+        "color": "复古欧洲爱情电影；55mm胶片质感",
+        "atmosphere": "浪漫、自然、真实运动感",
+        "performance": "自然奔跑，不指定面部表演",
+        "continuity": "一镜到底；人物、跟拍速度和前中后景运动需连续"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(8)镜头生命力__01.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(8)镜头生命力__01.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(8)镜头生命力.mp4",
+      "id": "100组AI电影感提示词(8)镜头生命力__14__同步跟随_Synchronized_Tracking",
+      "source_time": {
+        "start": 0.0,
+        "end": 16.6
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_05_08.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "反向运动 Opposing Motion",
+      "original_text_corrected": "爱情电影质感，35mm胶片摄影，低饱和电影色彩。一镜到底。年轻女性以正常的步行速度从右向左行走，衣摆和头发随步伐与气流自然摆动。摄影机位于人物侧面，跟随人物向左移动，与人物基本同速，使人物始终稳定在画面中央并保持清晰。同时，背景中的银色地铁列车以远高于人物的速度从左向右高速驶过，与人物形成完全相反的运动方向。高速列车产生明显水平动态模糊和拖影，而人物保持清晰，形成强烈速度反差。镜头带有轻微真实的手持呼吸感。无切镜、无变焦。",
+      "normalized_prompt": "爱情电影质感，35mm胶片摄影，低饱和电影色彩，一镜到底。年轻女性以正常步行速度从右向左行走，衣摆和头发随步伐与气流自然摆动。摄影机位于人物侧面，跟随人物向左移动并保持大致同速，使人物稳定在画面中央且清晰；背景银色地铁列车以远高于人物的速度从左向右高速驶过，与人物形成相反运动方向。列车产生水平动态模糊和拖影，人物保持清晰，形成强烈速度反差；保留轻微真实手持呼吸感，无切镜、无变焦。",
+      "fields": {
+        "subject": "侧面行走的年轻女性；背景银色地铁列车",
+        "action": "人物右向左行走；列车左向右高速驶过",
+        "shot_size": "侧面中景",
+        "composition": "人物稳定居中且清晰；高速列车作为背景运动层",
+        "camera_motion": "摄影机跟随人物向左移动并保持同速；无切镜、无变焦",
+        "lighting": "未指定",
+        "color": "低饱和电影色彩；35mm胶片质感",
+        "atmosphere": "爱情电影、速度反差、真实手持感",
+        "performance": "自然步行；衣摆和头发随步伐、气流摆动",
+        "continuity": "一镜到底；人物清晰稳定，列车持续高速反向运动"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(8)镜头生命力__02.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(8)镜头生命力__02.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(8)镜头生命力.mp4",
+      "id": "100组AI电影感提示词(8)镜头生命力__15__反向运动_Opposing_Motion",
+      "source_time": {
+        "start": 16.6,
+        "end": 42.9
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_05_08.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "静止主体 Still Subject",
+      "original_text_corrected": "电影级都市质感，冷色调，柔和自然光，细腻胶片颗粒。一镜到底。年轻女性站在繁忙城市人群中央，始终保持静止，只有轻微呼吸和衣料自然摆动，安静地望向镜头。摄影机完全固定，无平移、摇摄、变焦或任何镜头运动。周围人群从不同方向高速穿行，不同人物拥有不同的移动方向和速度，并产生真实的长曝光动态模糊，身体和脚步形成自然流动的运动拖影。部分行人从镜头近处快速经过，短暂遮挡女性，再让她重新出现。人物主体始终清晰稳定，建筑和环境完全静止，只有人群高速流动，形成强烈的时间与动静反差。",
+      "normalized_prompt": "电影级都市质感，冷色调、柔和自然光和细腻胶片颗粒，一镜到底。年轻女性站在繁忙城市人群中央，始终保持静止，只让呼吸和衣料轻微摆动，安静望向镜头。摄影机完全固定，无平移、摇摄或变焦。周围人群从不同方向高速穿行，移动方向和速度各不相同，形成真实长曝光动态模糊和自然流动的运动拖影；近处行人短暂遮挡女性后让她重新出现。人物主体、建筑与环境保持清晰稳定，只有人群高速流动，形成强烈时间感和动静反差。",
+      "fields": {
+        "subject": "繁忙城市人群中央静止的年轻女性",
+        "action": "女性保持静止并轻微呼吸；人群高速穿行并短暂遮挡她",
+        "shot_size": "固定中景/中近景（根据示意画面推定）",
+        "composition": "静止女性作为清晰中心；前景行人遮挡；背景建筑稳定",
+        "camera_motion": "完全固定；无平移、摇摄、变焦",
+        "lighting": "柔和自然光",
+        "color": "冷色调；细腻胶片颗粒",
+        "atmosphere": "都市、时间感、动静反差、孤独感（孤独感未在OCR正文明确，故不作为原文）",
+        "performance": "女性安静望向镜头；仅轻微呼吸和衣料摆动",
+        "continuity": "一镜到底；女性、建筑和环境保持稳定，人群持续流动"
+      },
+      "representative_still": "assets/segment_stills/100组AI电影感提示词(8)镜头生命力__03.jpg",
+      "hover_gif": "assets/segment_gifs/100组AI电影感提示词(8)镜头生命力__03.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(8)镜头生命力.mp4",
+      "id": "100组AI电影感提示词(8)镜头生命力__16__静止主体_Still_Subject",
+      "source_time": {
+        "start": 42.9,
+        "end": 68.57
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_05_08.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "电影级史诗科幻建筑｜Monumental Scale",
+      "original_text_corrected": "未来主义大厅，粗粝深色混凝土墙面与巨大弧形结构包围空间。一扇几乎占据整面墙的超巨型椭圆形观景窗向宇宙敞开，窗外是一颗距离极近的巨大气态行星，云层、风暴与奶油色、沙金色纹理清晰可见，尺度大到超出画面边界。一名身穿黑色服装、浅色头发的人物独自站在窗前，人物极小，仅作为尺度参照，背对镜头仰望行星。镜头贴近地面，以超广角极远景拍摄，弧形窗口产生巨大的包围感。黑暗室内与明亮星球形成强烈明暗对比，微弱暖光反射在深色抛光地面。极端尺度反差、巨物压迫感、极简构图、真实天体摄影感，70mm IMAX电影质感，克制色彩，真实光学曝光，细腻胶片颗粒。",
+      "normalized_prompt": "以极低机位超广角极远景，表现黑暗未来大厅中极小人物面对巨大气态行星的尺度压迫；保持弧形窗、抛光地面、克制色彩与真实天体摄影质感。",
+      "fields": {
+        "subject": "极小的黑衣、浅发人物；超巨型椭圆观景窗；近距离气态行星；未来主义混凝土大厅",
+        "action": "人物背对镜头站立并仰望行星",
+        "shot_size": "超广角极远景",
+        "composition": "弧形窗口包围构图；人物作尺度参照；极端大小反差",
+        "camera_motion": "低机位贴地；静态或极慢推进",
+        "lighting": "室内暗部，窗外行星明亮；地面有微弱暖光反射",
+        "color": "黑、深灰、奶油色、沙金色；克制低饱和",
+        "atmosphere": "巨物压迫、敬畏、极简、真实宇宙感",
+        "performance": "人物保持背对镜头、静止仰望",
+        "continuity": "保持人物极小、行星超出窗框边界、真实材质与光学曝光"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(9)史诗科幻__02.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(9)史诗科幻__02.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(9)史诗科幻.mp4",
+      "id": "100组AI电影感提示词(9)史诗科幻__01__电影级史诗科幻建筑_Monumental_Scale",
+      "source_time": {
+        "start": 7.4,
+        "end": 16.0
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "未知遗迹｜Colossal Ruins",
+      "original_text_corrected": "荒凉陌生星球上的史诗科幻场景，无边无际的灰黑色荒原延伸至地平线。一尊巨大到如同建筑物般的人形石质头部遗迹斜着半埋入地面，占据画面左侧大部分空间，表面布满风化、裂纹、侵蚀孔洞和破损痕迹，像来自已经消失数万年的未知文明。一名极小的人类独自站在画面右侧远处，与巨像形成极端尺度对比。低机位超广角远景，大面积天空与荒原留白。近景有碎石与尘土，浓重雾气从巨像底部向外扩散，形成近、中、远景不同浓度的体积雾。低角度硬光从侧方照射巨像，强调粗糙石材纹理，同时让人物接近剪影。低饱和灰色调，荒凉、寂静、未知文明般的真实感，而不是奇幻雕塑场景；真实物理材质，70mm黑白胶片颗粒，高反差电影摄影。",
+      "normalized_prompt": "以低机位超广角远景呈现半埋荒原的巨型人形石质遗迹和远处微小人类；用体积雾、低饱和灰色与硬侧光制造未知文明的真实荒凉感。",
+      "fields": {
+        "subject": "半埋人形石质巨像；远处微小人类；灰黑荒原",
+        "action": "人物站在巨像右侧远处；雾气从巨像底部扩散",
+        "shot_size": "低机位超广角远景",
+        "composition": "巨像占左侧；人物置右侧；大面积天空留白；三层空间",
+        "camera_motion": "静态远景",
+        "lighting": "低角度硬侧光；人物接近剪影；体积雾受光",
+        "color": "低饱和灰黑；黑白胶片高反差",
+        "atmosphere": "荒凉、寂静、未知文明",
+        "performance": "人物不做夸张动作，作为尺度参照",
+        "continuity": "保持巨像风化裂纹、碎石、尘土与近中远雾层次"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(9)史诗科幻__03.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(9)史诗科幻__03.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(9)史诗科幻.mp4",
+      "id": "100组AI电影感提示词(9)史诗科幻__02__未知遗迹_Colossal_Ruins",
+      "source_time": {
+        "start": 16.0,
+        "end": 24.3
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "科幻人物极近特写｜Extreme Close-up",
+      "original_text_corrected": "电影级科幻人物极近特写，镜头极近地贴近一名女性宇航员的侧脸，只拍摄半张脸与透明宇航服面罩。女性拥有硬朗、克制的面部轮廓，鼻梁、嘴唇、睫毛和一只眼睛形成清晰侧面线条，其余面部沉入近乎纯黑的阴影。透明宇航服面罩占据画面中央，表面有小划痕、灰尘、颗粒与轻微磨损。人物望向画面右侧一处极其明亮但不可见的光源，一道强烈暖白色侧逆光沿着鼻梁、睫毛、嘴唇和头发边缘形成极细轮廓。右侧背景轻微过曝，产生真实镜头光晕、水平 anamorphic lens flare、微弱色散与轻微眩晕感，但人物轮廓仍然清晰。冷蓝黑阴影与暖白高光形成克制冷暖反差。浅景深、真实光学散景、微弱漂浮颗粒、70mm电影胶片颗粒，真实镜头缺陷而不是后期特效感，安静、压迫、未知。",
+      "normalized_prompt": "以女性宇航员半张侧脸的极近特写，突出透明面罩的磨损、冷蓝黑阴影与暖白侧逆光；眼神望向画外光源，保持浅景深与真实光学缺陷。",
+      "fields": {
+        "subject": "女性宇航员半张侧脸；透明宇航服面罩",
+        "action": "人物望向画面右侧不可见光源",
+        "shot_size": "极近特写",
+        "composition": "侧脸线条贴近画面；面罩占中央；一半面部沉入黑影",
+        "camera_motion": "锁定极近机位；不强调移动",
+        "lighting": "强烈暖白侧逆光勾勒鼻梁、睫毛、嘴唇和头发；背景轻微过曝",
+        "color": "冷蓝黑阴影与暖白高光；克制冷暖反差",
+        "atmosphere": "安静、压迫、未知；微弱漂浮颗粒",
+        "performance": "克制凝视，不做夸张表情",
+        "continuity": "保持面罩划痕、尘埃、浅景深、镜头光晕与人物轮廓清晰"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(9)史诗科幻__04.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(9)史诗科幻__04.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(9)史诗科幻.mp4",
+      "id": "100组AI电影感提示词(9)史诗科幻__03__科幻人物极近特写_Extreme_Close_up",
+      "source_time": {
+        "start": 24.3,
+        "end": 32.4
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "灾难奇观｜Practical Destruction",
+      "original_text_corrected": "电影级史诗灾难科幻场景，一片刚刚经历巨大爆炸的荒芜大地。背景被规模惊人的爆炸云完全占据，炽热橙红色火焰从厚重的黑色与深褐色烟云内部透出，形成具有真实体积的翻滚云团，局部接近白热核心，外围过渡至暗红、焦黑和浓烟。一名身穿全黑服装的孤独人物站在画面偏左前景，背对爆炸，身体接近黑色剪影。前景被低矮烟雾包围，大量细小火星、余烬和燃烧碎屑从近景掠过。湿润、焦黑、破碎的地面反射远处火光，前景薄烟与火星、中景人物与废墟、远景巨大爆炸云形成清晰三层空间纵深。真实大型实拍爆破质感，而不是CG火球；强烈逆光、厚重烟雾散射、局部过曝火光，深黑阴影与炽热橙色形成极端对比。70mm电影摄影，真实胶片颗粒，高动态范围，史诗尺度。",
+      "normalized_prompt": "用实拍爆破质感表现荒芜大地上的巨大爆炸云；黑衣人物背对爆炸成为左前景剪影，湿润焦黑地面、火星、烟雾和三层纵深共同构成灾难奇观。",
+      "fields": {
+        "subject": "黑衣孤独人物；巨大爆炸云；焦黑荒地与废墟",
+        "action": "人物背对爆炸站立；火星、余烬和碎屑掠过",
+        "shot_size": "中远景史诗构图",
+        "composition": "人物偏左前景；前景烟雾、中景人物废墟、远景爆炸云三层纵深",
+        "camera_motion": "静态或轻微震动感；不添加复杂镜头",
+        "lighting": "强烈逆光；火光局部过曝；烟雾散射",
+        "color": "深黑、焦褐、暗红、炽热橙红",
+        "atmosphere": "灾难、震撼、孤独、实拍感",
+        "performance": "人物保持背对爆炸的孤独剪影",
+        "continuity": "爆炸云需具真实体积；地面反射火光；避免CG塑料感"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(9)史诗科幻__05.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(9)史诗科幻__05.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(9)史诗科幻.mp4",
+      "id": "100组AI电影感提示词(9)史诗科幻__04__灾难奇观_Practical_Destruction",
+      "source_time": {
+        "start": 32.4,
+        "end": 40.4
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "空间折叠｜Space Distortion",
+      "original_text_corrected": "电影级史诗科幻场景，一座密集的现代巨型城市发生超现实的空间折叠，城市从画面左右两侧向中央挤压。两侧摩天大楼仿佛受到不同方向的重力作用，形成巨大峡谷般的城市空间；一座极其狭窄的摩天楼横跨两侧城市，如同悬浮在深渊上的桥梁。一个极小的黑色人物独自站在建筑中央，与巨大环境形成极端尺度对比。镜头采用超广角极远景、倾斜构图，地平线大幅旋转；中央天空形成明亮的纵深通道，两侧城市逐渐陷入阴影与雾中。建筑具有真实混凝土、玻璃与金属质感，真实物理光照，宏大尺度、强烈空间纵深与重量感，70mm电影胶片质感，细腻颗粒，写实科幻摄影。",
+      "normalized_prompt": "以超广角倾斜极远景表现两侧巨型城市向中央折叠，狭窄摩天楼像悬浮桥梁横跨深渊；中央人物极小，强调空间重量和纵深。",
+      "fields": {
+        "subject": "折叠的现代巨型城市；横跨深渊的狭窄摩天楼；极小黑色人物",
+        "action": "人物独自站在中央建筑上",
+        "shot_size": "超广角极远景",
+        "composition": "倾斜构图；左右城市向中央挤压；中央天空形成纵深通道",
+        "camera_motion": "强烈倾斜/空间扭曲视角；不补充额外移动",
+        "lighting": "中央天空明亮；两侧城市陷入冷暗阴影与雾中",
+        "color": "冷灰、暗蓝、混凝土灰、玻璃反光",
+        "atmosphere": "超现实、宏大、沉重、写实科幻",
+        "performance": "人物保持静止作为尺度参照",
+        "continuity": "保持建筑真实材质、重力感、中央通道和极端尺度反差"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(9)史诗科幻__06.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(9)史诗科幻__06.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(9)史诗科幻.mp4",
+      "id": "100组AI电影感提示词(9)史诗科幻__05__空间折叠_Space_Distortion",
+      "source_time": {
+        "start": 40.4,
+        "end": 48.4
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "神秘未知｜Volumetric Light",
+      "original_text_corrected": "宇宙深处的超现实史诗科幻场景，一名宇航员独自悬浮在画面绝对中心的黑暗虚空中，身体自然放松，没有明显运动。画面左右两侧矗立着数尊巨大的人形石质遗迹，巨像从近景一直延伸至中景，如峡谷般将宇航员包围，人物与巨像形成悬殊尺度反差。构图近乎完全左右对称，巨像边缘从黑暗中缓慢显现。一道强烈而狭窄的白色体积光从画面正上方穿透黑暗，精准照亮中央宇航员；光束中漂浮着细小尘埃与宇宙颗粒，周围空间逐渐融入纯黑。背景可见极其克制的遥远星云和星点。中央对称构图、顶光与深度负空间、巨物尺度，宗教般庄严但保持硬科幻真实感。冷银灰与深黑色调，真实宇航服材质，70mm IMAX质感，细腻胶片颗粒，无多余彩色光源，无梦幻柔焦。",
+      "normalized_prompt": "让宇航员静止悬浮在黑暗虚空中央，以左右对称的巨型石质遗迹和一束狭窄白色顶光制造庄严、压迫的体积光场景；保持硬科幻材质和无梦幻柔焦。",
+      "fields": {
+        "subject": "中央悬浮宇航员；两侧巨大人形石质遗迹；远处星云",
+        "action": "宇航员身体自然放松、几乎无运动；巨像边缘缓慢显现",
+        "shot_size": "对称中远景",
+        "composition": "绝对中央对称；两侧巨像形成峡谷；深度负空间",
+        "camera_motion": "锁定对称构图；巨像边缘缓慢显现",
+        "lighting": "狭窄强白色体积顶光照亮宇航员；光束含尘埃颗粒",
+        "color": "冷银灰与深黑；无多余彩色光源",
+        "atmosphere": "神秘、庄严、压迫、硬科幻",
+        "performance": "宇航员保持放松悬浮",
+        "continuity": "保持左右对称、纯黑空间、真实宇航服和无梦幻柔焦"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(9)史诗科幻__07.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(9)史诗科幻__07.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(9)史诗科幻.mp4",
+      "id": "100组AI电影感提示词(9)史诗科幻__06__神秘未知_Volumetric_Light",
+      "source_time": {
+        "start": 48.4,
+        "end": 56.4
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "未来都市孤独｜Futuristic Isolation",
+      "original_text_corrected": "电影级史诗科幻未来都市，夜幕与浓雾笼罩巨大的垂直城市，无数高耸狭长的摩天大楼从近景延伸至远方，在蓝灰色雾气中逐层消失，形成强烈的大气透视与空间纵深。画面最右侧是一座贴近镜头的巨大黑色未来建筑，一座狭窄悬挑阳台伸向城市高空，一名极小的孤独人物坐在阳台边缘，面朝城市，双腿自然悬垂。城市中央一条河流向远方延伸，一架微小飞行器悬浮于远处雾中。超广角高空远景，右侧近景建筑形成框景，左侧展开辽阔城市空间。冷蓝、钢灰城市与阳台内部暗红暖光形成克制冷暖对比，前景清晰、远景隐入浓雾。真实建筑尺度，低照度曝光，70mm电影胶片颗粒，安静、孤独、压迫而宏大，写实科幻电影感。",
+      "normalized_prompt": "以超广角高空远景从右侧黑色未来建筑框出浓雾城市，极小人物坐在悬挑阳台边缘俯望城市；用冷蓝钢灰与阳台暗红暖光形成孤独的尺度感。",
+      "fields": {
+        "subject": "垂直未来都市；右侧黑色未来建筑与悬挑阳台；阳台边缘极小人物；远处飞行器",
+        "action": "人物坐在阳台边缘，双腿自然悬垂，面朝城市",
+        "shot_size": "超广角高空远景",
+        "composition": "右侧近景建筑框景；左侧辽阔城市；人物极小；河流延伸至远方",
+        "camera_motion": "静态高空远景或极慢后退",
+        "lighting": "低照度；城市冷光；阳台内部暗红暖光",
+        "color": "冷蓝、钢灰、暗红",
+        "atmosphere": "安静、孤独、压迫、宏大",
+        "performance": "人物保持坐姿和远望",
+        "continuity": "保持建筑尺度、浓雾层次、飞行器微小、前清后虚"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(9)史诗科幻__08.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(9)史诗科幻__08.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(9)史诗科幻.mp4",
+      "id": "100组AI电影感提示词(9)史诗科幻__07__未来都市孤独_Futuristic_Isolation",
+      "source_time": {
+        "start": 56.4,
+        "end": 64.3
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    },
+    {
+      "title": "宇宙天际｜Cosmic Metropolis",
+      "original_text_corrected": "电影级史诗科幻未来都市，一座巨大建筑内部的高空观景长廊俯瞰无边城市。画面左侧是深色玻璃幕墙，巨大的流线型弧形屋顶从左上方延伸至画面中央，形成雕塑般的建筑框景与视觉引导线。弧形步道向城市深处延伸，湿润深色地面反射天空与灯光。一名极小的孤独人物行走在长廊远处，右侧展开被青绿色浓雾笼罩的巨型未来都市。无数细长摩天楼从近景延伸至地平线，近处清晰、远处逐渐化为雾中的剪影，形成层层大气透视。天空漂浮大量细小暖金色发光粒子，如宇宙星尘般聚集并散落在城市上空，金色微光穿透青绿色雾气，在湿润地面形成破碎倒影。超广角极远景、弧形引导线、极小人物与层层雾气共同制造史诗尺度。青绿、深灰主色，暖金高光，真实体积雾与光线散射，70mm胶片颗粒，神秘、安静而宏大的写实科幻电影感。",
+      "normalized_prompt": "以超广角极远景从高空观景长廊俯瞰未来都市；弧形屋顶和湿润步道形成引导线，极小人物远处行走，青绿色浓雾中漂浮暖金色粒子并形成破碎倒影。",
+      "fields": {
+        "subject": "高空观景长廊；弧形屋顶；极小孤独人物；青绿浓雾未来都市",
+        "action": "人物沿长廊远处行走；金色粒子聚散",
+        "shot_size": "超广角极远景",
+        "composition": "弧形屋顶和步道作引导线；左侧玻璃幕墙框景；近清远雾",
+        "camera_motion": "缓慢向前或横向观察长廊；人物步行保持微小",
+        "lighting": "真实体积雾与光线散射；湿地面反射",
+        "color": "青绿、深灰、暖金高光",
+        "atmosphere": "神秘、安静、宏大、写实科幻",
+        "performance": "人物缓慢行走，不改变尺度关系",
+        "continuity": "保持弧形建筑、雾层、金色粒子、湿润反射和近远透视"
+      },
+      "representative_still": "../assets/segment_stills/100组AI电影感提示词(9)史诗科幻__09.jpg",
+      "hover_gif": "../assets/segment_gifs/100组AI电影感提示词(9)史诗科幻__09.gif",
+      "confidence": "high",
+      "source_video": "100组AI电影感提示词(9)史诗科幻.mp4",
+      "id": "100组AI电影感提示词(9)史诗科幻__08__宇宙天际_Cosmic_Metropolis",
+      "source_time": {
+        "start": 64.3,
+        "end": 72.4
+      },
+      "review_status": "reviewed_initial",
+      "review_batch": "reviewed_09_12.json",
+      "evidence_scope": "local_video_sample"
+    }
+  ]
+}
